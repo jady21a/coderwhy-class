@@ -1,0 +1,108 @@
+{
+  "main": {
+    "id": "89801fb201c4a007",
+    "type": "split",
+    "children": [
+      {
+        "id": "20502730087dbc90",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "前端开发/2.html常见元素.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be8f81a2d90f5108",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d41910843e7fc3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6023627720ed2b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "580df30f41183428",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#元数据（meta",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 168.51364135742188
+  },
+  "right": {
+    "id": "6910ce0b060b331b",
+    "type": "split",
+    "children": [
+      {
+        "id": "aea13b4afdedd0b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "926a882dc6ed2ade",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "前端开发/2.html常见元素.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "13ea7fda6e5647b1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "20502730087dbc90",
+  "lastOpenFiles": [
+    "前端开发/2.html常见元素.md",
+    "前端开发/1.前端.md",
+    "前端开发/snap/Pasted image 20220325164925.png",
+    "前端开发/snap/Pasted image 20220325164716.png",
+    "前端开发/snap/Pasted image 20220325164617.png",
+    "前端开发/snap/Pasted image 20220325164313.png",
+    "前端开发/snap/Pasted image 20220325164152.png"
+  ]
+}
