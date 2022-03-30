@@ -4,16 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "20502730087dbc90",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "前端开发/2.html常见元素.md",
-            "mode": "source",
-            "source": false
+        "id": "8530aad5b5b5956d",
+        "type": "split",
+        "children": [
+          {
+            "id": "c115768185a713af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端开发/3.3 选择器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22ef80f051cc6f04",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -40,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#元数据（meta",
+                "query": "tag:#属性选择器",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 168.51364135742188
+    "width": 165
   },
   "right": {
     "id": "6910ce0b060b331b",
@@ -69,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端开发/2.html常见元素.md",
+                "file": "前端开发/3.3 选择器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,14 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "20502730087dbc90",
+  "active": "c115768185a713af",
   "lastOpenFiles": [
+    "前端开发/3.3 选择器.md",
+    "前端开发/3.2 text ,font 属性.md",
+    "前端开发/3.1.css基础.md",
     "前端开发/2.html常见元素.md",
     "前端开发/1.前端.md",
-    "前端开发/snap/Pasted image 20220325164925.png",
-    "前端开发/snap/Pasted image 20220325164716.png",
-    "前端开发/snap/Pasted image 20220325164617.png",
-    "前端开发/snap/Pasted image 20220325164313.png",
-    "前端开发/snap/Pasted image 20220325164152.png"
+    "前端开发/Pasted image 20220325164716.png.md",
+    "前端开发/Pasted image 20220326182220.png.md",
+    "前端开发/Pasted image 20220326003122.png.md",
+    "Pasted image 20220319003908.png.md",
+    "前端开发/snap/Pasted image 20220325164925.png"
   ]
 }
