@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8530aad5b5b5956d",
+        "id": "664468a9c4f0d0ae",
         "type": "split",
         "children": [
           {
@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端开发/3.3 选择器.md",
+                "file": "前端开发/3.5 盒子模型.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "22ef80f051cc6f04",
+            "id": "cd735940f95e551d",
             "type": "leaf",
             "state": {
               "type": "mindmap",
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#属性选择器",
+                "query": "居中",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端开发/3.3 选择器.md",
+                "file": "前端开发/3.5 盒子模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +112,8 @@
   },
   "active": "c115768185a713af",
   "lastOpenFiles": [
+    "前端开发/3.5 盒子模型.md",
+    "前端开发/3.4 css属性.md",
     "前端开发/3.3 选择器.md",
     "前端开发/3.2 text ,font 属性.md",
     "前端开发/3.1.css基础.md",
@@ -119,8 +121,6 @@
     "前端开发/1.前端.md",
     "前端开发/Pasted image 20220325164716.png.md",
     "前端开发/Pasted image 20220326182220.png.md",
-    "前端开发/Pasted image 20220326003122.png.md",
-    "Pasted image 20220319003908.png.md",
-    "前端开发/snap/Pasted image 20220325164925.png"
+    "前端开发/Pasted image 20220326003122.png.md"
   ]
 }
