@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端开发/3.7 emmet语法和结构伪类.md",
+                "file": "前端开发/3.9 css元素定位.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端开发/3.7 emmet语法和结构伪类.md",
+                "file": "前端开发/3.9 css元素定位.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,15 +112,15 @@
   },
   "active": "38b6ac79094ab5ae",
   "lastOpenFiles": [
+    "前端开发/3.9 css元素定位.md",
+    "前端开发/3.8 html补充.md",
     "前端开发/3.7 emmet语法和结构伪类.md",
-    "前端开发/3.6 html高级(补充).md",
+    "前端开发/3.3 选择器.md",
     "前端开发/3.4 css属性.md",
+    "前端开发/3.6 html高级(补充).md",
     "前端开发/1.前端.md",
     "前端开发/2.html常见元素.md",
-    "前端开发/3.3 选择器.md",
     "前端开发/3.5 盒子模型.md",
-    "前端开发/3.2 text ,font 属性.md",
-    "前端开发/3.1.css基础.md",
-    "前端开发/[Text.md"
+    "前端开发/3.2 text ,font 属性.md"
   ]
 }
