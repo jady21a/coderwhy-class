@@ -2,6 +2,8 @@ q:
 1
 ![[Pasted image 20220408190800.png]]
 图片居中能否不用 padding
+去除间隙
+![[Pasted image 20220418105846.png]]
 
 2 这样写有什么问题
 ![[Pasted image 20220417191459.png]]
