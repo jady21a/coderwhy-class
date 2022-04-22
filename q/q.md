@@ -16,8 +16,14 @@ a:
 ![[Pasted image 20220418015501.png]]
 空格问题
 
-5 2.33  153
-4 2.36  156
-3 2.48  168
-2.2.43  163
-1 2.43  163 
+## 网易云音乐项目
+![[Pasted image 20220421213113.png]]
+1. 为什么没有显示
+ a: background-img 不能写 position
+     background 才能在精灵图后面加 position
+
+
+
+
+
+

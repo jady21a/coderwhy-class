@@ -11,12 +11,8 @@
             "id": "38b6ac79094ab5ae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端开发/4.1 flex布局.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -55,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "q",
+                "query": "shadow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +80,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端开发/4.1 flex布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "38b6ac79094ab5ae",
+  "active": "4765b07f1b4eba12",
   "lastOpenFiles": [
-    "前端开发/4.1 flex布局.md",
+    "js/未命名 1.md",
+    "js/未命名.md",
     "q/q.md",
     "q/视频时长备注.md",
-    "前端开发/3.6 html高级(补充).md",
-    "前端开发/4.0 css元素的浮动(少用).md",
-    "前端开发/3.9 css元素定位.md",
-    "前端开发/3.3 选择器.md",
-    "前端开发/3.4 css属性.md",
-    "前端开发/3.8 html补充.md",
-    "前端开发/3.5 盒子模型.md"
+    "html+css/1.前端.md",
+    "html+css/4.1 flex布局.md",
+    "html+css/3.5 盒子模型.md",
+    "html+css/3.2 text ,font 属性.md",
+    "html+css/3.6 html高级(补充).md",
+    "html+css/4.0 css元素的浮动(少用).md"
   ]
 }
