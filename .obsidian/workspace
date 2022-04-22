@@ -11,8 +11,12 @@
             "id": "38b6ac79094ab5ae",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "html+css/4.4 代码规范.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -80,6 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "html+css/4.4 代码规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4765b07f1b4eba12",
+  "active": "38b6ac79094ab5ae",
   "lastOpenFiles": [
-    "js/未命名 1.md",
-    "js/未命名.md",
-    "q/q.md",
-    "q/视频时长备注.md",
-    "html+css/1.前端.md",
-    "html+css/4.1 flex布局.md",
+    "html+css/4.4 代码规范.md",
+    "html+css/4.3 居中.md",
+    "html+css/4.2 形变及动画.md",
     "html+css/3.5 盒子模型.md",
-    "html+css/3.2 text ,font 属性.md",
+    "html+css/3.8 html补充.md",
     "html+css/3.6 html高级(补充).md",
-    "html+css/4.0 css元素的浮动(少用).md"
+    "html+css/3.7 emmet语法和结构伪类.md",
+    "html+css/4.1 flex布局.md",
+    "q/视频时长备注.md",
+    "q/q.md"
   ]
 }
