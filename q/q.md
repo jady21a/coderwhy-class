@@ -21,9 +21,9 @@ a:
 1. 为什么没有显示
  a: background-img 不能写 position
      background 才能在精灵图后面加 position
+2. 为什么竖线看着是横的
+![[Pasted image 20220424021109.png]]
 
+3. 为什么全选不上 (main-left)
 
-
-
-
-
+![[Pasted image 20220424225401.png]]
