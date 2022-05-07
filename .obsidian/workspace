@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3406926639124c7e",
-        "type": "split",
-        "children": [
-          {
-            "id": "4765b07f1b4eba12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "js/03.变量和数据类型.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c7de8376c0eb13a",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "f6f02e33043fe47a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "js/04. 运算符 operator.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -84,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js/03.变量和数据类型.md",
+                "file": "js/04. 运算符 operator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,17 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4765b07f1b4eba12",
+  "active": "f6f02e33043fe47a",
   "lastOpenFiles": [
+    "js/04. 运算符 operator.md",
+    "Excalidraw/Drawing 2022-05-08 01.05.27.excalidraw.md",
+    "Excalidraw/Drawing 2022-05-08 01.05.25.excalidraw.md",
     "js/03.变量和数据类型.md",
     "js/01.邂逅js.md",
     "js/02.基本语法.md",
     "q/git q.md",
     "q/q.md",
     "问题及解决/王者荣耀.md",
-    "html+css/3.11 flex布局.md",
-    "html+css/4.2 文本超出显示....md",
-    "html+css/4.0 居中.md",
-    "html+css/3.13 css函数.md"
+    "html+css/3.11 flex布局.md"
   ]
 }
