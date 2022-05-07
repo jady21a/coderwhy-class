@@ -55,3 +55,9 @@ height 什么情况会继承
 
 放大不能对齐
 ![[Pasted image 20220503145551.png]]
+
+
+less复用伪元素
+![[Pasted image 20220507004147.png]]
+![[Pasted image 20220507004006.png]]
+tag 和 ticket 为同一个元素的类名

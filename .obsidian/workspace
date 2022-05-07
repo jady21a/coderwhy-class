@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "html+css/3.16 移动端适配.md",
+                "file": "js/03.变量和数据类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "html+css/3.16 移动端适配.md",
+                "file": "js/03.变量和数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,15 +112,15 @@
   },
   "active": "4765b07f1b4eba12",
   "lastOpenFiles": [
-    "html+css/3.16 移动端适配.md",
-    "html+css/3.15 px, less, sass(scss).md",
-    "html+css/3.14 媒体查询.md",
-    "html+css/3.13 css函数.md",
-    "html+css/4.3 BFC.md",
+    "js/03.变量和数据类型.md",
+    "js/01.邂逅js.md",
+    "js/02.基本语法.md",
+    "q/git q.md",
+    "q/q.md",
+    "问题及解决/王者荣耀.md",
+    "html+css/3.11 flex布局.md",
     "html+css/4.2 文本超出显示....md",
-    "html+css/3.12 形变及动画.md",
-    "html+css/2.1 meta.md",
-    "html+css/2.0.html常见元素.md",
-    "html+css/1.0.前端.md"
+    "html+css/4.0 居中.md",
+    "html+css/3.13 css函数.md"
   ]
 }
