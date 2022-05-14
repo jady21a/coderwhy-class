@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/05. 分支语句和循环语句.md",
+                "file": "js/06.函数1.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cursor",
+                "query": "tag:#附",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js/05. 分支语句和循环语句.md",
+                "file": "js/06.函数1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,8 +102,17 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "b8b25fdf97e6dbe3",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -112,15 +121,15 @@
   },
   "active": "f6f02e33043fe47a",
   "lastOpenFiles": [
+    "js/06.函数1.md",
+    "js/06.函数2.md",
+    "question/02.js.md",
+    "question/01.html+css.md",
+    "question/git q.md",
     "js/05. 分支语句和循环语句.md",
-    "js/04. 运算符 operator.md",
-    "js/03.变量和数据类型.md",
-    "html+css/3.13 css函数.md",
-    "Excalidraw/Drawing 2022-05-08 01.05.27.excalidraw.md",
-    "Excalidraw/Drawing 2022-05-08 01.05.25.excalidraw.md",
-    "js/01.邂逅js.md",
-    "js/02.基本语法.md",
-    "q/git q.md",
-    "q/q.md"
+    "js/07..md",
+    "template/question模板.md",
+    "question/技巧.md",
+    "question/视频时长备注.md"
   ]
 }
