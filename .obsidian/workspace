@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/06.函数1.md",
+                "file": "js/06.函数2.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,8 +55,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#附",
-                "matchingCase": false,
+                "query": "tag:#re",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "js/06.函数1.md",
+                "file": "js/06.函数2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,13 +121,13 @@
   },
   "active": "f6f02e33043fe47a",
   "lastOpenFiles": [
-    "js/06.函数1.md",
     "js/06.函数2.md",
+    "js/07.对象.md",
+    "js/06.函数1.md",
     "question/02.js.md",
     "question/01.html+css.md",
     "question/git q.md",
     "js/05. 分支语句和循环语句.md",
-    "js/07..md",
     "template/question模板.md",
     "question/技巧.md",
     "question/视频时长备注.md"
