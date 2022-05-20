@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fb7ed78b6b7e6ab6",
-        "type": "split",
-        "children": [
-          {
-            "id": "09a167b3699149de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.js/07.对象4-data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3b40a28ee3b1102",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "09a167b3699149de",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1.html+css/4.2 文本超出显示....md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -92,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/07.对象4-data.md",
+                "file": "1.html+css/4.2 文本超出显示....md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/07.对象4-data.md"
+                "file": "1.html+css/4.2 文本超出显示....md"
               }
             }
           },
@@ -146,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/07.对象4-data.md",
+                "file": "1.html+css/4.2 文本超出显示....md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +146,15 @@
   },
   "active": "09a167b3699149de",
   "lastOpenFiles": [
+    "1.html+css/4.2 文本超出显示....md",
+    "1.html+css/1.0.前端.md",
+    "1.html+css/2.0.html常见元素.md",
     "2.js/07.对象4-data.md",
     "2.js/07.对象3-数组.md",
+    "2.js/07.对象1.md",
     "1.html+css/4.0 居中.md",
     "1.html+css/4.1 代码规范.md",
     "1.html+css/3.14 媒体查询.md",
-    "1.html+css/3.10 css元素的浮动(少用).md",
-    "1.html+css/3.3 选择器.md",
-    "1.html+css/2.3 html补充.md",
-    "2.js/01.邂逅js.md",
-    "2.js/02.基本语法.md"
+    "1.html+css/3.10 css元素的浮动(少用).md"
   ]
 }
