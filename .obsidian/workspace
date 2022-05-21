@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.js/07.对象4-data.md",
+                "file": "question/git q.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/07.对象4-data.md",
+                "file": "question/git q.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/07.对象4-data.md"
+                "file": "question/git q.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/07.对象4-data.md",
+                "file": "question/git q.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +161,15 @@
   },
   "active": "09a167b3699149de",
   "lastOpenFiles": [
+    "question/git q.md",
+    "question/技巧.md",
+    "question/02.js.md",
+    "question/01.html+css.md",
+    "Excalidraw/Drawing 2022-05-21 13.12.08.excalidraw.md",
+    "Excalidraw/Drawing 2022-05-21 13.12.09.excalidraw.md",
+    "Excalidraw/Drawing 2022-05-21 13.12.10.excalidraw.md",
     "2.js/07.对象4-data.md",
     "2.js/07.对象3-数组.md",
-    "2.js/06.函数2.md",
-    "2.js/06.函数1.md",
-    "2.js/05. 分支语句和循环语句.md",
-    "1.html+css/1.0.前端.md",
-    "1.html+css/3.9 css元素定位.md",
-    "1.html+css/4.2 文本超出显示....md",
-    "1.html+css/2.0.html常见元素.md",
-    "2.js/07.对象1.md"
+    "2.js/06.函数2.md"
   ]
 }
