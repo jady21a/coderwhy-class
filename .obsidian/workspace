@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.js/08.DOM2-特性及操作.md",
+                "file": "2.js/07.对象4-date.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/08.DOM2-特性及操作.md",
+                "file": "2.js/07.对象4-date.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/08.DOM2-特性及操作.md"
+                "file": "2.js/07.对象4-date.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/08.DOM2-特性及操作.md",
+                "file": "2.js/07.对象4-date.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +161,15 @@
   },
   "active": "09a167b3699149de",
   "lastOpenFiles": [
+    "2.js/07.对象4-date.md",
+    "question/时间.md",
+    "question/02.js.md",
+    "question/git q.md",
+    "question/技巧.md",
     "2.js/08.DOM2-特性及操作.md",
+    "2.js/08.DOM1-获取.md",
     "2.js/03.变量和数据类型.md",
     "2.js/07.对象2-构造函数.md",
-    "2.js/02.基本语法.md",
-    "2.js/07.对象3-数组.md",
-    "2.js/snap/Pasted image 20220523231529.png",
-    "2.js/08.DOM1-获取.md",
-    "1.html+css/2.4 HTML5新增元素.md",
-    "2.js/07.对象4-date.md",
-    "2.js/08.DOM1-获取 1.md"
+    "2.js/02.基本语法.md"
   ]
 }
