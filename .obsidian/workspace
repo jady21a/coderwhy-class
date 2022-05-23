@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "05feb89b609f1b6b",
+        "id": "da19c49afb2db7c7",
         "type": "split",
         "children": [
           {
@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "question/git q.md",
+                "file": "2.js/08.DOM2-特性及操作.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c4e697da866c2d9d",
+            "id": "c4a0c00988eb54d8",
             "type": "leaf",
             "state": {
               "type": "mindmap",
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#f00",
+                "query": "data-",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 144
+    "width": 143
   },
   "right": {
     "id": "6910ce0b060b331b",
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "question/git q.md",
+                "file": "2.js/08.DOM2-特性及操作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "question/git q.md"
+                "file": "2.js/08.DOM2-特性及操作.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "question/git q.md",
+                "file": "2.js/08.DOM2-特性及操作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,19 +157,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 115.5
+    "width": 159.5
   },
   "active": "09a167b3699149de",
   "lastOpenFiles": [
-    "question/git q.md",
-    "question/技巧.md",
-    "question/02.js.md",
-    "question/01.html+css.md",
-    "Excalidraw/Drawing 2022-05-21 13.12.08.excalidraw.md",
-    "Excalidraw/Drawing 2022-05-21 13.12.09.excalidraw.md",
-    "Excalidraw/Drawing 2022-05-21 13.12.10.excalidraw.md",
-    "2.js/07.对象4-data.md",
+    "2.js/08.DOM2-特性及操作.md",
+    "2.js/03.变量和数据类型.md",
+    "2.js/07.对象2-构造函数.md",
+    "2.js/02.基本语法.md",
     "2.js/07.对象3-数组.md",
-    "2.js/06.函数2.md"
+    "2.js/snap/Pasted image 20220523231529.png",
+    "2.js/08.DOM1-获取.md",
+    "1.html+css/2.4 HTML5新增元素.md",
+    "2.js/07.对象4-date.md",
+    "2.js/08.DOM1-获取 1.md"
   ]
 }
