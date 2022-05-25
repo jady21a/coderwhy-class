@@ -4,24 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "da19c49afb2db7c7",
+        "id": "b2a95370e6b88e43",
         "type": "split",
         "children": [
           {
             "id": "09a167b3699149de",
             "type": "leaf",
+            "dimension": 60.17786561264822,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.js/07.对象4-date.md",
+                "file": "2.js/09.事件处理.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c4a0c00988eb54d8",
+            "id": "d20b0a428d1d0a0f",
             "type": "leaf",
+            "dimension": 39.822134387351774,
             "state": {
               "type": "mindmap",
               "state": {}
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/07.对象4-date.md",
+                "file": "2.js/09.事件处理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/07.对象4-date.md"
+                "file": "2.js/09.事件处理.md"
               }
             }
           },
@@ -146,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/07.对象4-date.md",
+                "file": "2.js/09.事件处理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,19 +159,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 159.5
+    "width": 122.5
   },
   "active": "09a167b3699149de",
   "lastOpenFiles": [
+    "2.js/09.事件处理.md",
+    "2.js/08.DOM1-获取.md",
+    "2.js/08.DOM2-特性及插入.md",
+    "question/02.js.md",
+    "question/01.html+css.md",
+    "2.js/02.基本语法.md",
     "2.js/07.对象4-date.md",
     "question/时间.md",
-    "question/02.js.md",
     "question/git q.md",
-    "question/技巧.md",
-    "2.js/08.DOM2-特性及操作.md",
-    "2.js/08.DOM1-获取.md",
-    "2.js/03.变量和数据类型.md",
-    "2.js/07.对象2-构造函数.md",
-    "2.js/02.基本语法.md"
+    "question/技巧.md"
   ]
 }
