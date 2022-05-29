@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "data-",
+                "query": "data",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,14 +164,14 @@
   "active": "09a167b3699149de",
   "lastOpenFiles": [
     "2.js/09.事件处理.md",
-    "2.js/08.DOM1-获取.md",
     "2.js/08.DOM2-特性及插入.md",
+    "1.html+css/2.4 HTML5新增元素.md",
+    "2.js/08.DOM1-获取.md",
+    "question/技巧.md",
     "question/02.js.md",
+    "2.js/07.对象3-数组.md",
+    "1.html+css/4.0 居中.md",
     "question/01.html+css.md",
-    "2.js/02.基本语法.md",
-    "2.js/07.对象4-date.md",
-    "question/时间.md",
-    "question/git q.md",
-    "question/技巧.md"
+    "2.js/02.基本语法.md"
   ]
 }
