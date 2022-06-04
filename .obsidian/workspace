@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.html+css/2.2 html高级(补充).md",
+                "file": "2.js/11.BOM.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "table",
+                "query": "target",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.html+css/2.2 html高级(补充).md",
+                "file": "2.js/11.BOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.html+css/2.2 html高级(补充).md"
+                "file": "2.js/11.BOM.md"
               }
             }
           },
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.html+css/2.2 html高级(补充).md",
+                "file": "2.js/11.BOM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,15 +163,15 @@
   },
   "active": "09a167b3699149de",
   "lastOpenFiles": [
-    "1.html+css/2.2 html高级(补充).md",
-    "1.html+css/2.0.html常见元素.md",
-    "1.html+css/3.9 css元素定位.md",
-    "1.html+css/3.7 emmet语法和结构伪类.md",
-    "1.html+css/3.5 盒子模型.md",
-    "2.js/08.DOM2-特性及插入.md",
-    "2.js/09.事件处理.md",
-    "2.js/08.DOM1-获取.md",
+    "2.js/11.BOM.md",
     "2.js/10. DOM实战案例.md",
-    "2.js/07.对象4-date.md"
+    "2.js/07.对象1.md",
+    "1.html+css/2.0.html常见元素.md",
+    "2.js/08.DOM1-获取.md",
+    "2.js/08.DOM2-特性及插入.md",
+    "question/02.js.md",
+    "question/技巧.md",
+    "1.html+css/2.2 html高级(补充).md",
+    "1.html+css/3.9 css元素定位.md"
   ]
 }
