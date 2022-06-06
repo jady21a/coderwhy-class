@@ -10,11 +10,11 @@
           {
             "id": "09a167b3699149de",
             "type": "leaf",
-            "dimension": 60.17786561264822,
+            "dimension": 43.03886925795054,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.js/11.BOM.md",
+                "file": "2.js/21.this指向.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,7 +23,7 @@
           {
             "id": "d20b0a428d1d0a0f",
             "type": "leaf",
-            "dimension": 39.822134387351774,
+            "dimension": 56.96113074204948,
             "state": {
               "type": "mindmap",
               "state": {}
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "target",
+                "query": "trim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/11.BOM.md",
+                "file": "2.js/21.this指向.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/11.BOM.md"
+                "file": "2.js/21.this指向.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/11.BOM.md",
+                "file": "2.js/21.this指向.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,15 +163,15 @@
   },
   "active": "09a167b3699149de",
   "lastOpenFiles": [
+    "2.js/21.this指向.md",
+    "2.js/06.函数1.md",
+    "2.js/20.js高级.md",
     "2.js/11.BOM.md",
+    "question/02.js.md",
+    "1.html+css/3.1.css基础.md",
+    "2.js/07.对象2-构造函数.md",
     "2.js/10. DOM实战案例.md",
     "2.js/07.对象1.md",
-    "1.html+css/2.0.html常见元素.md",
-    "2.js/08.DOM1-获取.md",
-    "2.js/08.DOM2-特性及插入.md",
-    "question/02.js.md",
-    "question/技巧.md",
-    "1.html+css/2.2 html高级(补充).md",
-    "1.html+css/3.9 css元素定位.md"
+    "1.html+css/2.0.html常见元素.md"
   ]
 }
