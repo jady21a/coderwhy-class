@@ -4,26 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b2a95370e6b88e43",
+        "id": "375016fc24ceffba",
         "type": "split",
         "children": [
           {
             "id": "09a167b3699149de",
             "type": "leaf",
-            "dimension": 43.03886925795053,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.js/21.this指向.md",
+                "file": "2.js/23.V8引擎.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d20b0a428d1d0a0f",
+            "id": "ba1cedbb38fa76c4",
             "type": "leaf",
-            "dimension": 56.96113074204948,
             "state": {
               "type": "mindmap",
               "state": {}
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/21.this指向.md",
+                "file": "2.js/23.V8引擎.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/21.this指向.md"
+                "file": "2.js/23.V8引擎.md"
               }
             }
           },
@@ -148,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/21.this指向.md",
+                "file": "2.js/23.V8引擎.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,15 +161,15 @@
   },
   "active": "09a167b3699149de",
   "lastOpenFiles": [
+    "2.js/23.V8引擎.md",
+    "2.js/22.浏览器渲染原理.md",
     "2.js/21.this指向.md",
-    "2.js/06.函数1.md",
     "2.js/20.js高级.md",
+    "2.js/06.函数1.md",
     "2.js/11.BOM.md",
     "question/02.js.md",
     "1.html+css/3.1.css基础.md",
     "2.js/07.对象2-构造函数.md",
-    "2.js/10. DOM实战案例.md",
-    "2.js/07.对象1.md",
-    "1.html+css/2.0.html常见元素.md"
+    "2.js/10. DOM实战案例.md"
   ]
 }
