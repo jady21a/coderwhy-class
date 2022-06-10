@@ -70,5 +70,15 @@
       ],
       "key": "Delete"
     }
-  ]
+  ],
+  "obsidian-enhancing-mindmap:Create New MindMap": [],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-on-current": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate": []
 }

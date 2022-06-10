@@ -4,31 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "375016fc24ceffba",
-        "type": "split",
-        "children": [
-          {
-            "id": "09a167b3699149de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.js/23.V8引擎.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba1cedbb38fa76c4",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "ec9b7afcd769d21f",
+        "type": "leaf",
+        "state": {
+          "type": "excalidraw",
+          "state": {
+            "file": "Excalidraw/draw07_作用域(函数嵌套).excalidraw.md"
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -92,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/23.V8引擎.md",
+                "file": "Excalidraw/draw07_作用域(函数嵌套).excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/23.V8引擎.md"
+                "file": "Excalidraw/draw07_作用域(函数嵌套).excalidraw.md"
               }
             }
           },
@@ -146,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/23.V8引擎.md",
+                "file": "Excalidraw/draw07_作用域(函数嵌套).excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,17 +142,17 @@
     "direction": "horizontal",
     "width": 122.5
   },
-  "active": "09a167b3699149de",
+  "active": "ec9b7afcd769d21f",
   "lastOpenFiles": [
-    "2.js/23.V8引擎.md",
-    "2.js/22.浏览器渲染原理.md",
-    "2.js/21.this指向.md",
-    "2.js/20.js高级.md",
-    "2.js/06.函数1.md",
-    "2.js/11.BOM.md",
-    "question/02.js.md",
-    "1.html+css/3.1.css基础.md",
-    "2.js/07.对象2-构造函数.md",
+    "Excalidraw/draw07_作用域(函数嵌套).excalidraw.md",
+    "2.js/23_V8引擎.md",
+    "2.js/24_内存.md",
+    "Excalidraw/draw06_函数互调.excalidraw.md",
+    "Excalidraw/draw05_函数多次执行.excalidraw.md",
+    "Excalidraw/draw04_函数执行后.excalidraw.md",
+    "Excalidraw/draw03_函数执行前excalidraw.md",
+    "Excalidraw/draw02_执行后.excalidraw.md",
+    "Excalidraw/draw01_执行前.excalidraw.md",
     "2.js/10. DOM实战案例.md"
   ]
 }
