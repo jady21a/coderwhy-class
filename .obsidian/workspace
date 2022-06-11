@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2.js/24_内存和闭包.md",
+            "file": "1.html+css/1.0.前端.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/24_内存和闭包.md",
+                "file": "1.html+css/1.0.前端.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/24_内存和闭包.md"
+                "file": "1.html+css/1.0.前端.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/24_内存和闭包.md",
+                "file": "1.html+css/1.0.前端.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,15 +146,15 @@
   },
   "active": "ec9b7afcd769d21f",
   "lastOpenFiles": [
+    "1.html+css/1.0.前端.md",
+    "2.js/07.对象2-构造函数.md",
+    "2.js/07.对象1.md",
+    "question/git q.md",
+    "question/01.html+css.md",
+    "template/question模板.md",
     "2.js/24_内存和闭包.md",
     "2.js/23_V8引擎.md",
-    "2.js/07.对象1.md",
-    "2.js/07.对象3-数组.md",
-    "2.js/09.事件处理.md",
-    "2.js/08.DOM2-特性及插入.md",
-    "2.js/08.DOM1-获取.md",
-    "2.js/05. 分支语句和循环语句.md",
-    "2.js/07.对象4-date.md",
-    "2.js/07.对象2-构造函数.md"
+    "2.js/22_浏览器渲染原理.md",
+    "2.js/07.对象3-数组.md"
   ]
 }
