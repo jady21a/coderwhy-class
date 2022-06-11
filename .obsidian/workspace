@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1.html+css/1.0.前端.md",
+            "file": "2.js/25_函数补充.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "trim",
+                "query": "splice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.html+css/1.0.前端.md",
+                "file": "2.js/25_函数补充.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1.html+css/1.0.前端.md"
+                "file": "2.js/25_函数补充.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.html+css/1.0.前端.md",
+                "file": "2.js/25_函数补充.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,15 +146,15 @@
   },
   "active": "ec9b7afcd769d21f",
   "lastOpenFiles": [
+    "2.js/25_函数补充.md",
+    "2.js/26_对象补充.md",
+    "2.js/07.对象3-数组.md",
+    "2.js/06.函数2.md",
+    "2.js/06.函数1.md",
+    "2.js/24_内存和闭包.md",
     "1.html+css/1.0.前端.md",
     "2.js/07.对象2-构造函数.md",
     "2.js/07.对象1.md",
-    "question/git q.md",
-    "question/01.html+css.md",
-    "template/question模板.md",
-    "2.js/24_内存和闭包.md",
-    "2.js/23_V8引擎.md",
-    "2.js/22_浏览器渲染原理.md",
-    "2.js/07.对象3-数组.md"
+    "question/git q.md"
   ]
 }
