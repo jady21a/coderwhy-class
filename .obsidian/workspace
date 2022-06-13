@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "67ed39111333e2b1",
-        "type": "split",
-        "children": [
-          {
-            "id": "ec9b7afcd769d21f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.js/25_函数补充.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5efdf8883c055fd9",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "987b0efb7f47267f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "question/02.js.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -55,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "splice",
+                "query": "new",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/25_函数补充.md",
+                "file": "question/02.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/25_函数补充.md"
+                "file": "question/02.js.md"
               }
             }
           },
@@ -146,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/25_函数补充.md",
+                "file": "question/02.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,17 +144,17 @@
     "direction": "horizontal",
     "width": 122.5
   },
-  "active": "ec9b7afcd769d21f",
+  "active": "987b0efb7f47267f",
   "lastOpenFiles": [
-    "2.js/25_函数补充.md",
-    "2.js/26_对象补充.md",
-    "2.js/07.对象3-数组.md",
+    "question/02.js.md",
+    "2.js/27_ES5原型 继承.md",
     "2.js/06.函数2.md",
     "2.js/06.函数1.md",
-    "2.js/24_内存和闭包.md",
-    "1.html+css/1.0.前端.md",
     "2.js/07.对象2-构造函数.md",
-    "2.js/07.对象1.md",
-    "question/git q.md"
+    "2.js/03.变量和数据类型.md",
+    "Excalidraw/draw08_继承.excalidraw.md",
+    "2.js/11.BOM.md",
+    "Excalidraw/draw07_作用域(函数嵌套).excalidraw.md",
+    "Excalidraw/draw06_函数互调.excalidraw.md"
   ]
 }

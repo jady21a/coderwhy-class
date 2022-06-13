@@ -61,7 +61,14 @@
   "editor:open-search-replace": [],
   "editor:insert-link": [],
   "obsidian-autocomplete-plugin:autocomplete-toggle": [],
-  "obsidian-excalidraw-plugin:insert-link": [],
+  "obsidian-excalidraw-plugin:insert-link": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
   "obsidian-excalidraw-plugin:insert-link-to-element": [],
   "app:delete-file": [
     {
