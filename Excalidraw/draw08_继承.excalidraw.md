@@ -50,10 +50,14 @@ arguments:"jay","18","red"
 age:
 color: ^v6j1Ca4R
 
+constructor:0xa10(Person)
+
 eating fn:0x...
 sleeping fn:0x...
 
 __proto__:0x... ^h8Z5NKnj
+
+constructor:0xa20
 
 running fn:0x...
 
@@ -1146,8 +1150,8 @@ b5d82222e8cba5c57c394454042424817a006ca4: [[Excalidraw/snap/Pasted Image 2022061
 		},
 		{
 			"type": "text",
-			"version": 58,
-			"versionNonce": 474057652,
+			"version": 99,
+			"versionNonce": 1933738456,
 			"isDeleted": false,
 			"id": "h8Z5NKnj",
 			"fillStyle": "hachure",
@@ -1156,32 +1160,32 @@ b5d82222e8cba5c57c394454042424817a006ca4: [[Excalidraw/snap/Pasted Image 2022061
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 286.8067653859621,
-			"y": -299.5454545454546,
+			"x": 278.4734320526288,
+			"y": -307.0454545454546,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 112,
-			"height": 72,
+			"width": 189,
+			"height": 108,
 			"seed": 1151310644,
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655102718115,
+			"updated": 1655217285808,
 			"link": null,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "eating fn:0x...\nsleeping fn:0x...\n\n__proto__:0x...",
-			"rawText": "eating fn:0x...\nsleeping fn:0x...\n\n__proto__:0x...",
-			"baseline": 68,
+			"text": "constructor:0xa10(Person)\n\neating fn:0x...\nsleeping fn:0x...\n\n__proto__:0x...",
+			"rawText": "constructor:0xa10(Person)\n\neating fn:0x...\nsleeping fn:0x...\n\n__proto__:0x...",
+			"baseline": 104,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "eating fn:0x...\nsleeping fn:0x...\n\n__proto__:0x..."
+			"originalText": "constructor:0xa10(Person)\n\neating fn:0x...\nsleeping fn:0x...\n\n__proto__:0x..."
 		},
 		{
 			"type": "text",
-			"version": 44,
-			"versionNonce": 727991860,
+			"version": 177,
+			"versionNonce": 1478167256,
 			"isDeleted": false,
 			"id": "gbEBGhAH",
 			"fillStyle": "hachure",
@@ -1190,27 +1194,27 @@ b5d82222e8cba5c57c394454042424817a006ca4: [[Excalidraw/snap/Pasted Image 2022061
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 50.80676538596208,
-			"y": -31.545454545454618,
+			"x": 42.47343205262871,
+			"y": -53.2121212121213,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 121,
-			"height": 54,
+			"width": 127,
+			"height": 90,
 			"seed": 986258700,
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1655110144122,
+			"updated": 1655217275315,
 			"link": null,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "running fn:0x...\n\n__proto__:0xa12",
-			"rawText": "running fn:0x...\n\n__proto__:0xa12",
-			"baseline": 50,
+			"text": "constructor:0xa20\n\nrunning fn:0x...\n\n__proto__:0xa12",
+			"rawText": "constructor:0xa20\n\nrunning fn:0x...\n\n__proto__:0xa12",
+			"baseline": 86,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "running fn:0x...\n\n__proto__:0xa12"
+			"originalText": "constructor:0xa20\n\nrunning fn:0x...\n\n__proto__:0xa12"
 		},
 		{
 			"type": "text",
@@ -1445,8 +1449,8 @@ b5d82222e8cba5c57c394454042424817a006ca4: [[Excalidraw/snap/Pasted Image 2022061
 		},
 		{
 			"type": "arrow",
-			"version": 74,
-			"versionNonce": 1896394164,
+			"version": 164,
+			"versionNonce": 518156760,
 			"isDeleted": false,
 			"id": "-ddqcxoRhxZcy7T3cX_I8",
 			"fillStyle": "hachure",
@@ -1455,17 +1459,17 @@ b5d82222e8cba5c57c394454042424817a006ca4: [[Excalidraw/snap/Pasted Image 2022061
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 167.80676538596208,
-			"y": 1.4545454545453822,
+			"x": 148.64009871929545,
+			"y": 23.954545454545382,
 			"strokeColor": "#d9480f",
 			"backgroundColor": "transparent",
-			"width": 106,
-			"height": 245,
+			"width": 86.83333333333337,
+			"height": 267.5,
 			"seed": 221597452,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1655102751512,
+			"updated": 1655217303491,
 			"link": null,
 			"startBinding": null,
 			"endBinding": {
@@ -1482,8 +1486,8 @@ b5d82222e8cba5c57c394454042424817a006ca4: [[Excalidraw/snap/Pasted Image 2022061
 					0
 				],
 				[
-					-106,
-					-245
+					-86.83333333333337,
+					-267.5
 				]
 			]
 		},
@@ -1570,29 +1574,38 @@ b5d82222e8cba5c57c394454042424817a006ca4: [[Excalidraw/snap/Pasted Image 2022061
 			"originalText": "有没有内存泄漏?    没有\n__proto__有兼容性问题, 可能造成\n其他浏览器运行问题"
 		},
 		{
-			"id": "llxFhkL7Lq3_yspyy5VNW",
 			"type": "arrow",
-			"x": -132.0439294977523,
-			"y": -6.3492985886026645,
-			"width": 142.22222222222229,
-			"height": 82.22222222222229,
-			"angle": 0,
-			"strokeColor": "#d9480f",
-			"backgroundColor": "transparent",
+			"version": 77,
+			"versionNonce": 1424717876,
+			"isDeleted": false,
+			"id": "llxFhkL7Lq3_yspyy5VNW",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "dotted",
 			"roughness": 0,
 			"opacity": 100,
+			"angle": 0,
+			"x": -132.0439294977523,
+			"y": -6.3492985886026645,
+			"strokeColor": "#d9480f",
+			"backgroundColor": "transparent",
+			"width": 142.22222222222229,
+			"height": 82.22222222222229,
+			"seed": 265703308,
 			"groupIds": [],
 			"strokeSharpness": "round",
-			"seed": 265703308,
-			"version": 77,
-			"versionNonce": 1424717876,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1655110173533,
 			"link": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "mbaRTg_BaqyBehr0TpE-h",
+				"focus": 0.6742520419359728,
+				"gap": 1
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -1602,16 +1615,7 @@ b5d82222e8cba5c57c394454042424817a006ca4: [[Excalidraw/snap/Pasted Image 2022061
 					142.22222222222229,
 					-82.22222222222229
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "mbaRTg_BaqyBehr0TpE-h",
-				"focus": 0.6742520419359728,
-				"gap": 1
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		}
 	],
 	"appState": {
