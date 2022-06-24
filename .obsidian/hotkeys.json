@@ -87,5 +87,13 @@
       "key": "I"
     }
   ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate": []
+  "obsidian-excalidraw-plugin:excalidraw-autocreate": [],
+  "oz-clear-unused-images:clear-images-obsidian": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "U"
+    }
+  ]
 }
