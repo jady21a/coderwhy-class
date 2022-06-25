@@ -76,7 +76,7 @@ __proto__:00021 ^uZ4P9C9t
 4. 对象默认创建时, 其隐式原型指向Object的显
     式原型(Object显式原型中的隐式原型为null) ^yzZK0SkE
 
-[[28_ES6]] ^mPYZE1Ba
+[[28_ES6 继承]] ^mPYZE1Ba
 
 
 # Embedded files
