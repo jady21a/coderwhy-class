@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2.js/29_es6~es13新特性.md",
+            "file": "2.js/30_es7-es13.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "时间",
+                "query": "解构",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/29_es6~es13新特性.md",
+                "file": "2.js/30_es7-es13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/29_es6~es13新特性.md"
+                "file": "2.js/30_es7-es13.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/29_es6~es13新特性.md",
+                "file": "2.js/30_es7-es13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,15 +146,15 @@
   },
   "active": "987b0efb7f47267f",
   "lastOpenFiles": [
-    "2.js/29_es6~es13新特性.md",
+    "2.js/29_es6新特性.md",
+    "2.js/30_es7-es13.md",
+    "2.js/06.函数1.md",
+    "2.js/03.变量和数据类型.md",
     "2.js/28_ES6 继承.md",
-    "Excalidraw/draw10_es6词法环境.excalidraw.md",
-    "Excalidraw/draw01_执行前.excalidraw.md",
+    "2.js/25_函数补充.md",
+    "2.js/26_对象补充.md",
     "2.js/27_ES5原型 继承.md",
-    "question/技巧.md",
-    "question/git q.md",
-    "Excalidraw/draw09_总继承.excalidraw.md",
-    "Excalidraw/draw08_继承.excalidraw.md",
-    "Excalidraw/draw02_执行后.excalidraw.md"
+    "2.js/02.基本语法.md",
+    "2.js/20_js进阶.md"
   ]
 }

@@ -57,7 +57,7 @@ declarative environment record ^OMIex72Z
 
 dd: "dd" ^Lar1Cp0u
 
-[[29_es6~es13新特性]] ^tHoJPEPm
+[[29_es6新特性]] ^tHoJPEPm
 
 
 # Embedded files
