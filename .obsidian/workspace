@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.js/33_迭代.md",
+                "file": "2.js/35_报错 & storage &正则.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/33_迭代.md",
+                "file": "2.js/35_报错 & storage &正则.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/33_迭代.md"
+                "file": "2.js/35_报错 & storage &正则.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/33_迭代.md",
+                "file": "2.js/35_报错 & storage &正则.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +161,15 @@
   },
   "active": "987b0efb7f47267f",
   "lastOpenFiles": [
-    "2.js/06.函数2.md",
-    "2.js/06.函数1.md",
+    "Excalidraw/draw_0.excalidraw.md",
+    "2.js/35_报错 & storage &正则.md",
+    "Excalidraw/draw.excalidraw.md",
+    "2.js/34_异步 线程.md",
     "2.js/33_迭代.md",
     "2.js/32_promise.md",
+    "2.js/06.函数2.md",
+    "2.js/06.函数1.md",
     "2.js/31_proxy和reflect.md",
-    "2.js/30_es7-es13.md",
-    "2.js/29_es6新特性.md",
-    "2.js/03.变量和数据类型.md",
-    "2.js/28_ES6 继承.md",
-    "2.js/25_函数补充.md"
+    "2.js/30_es7-es13.md"
   ]
 }
