@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.js/35_报错 & storage &正则.md",
+                "file": "2.js/37_网络传输.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "解构",
+                "query": "join",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/35_报错 & storage &正则.md",
+                "file": "2.js/37_网络传输.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/35_报错 & storage &正则.md"
+                "file": "2.js/37_网络传输.md"
               }
             }
           },
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/35_报错 & storage &正则.md",
+                "file": "2.js/37_网络传输.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +161,15 @@
   },
   "active": "987b0efb7f47267f",
   "lastOpenFiles": [
-    "Excalidraw/draw_0.excalidraw.md",
+    "2.js/07.对象3-数组.md",
+    "2.js/37_网络传输.md",
+    "2.js/22_浏览器渲染原理.md",
+    "2.js/11.BOM.md",
+    "1.html+css/2.3 html补充.md",
+    "2.js/36_防抖节流深拷贝.md",
+    "1.html+css/4.3 BFC.md",
+    "1.html+css/1.0.前端.md",
     "2.js/35_报错 & storage &正则.md",
-    "Excalidraw/draw.excalidraw.md",
-    "2.js/34_异步 线程.md",
-    "2.js/33_迭代.md",
-    "2.js/32_promise.md",
-    "2.js/06.函数2.md",
-    "2.js/06.函数1.md",
-    "2.js/31_proxy和reflect.md",
-    "2.js/30_es7-es13.md"
+    "2.js/34_异步 线程.md"
   ]
 }
