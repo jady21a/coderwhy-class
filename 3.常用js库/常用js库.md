@@ -1,0 +1,8 @@
+![[Pasted image 20220818223339.png]]
+
+Bootstrap、Angular、Vue、react、 Next. js 等也是
+主要学习
+1. jquery
+2. axios
+3. day. js
+4. lodash

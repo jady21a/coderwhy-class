@@ -10,10 +10,11 @@
           {
             "id": "987b0efb7f47267f",
             "type": "leaf",
+            "dimension": 50,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2.js/37_网络传输.md",
+                "file": "4.前端工程化/02_js模块化开发.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,6 +23,7 @@
           {
             "id": "319e32ecb8e51dce",
             "type": "leaf",
+            "dimension": 50,
             "state": {
               "type": "mindmap",
               "state": {}
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/37_网络传输.md",
+                "file": "4.前端工程化/02_js模块化开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/37_网络传输.md"
+                "file": "4.前端工程化/02_js模块化开发.md"
               }
             }
           },
@@ -146,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/37_网络传输.md",
+                "file": "4.前端工程化/02_js模块化开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,15 +163,15 @@
   },
   "active": "987b0efb7f47267f",
   "lastOpenFiles": [
-    "2.js/07.对象3-数组.md",
+    "2.js/06.函数2.md",
+    "2.js/06.函数1.md",
+    "4.前端工程化/02_js模块化开发.md",
+    "4.前端工程化/01_Node.js.md",
+    "3.常用js库/02_bootstrap.md",
+    "3.常用js库/01_jquery.md",
+    "3.常用js库/常用js库.md",
     "2.js/37_网络传输.md",
-    "2.js/22_浏览器渲染原理.md",
-    "2.js/11.BOM.md",
-    "1.html+css/2.3 html补充.md",
-    "2.js/36_防抖节流深拷贝.md",
-    "1.html+css/4.3 BFC.md",
-    "1.html+css/1.0.前端.md",
-    "2.js/35_报错 & storage &正则.md",
-    "2.js/34_异步 线程.md"
+    "2.js/07.对象3-数组.md",
+    "2.js/22_浏览器渲染原理.md"
   ]
 }
