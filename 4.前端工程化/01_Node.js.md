@@ -1,4 +1,14 @@
 # node 基本
+## node 是什么
+基于 V8 JavaScript 引擎的 JavaScript 运行时环境
+chorme 和 node 都有 v8 引擎来解析 js 代码
+不同:
+ 浏览器中，还需要解析、渲染 HTML、CSS 等相关渲染引擎，另外还需要提供支持浏览器操作的 API、浏览器自己的事件循环等；
+在 Node. js 中，比如文件系统读/写、网络 IO、加密、压缩解压文件等操作；
+
+## 应用
+目前前端开发的库都是以 node 包的形式进行管理；
+npm、yarn、pnpm 工具成为前端开发使用最多的工具；
 ## 安装
 重要工具放 c 盘
 ![[Pasted image 20220819115957.png]]
@@ -33,7 +43,9 @@ https://nodejs.org/dist/latest-v16.x/docs/api/console.html
 console. log
 console. trace 打印函数的调用栈
 console. clear (写在 js 文件, node 运行时清空) ![[Pasted image 20220819144318.png]]
+
 清空终端命令 cls
+终止正在安装的库  ctrl+c
 
 ![[Pasted image 20220819143900.png]]
 输入
