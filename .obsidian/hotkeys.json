@@ -95,5 +95,21 @@
       ],
       "key": "U"
     }
+  ],
+  "obsidian-git:commit": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "P"
+    }
   ]
 }

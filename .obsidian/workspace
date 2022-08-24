@@ -7,12 +7,8 @@
         "id": "4d7856fe618900a4",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "4.前端工程化/05_git.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -88,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.前端工程化/05_git.md",
+                "file": "Excalidraw/draw_6.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.前端工程化/05_git.md"
+                "file": "Excalidraw/draw_6.excalidraw.md"
               }
             }
           },
@@ -142,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4.前端工程化/05_git.md",
+                "file": "Excalidraw/draw_6.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,17 +151,17 @@
     "direction": "horizontal",
     "width": 174.5
   },
-  "active": "db1d79e4277a1c16",
+  "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "4.前端工程化/snap/Pasted image 20220824001934.png",
+    "4.前端工程化/5.vue.md",
     "4.前端工程化/05_git.md",
+    "4.前端工程化/snap/Pasted image 20220824001934.png",
     "0.备忘/03_git.md",
     "4.前端工程化/04_webpack3_插件+本地服务器.md",
     "0.备忘/02_快捷键.md",
     "4.前端工程化/04_webpack2_打包不同文件.md",
     "4.前端工程化/04_webpack1_基础.md",
     "4.前端工程化/02_js模块化开发.md",
-    "4.前端工程化/03_包管理工具.md",
-    "question/01.html+css.md"
+    "4.前端工程化/03_包管理工具.md"
   ]
 }
