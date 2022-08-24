@@ -148,14 +148,13 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 121.5
+    "width": 174.5
   },
-  "active": "4d7856fe618900a4",
+  "active": "926a882dc6ed2ade",
   "lastOpenFiles": [
     "0.备忘/03_git.md",
     "4.前端工程化/05_git.md",

@@ -89,10 +89,9 @@ git log --pretty=oneline --graph  (分支以图表形式展示)
 - 指定某一个 commit id: git reset --hard 4fe73cc2
 
 ## ignore  
-. gitignore 的文件, 列出需要忽略不提交的文件
+[github/gitignore: A collection of useful .gitignore templates](https://github.com/github/gitignore)
+. gitignore 的文件, 列出需要忽略不提交的文件 ![[Pasted image 20220824224541.png]]
 如: 本地环境变量文件, 日志文件, 编辑器自动生成的文件；
-
-![[Pasted image 20220824133741.png]]
 
 
 
@@ -149,6 +148,8 @@ git checkout develop
 删除
 git push origin --delete dev
 
+
+![[Pasted image 20220824133741.png]]
 
 # 杂知识
 ## 开源协议
