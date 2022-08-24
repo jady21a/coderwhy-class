@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4.前端工程化/未命名.md",
+            "file": "4.前端工程化/05_git.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.前端工程化/未命名.md",
+                "file": "4.前端工程化/05_git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.前端工程化/未命名.md"
+                "file": "4.前端工程化/05_git.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4.前端工程化/未命名.md",
+                "file": "4.前端工程化/05_git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,15 +157,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "0.备忘/03_git.md",
+    "4.前端工程化/05_git.md",
     "4.前端工程化/04_webpack3_插件+本地服务器.md",
-    "4.前端工程化/未命名.md",
+    "0.备忘/02_快捷键.md",
     "4.前端工程化/04_webpack2_打包不同文件.md",
     "4.前端工程化/04_webpack1_基础.md",
     "4.前端工程化/02_js模块化开发.md",
     "4.前端工程化/03_包管理工具.md",
     "question/01.html+css.md",
-    "0.备忘/02_快捷键.md",
-    "question/技巧.md",
-    "question/git q.md"
+    "question/技巧.md"
   ]
 }
