@@ -107,7 +107,7 @@
   "obsidian-git:push2": [
     {
       "modifiers": [
-        "Shift"
+        "Alt"
       ],
       "key": "P"
     }
