@@ -7,8 +7,12 @@
         "id": "4d7856fe618900a4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "5.vue/01_.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -84,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/draw_6.excalidraw.md",
+                "file": "5.vue/01_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/draw_6.excalidraw.md"
+                "file": "5.vue/01_.md"
               }
             }
           },
@@ -138,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/draw_6.excalidraw.md",
+                "file": "5.vue/01_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,6 +157,7 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "Excalidraw/draw_6.excalidraw.md",
     "4.前端工程化/5.vue.md",
     "4.前端工程化/05_git.md",
     "4.前端工程化/snap/Pasted image 20220824001934.png",
@@ -161,7 +166,6 @@
     "0.备忘/02_快捷键.md",
     "4.前端工程化/04_webpack2_打包不同文件.md",
     "4.前端工程化/04_webpack1_基础.md",
-    "4.前端工程化/02_js模块化开发.md",
-    "4.前端工程化/03_包管理工具.md"
+    "4.前端工程化/02_js模块化开发.md"
   ]
 }
