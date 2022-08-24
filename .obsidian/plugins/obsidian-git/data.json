@@ -18,8 +18,8 @@
   "autoBackupAfterFileChange": true,
   "treeStructure": false,
   "refreshSourceControl": true,
-  "basePath": "git@github.com:jady21a/whystudy.git",
-  "differentIntervalCommitAndPush": false,
+  "basePath": "",
+  "differentIntervalCommitAndPush": true,
   "changedFilesInStatusBar": false,
   "username": ""
 }
