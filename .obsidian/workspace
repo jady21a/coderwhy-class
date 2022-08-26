@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2.js/31_proxy和reflect.md",
+            "file": "5.vue/01_.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.js/31_proxy和reflect.md",
+                "file": "5.vue/01_.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2.js/31_proxy和reflect.md"
+                "file": "5.vue/01_.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.js/31_proxy和reflect.md",
+                "file": "5.vue/01_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,6 +157,7 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "2.js/31_proxy和reflect.md",
     "5.vue/01_.md",
     "3.常用js库/03_常用js库.md",
     "3.常用js库/02_bootstrap.md",
@@ -165,7 +166,6 @@
     "4.前端工程化/5.vue.md",
     "4.前端工程化/05_git.md",
     "4.前端工程化/snap/Pasted image 20220824001934.png",
-    "0.备忘/03_git.md",
-    "4.前端工程化/04_webpack3_插件+本地服务器.md"
+    "0.备忘/03_git.md"
   ]
 }
