@@ -38,7 +38,7 @@ MVVM 是 Model-View-ViewModel 的简称
 ## data
 传入一个函数，并且该函数需要返回一个对象
 data 中返回的对象会被 Vue 的响应式系统劫持，之后对该对象的修改或者访问都会在劫持中被处理：所以修改 counter 的值时，app 中的 {{counter}} 也会发生改变；
-
+![[Pasted image 20220826234919.png]]
 ## methods
 methods属性是一个对象，通常我们会在这个对象中定义很多的方法：
 这些方法可以被绑定到模板中；
