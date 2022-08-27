@@ -31,7 +31,8 @@ MVVM 是 Model-View-ViewModel 的简称
 ![[Pasted image 20220826142420.png]]
 ![[Pasted image 20220826142649.png]]
 
-
+# 快捷建议 snip
+![[Pasted image 20220827145322.png]]
 
 
 # 属性
@@ -48,3 +49,4 @@ methods 中的函数不能使用匿名函数, 因为匿名函数 this 指向 win
 
 ## 其他属性
 如 props、computed、watch、emits、setup 等
+

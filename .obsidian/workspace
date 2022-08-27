@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.vue/02_语法.md",
+                "file": "5.vue/01_vue基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/02_语法.md",
+                "file": "5.vue/01_vue基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/02_语法.md"
+                "file": "5.vue/01_vue基础.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/02_语法.md",
+                "file": "5.vue/01_vue基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,10 +170,10 @@
     "direction": "horizontal",
     "width": 174.5
   },
-  "active": "4d7856fe618900a4",
+  "active": "db1d79e4277a1c16",
   "lastOpenFiles": [
-    "5.vue/01_vue基础.md",
     "5.vue/02_语法.md",
+    "5.vue/01_vue基础.md",
     "2.js/31_proxy和reflect.md",
     "3.常用js库/03_常用js库.md",
     "3.常用js库/02_bootstrap.md",
