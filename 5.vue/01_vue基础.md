@@ -31,6 +31,7 @@ MVVM 是 Model-View-ViewModel 的简称
 ![[Pasted image 20220826142420.png]]
 ![[Pasted image 20220826142649.png]]
 
+![[Pasted image 20220827221235.png]]
 # 快捷建议 snip
 ![[Pasted image 20220827145322.png]]
 
