@@ -121,3 +121,14 @@ VSCode 使用单文件组件的插件
  插件二：Volar，官方推荐的插件；
 
 ## vue-cli
+全局安装:
+npm install @vue/cli -g
+升级 vue cli:
+npm update @vue/cli -g
+创建项目:
+Vue create 项目的名称
+
+![[Pasted image 20220828233131.png]]
+![[Pasted image 20220828233505.png]]
+
+![[Pasted image 20220828233820.png]]
