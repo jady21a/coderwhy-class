@@ -63,8 +63,17 @@ computed 的get 和 set
 ![[Pasted image 20220828104343.png]]
 ## watch 
 侦听器: 在代码逻辑中监听某个数据的变化
+![[Pasted image 20220828112100.png]]
 
+deep 和 immediate
+![[Pasted image 20220828112145.png]]
 
+$watch
+在 created 的生命周期中，使用 this.$watchs 来侦听；
+ 第一个参数是要侦听的源； 
+ 第二个参数是侦听的回调函数 callback； 
+ 第三个参数是额外的其他选项，比如 deep、immediate；
+![[Pasted image 20220828112847.png]]
 ## 其他属性
 如 props、computed、watch、emits、setup 等
 
