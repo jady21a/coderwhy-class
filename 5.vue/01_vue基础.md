@@ -52,6 +52,19 @@ methods属性是一个对象，通常我们会在这个对象中定义很多的�
 
 methods 中的函数不能使用匿名函数, 因为匿名函数 this 指向 window
 
+## computed
+在模板中可以直接通过插值语法显示一些 data 中的数据。
+有些情况需要对数据进行一些转化后再显示，或者需要将多个数据结合起来进行显示, 这个时候应使用 computed
+![[Pasted image 20220828103335.png]]
+computed 和 methods
+computed 有缓存, 如果数据没有变化, computed 不需要重新计算, 而 methods 每次都需要重新计算
+
+computed 的get 和 set
+![[Pasted image 20220828104343.png]]
+## watch 
+侦听器: 在代码逻辑中监听某个数据的变化
+
+
 ## 其他属性
 如 props、computed、watch、emits、setup 等
 
