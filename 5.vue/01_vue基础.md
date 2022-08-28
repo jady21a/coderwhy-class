@@ -75,5 +75,49 @@ $watch
  第三个参数是额外的其他选项，比如 deep、immediate；
 ![[Pasted image 20220828112847.png]]
 ## 其他属性
-如 props、computed、watch、emits、setup 等
+如 props、computed、watch、emits、setup , components等
 
+
+# 组件
+我们将一个完整的页面分成很多个组件；
+ 每个组件都用于实现页面的一个功能块； 
+ 而每一个组件又可以进行细分； 
+ 而组件本身又可以在多个地方进行复用；
+
+app 对象其实本质上就是一个组件，也是我们应用程序的根组件；
+![[Pasted image 20220828222922.png]]
+## 注册组件
+
+ 全局组件：在任何其他的组件中都可以使用的组件； 
+ 局部组件：只有在注册的组件中才能使用的组件；
+
+### 组件名
+1. 使用 kebab-case（短横线分割符）如: my-component-name  (推荐)
+2. 使用 PascalCase（大驼峰标识符）如: MyComponentName
+
+### 注册全局组件
+![[Pasted image 20220828223633.png]]
+
+
+### 注册局部组件
+![[Pasted image 20220828223557.png]]
+
+
+## 单文件组件
+后缀名为 . vue 的 single-file components (单文件组件)
+单文件的特点:
+ 代码的高亮； 
+ ES6、CommonJS 的模块化能力； 
+ 组件作用域的 CSS； 
+ 可以使用预处理器来构建更加丰富的组件，比如 TypeScript、Babel、Less、Sass 等；
+
+
+使用单文件组件的方法:
+1. Vue CLI 创建项目, 项目会默认帮助我们配置好所有的配置选项，可以在其中直接使用. vue 文件；
+2. 自己使用 webpack 或 rollup 或 vite 这类打包工具，对其进行打包处理
+
+VSCode 使用单文件组件的插件
+ 插件一：Vetur，从 Vue2 开发就一直在使用的 VSCode 支持 Vue 的插件； 
+ 插件二：Volar，官方推荐的插件；
+
+## vue-cli
