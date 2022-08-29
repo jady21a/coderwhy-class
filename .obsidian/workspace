@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.vue/02_语法.md",
+                "file": "5.vue/01_vue基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/02_语法.md",
+                "file": "5.vue/01_vue基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/02_语法.md"
+                "file": "5.vue/01_vue基础.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/02_语法.md",
+                "file": "5.vue/01_vue基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,9 +172,9 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "5.vue/02_语法.md",
     "1.html+css/2.0.html常见元素.md",
     "1.html+css/2.2 html高级(补充).md",
-    "5.vue/02_语法.md",
     "5.vue/01_vue基础.md",
     "Excalidraw/draw_6.excalidraw.md",
     "2.js/31_proxy和reflect.md",
