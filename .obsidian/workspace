@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "label",
+                "query": "table",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,17 +170,17 @@
     "direction": "horizontal",
     "width": 174.5
   },
-  "active": "4170c7db0d47cef5",
+  "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "5.vue/01_vue基础.md",
-    "5.vue/02_语法.md",
+    "1.html+css/2.0.html常见元素.md",
     "1.html+css/2.2 html高级(补充).md",
+    "5.vue/02_语法.md",
+    "5.vue/01_vue基础.md",
     "Excalidraw/draw_6.excalidraw.md",
     "2.js/31_proxy和reflect.md",
     "3.常用js库/03_常用js库.md",
     "3.常用js库/02_bootstrap.md",
     "3.常用js库/01_jquery.md",
-    "4.前端工程化/5.vue.md",
-    "4.前端工程化/05_git.md"
+    "4.前端工程化/5.vue.md"
   ]
 }
