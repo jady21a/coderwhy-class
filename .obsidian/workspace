@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0.备忘/03_vscode.md",
+                "file": "5.vue/03_组件间通讯.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0.备忘/03_vscode.md",
+                "file": "5.vue/03_组件间通讯.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0.备忘/03_vscode.md"
+                "file": "5.vue/03_组件间通讯.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0.备忘/03_vscode.md",
+                "file": "5.vue/03_组件间通讯.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,15 +172,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "0.备忘/03_git.md",
-    "0.备忘/02_快捷键.md",
-    "0.备忘/01_网盘.md",
+    "4.前端工程化/04_webpack1_基础.md",
+    "4.前端工程化/05_git.md",
+    "4.前端工程化/04_webpack3_插件+本地服务器.md",
+    "4.前端工程化/04_webpack2_打包不同文件.md",
+    "4.前端工程化/01_Node.js.md",
     "5.vue/01_vue基础.md",
-    "5.vue/02_语法.md",
     "5.vue/03_组件间通讯.md",
     "0.备忘/03_vscode.md",
-    "1.html+css/2.0.html常见元素.md",
-    "1.html+css/2.2 html高级(补充).md",
-    "Excalidraw/draw_6.excalidraw.md"
+    "0.备忘/03_git.md",
+    "0.备忘/02_快捷键.md"
   ]
 }
