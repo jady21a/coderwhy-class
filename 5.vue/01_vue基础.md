@@ -128,10 +128,30 @@ VSCode 使用单文件组件的插件
 npm install @vue/cli -g
 升级 vue cli:
 npm update @vue/cli -g
-创建项目:
-Vue create 项目的名称
-
+![[Pasted image 20220829121520.png]]
+## 创建项目:
+![[Pasted image 20220829120540.png]]
+### 1. Vue create 项目的名称
+基于 webpack 打包
 ![[Pasted image 20220828233131.png]]
 ![[Pasted image 20220828233505.png]]
 
 ![[Pasted image 20220828233820.png]]
+![[Pasted image 20220829122247.png]]
+### 2. npm init vue@latest 
+基于 vite 打包
+
+## 几个问题
+### 1. jsconfig. json 的作用
+vscode 配置路径后写路径时会有提示
+### 2. 引入不同的 vue App
+- ![[Pasted image 20220829122738.png]]
+这种方法直接引入, template 由 vue-loader 解析加载
+
+- ![[Pasted image 20220829123232.png]] 
+自己写的 App, 引入时需要用 bundler 来 compile (编译解析)
+
+### 3. 单文件.vue 的 style 有自己的作用域
+<style scoped></style>
+
+### 4. 生成 vue 代码片段

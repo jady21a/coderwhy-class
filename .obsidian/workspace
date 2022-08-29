@@ -168,19 +168,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 174.5
+    "width": 185.5
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "0.备忘/03_vscode.md",
+    "0.备忘/03_git.md",
+    "0.备忘/02_快捷键.md",
+    "0.备忘/01_网盘.md",
+    "5.vue/01_vue基础.md",
     "5.vue/02_语法.md",
     "1.html+css/2.0.html常见元素.md",
     "1.html+css/2.2 html高级(补充).md",
-    "5.vue/01_vue基础.md",
     "Excalidraw/draw_6.excalidraw.md",
-    "2.js/31_proxy和reflect.md",
-    "3.常用js库/03_常用js库.md",
-    "3.常用js库/02_bootstrap.md",
-    "3.常用js库/01_jquery.md",
-    "4.前端工程化/5.vue.md"
+    "2.js/31_proxy和reflect.md"
   ]
 }
