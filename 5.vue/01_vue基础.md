@@ -133,6 +133,7 @@ npm update @vue/cli -g
 ![[Pasted image 20220829120540.png]]
 ### 1. Vue create 项目的名称
 基于 webpack 打包
+本地开发一般为 npm run serve
 ![[Pasted image 20220828233131.png]]
 ![[Pasted image 20220828233505.png]]
 
