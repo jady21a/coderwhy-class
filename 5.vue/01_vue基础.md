@@ -140,6 +140,10 @@ npm update @vue/cli -g
 ![[Pasted image 20220829122247.png]]
 ### 2. npm init vue@latest 
 基于 vite 打包
+![[Pasted image 20220829131021.png]]
+npm i (安装 vite 相关依赖包)
+npm run dev    (本地开发)
+
 
 ## 几个问题
 ### 1. jsconfig. json 的作用
@@ -155,3 +159,24 @@ vscode 配置路径后写路径时会有提示
 <style scoped></style>
 
 ### 4. 生成 vue 代码片段
+
+``` <template>
+  <div> div </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped>
+</style>
+```
+https://snippet-generator.app/
+复制生成后粘贴到设置 snip 的 vue. json
+
+### 5. template 报错
+TypeScript intellisense is disabled on template
+在 jsconfig. json 里添加"jsx":"preserve"
+![[Pasted image 20220829130345.png]]
