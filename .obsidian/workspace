@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "table",
+                "query": "space bet",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,15 +172,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "5.vue/02_语法.md",
+    "1.html+css/3.11 flex布局.md",
     "5.vue/03_组件间通讯.md",
+    "5.vue/04_.md",
+    "0.备忘/03_vscode.md",
     "5.vue/01_vue基础.md",
-    "5.vue/04_插槽.md",
+    "5.vue/02_语法.md",
     "4.前端工程化/04_webpack1_基础.md",
     "4.前端工程化/05_git.md",
     "4.前端工程化/04_webpack3_插件+本地服务器.md",
-    "4.前端工程化/04_webpack2_打包不同文件.md",
-    "4.前端工程化/01_Node.js.md",
-    "0.备忘/03_vscode.md"
+    "4.前端工程化/04_webpack2_打包不同文件.md"
   ]
 }
