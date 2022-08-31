@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cc0a2e5b812d250c",
-        "type": "split",
-        "children": [
-          {
-            "id": "4d7856fe618900a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5.vue/04_组件生命周期等.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "634dd884f578549f",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "4d7856fe618900a4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "5.vue/04_组件生命周期等.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -170,16 +155,16 @@
     "direction": "horizontal",
     "width": 185.5
   },
-  "active": "4d7856fe618900a4",
+  "active": "db1d79e4277a1c16",
   "lastOpenFiles": [
+    "5.vue/02_语法.md",
     "5.vue/03_组件间通讯.md",
+    "5.vue/04_组件生命周期等.md",
     "2.js/06.函数2.md",
     "2.js/36_防抖节流深拷贝.md",
     "1.html+css/3.11 flex布局.md",
-    "5.vue/04_组件生命周期等.md",
     "0.备忘/03_vscode.md",
     "5.vue/01_vue基础.md",
-    "5.vue/02_语法.md",
     "4.前端工程化/04_webpack1_基础.md",
     "4.前端工程化/05_git.md"
   ]
