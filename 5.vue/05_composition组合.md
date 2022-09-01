@@ -9,6 +9,8 @@ Options API 的一大特点就是在对应的属性中编写对应的功能模�
 在 Vue 组件中，Composition API 就是用 setup 函数实现的
 setup 可以代替大部分 option api , 如 methods、computed、watch、data、生命周期等
 
+ setup 中不能使用 this, 因为 setup 函数没有绑定this
+
 ### 参数
 - props (参数)
 父组件传递过来的属性会被放到 props 对象中，我们在 setup 中如果需要使用，就可以直接通过 props 参数获取：
@@ -41,8 +43,15 @@ ref 会返回一个可变的响应式对象
 
 模板中的解包是浅层的解包
 
-#### toRef
+unref: 要获取一个 ref 引用中的 value
 
+### toRefs
+将 reactive 返回的对象中的属性都转成 ref；
+使解构后的数据变成响应式的
+如果对 reactive 返回的对象进行解构获取值, 那么之后无论是修改结构后的变量，还是修改 reactive 返回的 state 对象，数据都不再是响应式的：
+
+toRef 
+只转换 reactive 中的某一个属性为 ref
 
 ### readonly
 只读, 能用不能改
@@ -57,11 +66,15 @@ readonly 传入的参数可以为
 子组件可以修改父组件的内容, 但这其实是不希望的, 此时可以用 readonly 来防止内容被子组件修改
 
 
+
 ### 判断 api
 - isProxy (检查对象是否是由 reactive 或 readonly 创建的 proxy)
 - isReactive (检查是否是 reactive 创建的代理)
+- isRef (判断值是否是一个 ref 对象)
 - isReadonly ( 检查对象是否是由 readonly 创建的只读代理 )
 - toRaw ( 返回 reactive 或 readonly 代理的原始对象)
 - shallowReactive (不执行嵌套对象的深层响应式转换 
+- shallowRef (创建一个浅层的 ref 对象 )
 - shallowReadonly (不执行嵌套对象的深度只读转换)
+- triggerRef (手动触发和 shallowRef 相关联的副作用：) ![[Pasted image 20220902000833.png]]
 
