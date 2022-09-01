@@ -1,7 +1,10 @@
 # 插件
 - volar
 - path intellisense
-- vue-devtool
+- vue-devtool 
+	如果不能显示, 警告 devtools failed to load source map
+	解决: 设置里的红框改为 disable
+	![[Pasted image 20220902011627.png]]
 
 
 # . history 放到其他文件夹
