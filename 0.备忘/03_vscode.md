@@ -1,7 +1,7 @@
 # 插件
 - volar
 - path intellisense
-- 
+- vue-devtool
 
 
 # . history 放到其他文件夹
