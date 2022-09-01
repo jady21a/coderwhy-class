@@ -22,6 +22,46 @@ setup 的返回值可以在模板 template 中被使用
 也就是说通过 setup 的返回值来替代 data 选项
 甚至可以返回一个执行函数来代替在 methods 中定义的方法
 
-### reactive api
+### reactive api (响应 api)
+创建响应式代理
 vue 不会跟踪定义的变量的变化, 所以这时没有双向绑定
 要为在 setup 中定义的变量提供响应式特性 (双向绑定), 需要使用 reactive 函数
+这是因为当我们使用 reactive 函数处理我们的数据之后，数据再次被使用时就会进行依赖收集；
+
+事实上， data 选项，也是在内部交给了 reactive 函数实现的双向绑定
+
+### ref api (引用响应对象)
+reactive API 对传入的类型是有限制的，它要求我们必须传入的是一个对象或者数组类型： 
+ 如果我们传入一个基本数据类型（String、Number、Boolean）会报一个警告
+
+ref 会返回一个可变的响应式对象
+注意
+在模板中引入 ref 的值时，Vue 会自动帮助我们进行解包操作，所以我们并不需要在模板中通过 ref. value 的方式来使用
+但是在 setup 函数内部，它依然是一个 ref 引用，所以对其进行操作时，我们依然需要使用 ref. value 的方式
+
+模板中的解包是浅层的解包
+
+#### toRef
+
+
+### readonly
+只读, 能用不能改
+如 const info = readonly (obj)
+info 不能改, 但 obj 可改
+其实本质上就是 readonly 返回的对象的 setter 方法被劫持了而已
+
+readonly 传入的参数可以为
+普通对象, reactive 返回的对象, ref 的对象
+
+应用: 
+子组件可以修改父组件的内容, 但这其实是不希望的, 此时可以用 readonly 来防止内容被子组件修改
+
+
+### 判断 api
+- isProxy (检查对象是否是由 reactive 或 readonly 创建的 proxy)
+- isReactive (检查是否是 reactive 创建的代理)
+- isReadonly ( 检查对象是否是由 readonly 创建的只读代理 )
+- toRaw ( 返回 reactive 或 readonly 代理的原始对象)
+- shallowReactive (不执行嵌套对象的深层响应式转换 
+- shallowReadonly (不执行嵌套对象的深度只读转换)
+
