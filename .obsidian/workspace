@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "0.备忘/03_vscode.md",
+            "file": "5.vue/05_composition组合.md",
             "mode": "source",
             "source": false
           }
@@ -32,7 +32,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/draw_6.excalidraw.md"
+                "file": "Excalidraw/draw_9.excalidraw.md"
               }
             }
           },
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0.备忘/03_vscode.md",
+                "file": "5.vue/05_composition组合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0.备忘/03_vscode.md"
+                "file": "5.vue/05_composition组合.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0.备忘/03_vscode.md",
+                "file": "5.vue/05_composition组合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,6 +157,7 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "0.备忘/03_vscode.md",
     "5.vue/05_composition组合.md",
     "5.vue/04_组件生命周期等.md",
     "5.vue/02_语法.md",
@@ -164,7 +165,6 @@
     "2.js/06.函数2.md",
     "2.js/36_防抖节流深拷贝.md",
     "1.html+css/3.11 flex布局.md",
-    "0.备忘/03_vscode.md",
     "5.vue/01_vue基础.md",
     "4.前端工程化/04_webpack1_基础.md"
   ]
