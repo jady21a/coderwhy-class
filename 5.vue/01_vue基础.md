@@ -40,7 +40,7 @@ vnode 会形成跟真实 dom 一样的 dom tree
 ![[Pasted image 20220827145322.png]]
 
 
-# 属性
+# 属性 (option api)
 ## data
 传入一个函数，并且该函数需要返回一个对象
 data 中返回的对象会被 Vue 的响应式系统劫持，之后对该对象的修改或者访问都会在劫持中被处理：所以修改 counter 的值时，app 中的 {{counter}} 也会发生改变；
@@ -75,7 +75,7 @@ $watch
  第三个参数是额外的其他选项，比如 deep、immediate；
 ![[Pasted image 20220828112847.png]]
 ## 其他属性
-如 props、computed、watch、emits、setup , components等
+如 props、computed、watch、emits、 components等
 
 
 # 组件
