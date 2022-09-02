@@ -41,7 +41,7 @@ ref 会返回一个可变的响应式对象
 在模板中引入 ref 的值时，Vue 会自动帮助我们进行解包操作，所以我们并不需要在模板中通过 ref. value 的方式来使用
 但是在 setup 函数内部，它依然是一个 ref 引用，所以对其进行操作时，我们依然需要使用 ref. value 的方式
 
-## reactive 和 ref 的区别
+### reactive 和 ref 的区别
 1. reactive 只能是数组或对象, ref 可以是基本数据或对象
 2. reactive 主要用于有关联的多个数据, 其他场景多用ref
 3. 模板中 reactive 是深层解包, 但 ref 的解包是浅层解包 ![[Pasted image 20220902114724.png]]
@@ -55,10 +55,10 @@ unref: 获取一个 ref 引用中的 value
 ### toRefs
 将 reactive 返回的对象中的属性都转成 ref；
 使解构后的数据变成响应式的
-如果对 reactive 返回的对象进行解构获取值, 那么之后无论是修改结构后的变量，还是修改 reactive 返回的 state 对象，数据都不再是响应式的：
-
-toRef 
-只转换 reactive 中的某一个属性为 ref
+如果对 reactive 返回的对象进行解构, 数据就不再是响应式的：
+![[Pasted image 20220902125228.png]]
+toRefs: 将多个属性转为 ref
+toRef:  只转换 reactive 中的某一个属性为 ref
 
 ### readonly
 只读, 能用不能改
@@ -70,7 +70,7 @@ readonly 传入的参数可以为
 普通对象, reactive 返回的对象, ref 的对象
 
 应用: 
-子组件可以修改父组件的内容, 但这其实是不希望的, 此时可以用 readonly 来防止内容被子组件修改
+子组件可以修改父组件的内容, 但这其实是不希望的 (有悖单项数据流), 此时可以用 readonly 来防止内容被子组件修改
 
 
 
