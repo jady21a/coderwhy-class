@@ -65,7 +65,7 @@ toRef:  只转换 reactive 中的某一个属性为 ref
 如 const info = readonly (obj)
 info 不能改, 但 obj 可改
 其实本质上就是 readonly 返回的对象的 setter 方法被劫持了而已
-
+![[Pasted image 20220902135643.png]]
 readonly 传入的参数可以为
 普通对象, reactive 返回的对象, ref 的对象
 
