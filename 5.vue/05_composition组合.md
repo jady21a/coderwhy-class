@@ -41,9 +41,16 @@ ref 会返回一个可变的响应式对象
 在模板中引入 ref 的值时，Vue 会自动帮助我们进行解包操作，所以我们并不需要在模板中通过 ref. value 的方式来使用
 但是在 setup 函数内部，它依然是一个 ref 引用，所以对其进行操作时，我们依然需要使用 ref. value 的方式
 
-模板中的解包是浅层的解包
+## reactive 和 ref 的区别
+1. reactive 只能是数组或对象, ref 可以是基本数据或对象
+2. reactive 主要用于有关联的多个数据, 其他场景多用ref
+3. 模板中 reactive 是深层解包, 但 ref 的解包是浅层解包 ![[Pasted image 20220902114724.png]]
+	上图 cc 为基本数据类型, 如果 cc 为对象, 那就不能解析出 cc 里面的属性
+	![[Pasted image 20220902115307.png]]
+	不能显示 dd, 去掉 .d2 可以显示下图
+	![[Pasted image 20220902115406.png]]
 
-unref: 要获取一个 ref 引用中的 value
+unref: 获取一个 ref 引用中的 value
 
 ### toRefs
 将 reactive 返回的对象中的属性都转成 ref；
