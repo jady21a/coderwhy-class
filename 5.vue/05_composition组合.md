@@ -44,7 +44,7 @@ ref 会返回一个可变的响应式对象
 ### reactive 和 ref 的区别
 1. reactive 只能是数组或对象, ref 可以是基本数据或对象
 2. reactive 主要用于有关联的多个数据, 其他场景多用ref
-3. 模板中 reactive 是深层解包, 但 ref 的解包是浅层解包 ![[Pasted image 20220902114724.png]]
+3. 模板中 reactive 是深层解包, 但 ref 的解包是浅层解包 , 需要. value 来手动解包 ![[Pasted image 20220902114724.png]]
 	上图 cc 为基本数据类型, 如果 cc 为对象, 那就不能解析出 cc 里面的属性
 	![[Pasted image 20220902115307.png]]
 	不能显示 dd, 去掉 .d2 可以显示下图
