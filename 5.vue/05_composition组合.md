@@ -105,11 +105,12 @@ readonly 传入的参数可以为
 ## watch
 侦听特定的数据源，并且执行其回调函数
 只有当侦听数据变化时才执行
-![[Pasted image 20220902180433.png]]
+![[Pasted image 20220903100800.png]]
+
 ### watchEffect
 watchEffect 传入的函数会被立即执行一次，并且在执行的过程中会收集依赖；
 当依赖发生变化时，watchEffect 传入的函数会再次执行；
-
+![[Pasted image 20220903100813.png]]
 
 # 代码对比
 ## 原 vue2 对象编写模式
