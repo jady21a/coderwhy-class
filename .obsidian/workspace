@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5.vue/05_composition组合.md",
+            "file": "案例/vue案例.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/05_composition组合.md",
+                "file": "案例/vue案例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/05_composition组合.md"
+                "file": "案例/vue案例.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/05_composition组合.md",
+                "file": "案例/vue案例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,12 +155,12 @@
     "direction": "horizontal",
     "width": 185.5
   },
-  "active": "db1d79e4277a1c16",
+  "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "5.vue/01_vue基础.md",
+    "5.vue/05_composition组合.md",
     "5.vue/03_组件间通讯.md",
     "5.vue/04_组件生命周期等.md",
-    "5.vue/05_composition组合.md",
-    "5.vue/01_vue基础.md",
     "5.vue/02_语法.md",
     "0.备忘/03_vscode.md",
     "2.js/06.函数2.md",
