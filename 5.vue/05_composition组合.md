@@ -113,7 +113,9 @@ watchEffect 传入的函数会被立即执行一次，并且在执行的过程�
 ![[Pasted image 20220903100813.png]]
 
 ### watch 和 watchEffect 的区别
-
+1. watch 可以监听单个或多个数据源, 监听多个时, 第一个参数是数组
+2. watch 在 DOM 挂载前不会执行一次 (除非 immediate:true); watchEffect 挂在前就会执行一次,
+3. watch 可以监听变化前后的值, watchEffect 只能监听最新的值
 
 
 # 代码对比
