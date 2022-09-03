@@ -31,7 +31,7 @@ vue 不会跟踪定义的变量的变化, 所以这时没有双向绑定
 这是因为当我们使用 reactive 函数处理我们的数据之后，数据再次被使用时就会进行依赖收集；
 
 事实上， data 选项，也是在内部交给了 reactive 函数实现的双向绑定
-
+![[Pasted image 20220903105723.png]]
 ### ref api (引用响应对象)
 reactive API 对传入的类型是有限制的，它要求我们必须传入的是一个对象或者数组类型： 
  如果我们传入一个基本数据类型（String、Number、Boolean）会报一个警告
@@ -112,6 +112,10 @@ watchEffect 传入的函数会被立即执行一次，并且在执行的过程�
 当依赖发生变化时，watchEffect 传入的函数会再次执行；
 ![[Pasted image 20220903100813.png]]
 
+### watch 和 watchEffect 的区别
+
+
+
 # 代码对比
 ## 原 vue2 对象编写模式
 ![[Pasted image 20220902224527.png]]
@@ -120,4 +124,7 @@ watchEffect 传入的函数会被立即执行一次，并且在执行的过程�
 ![[Pasted image 20220902224038.png]]
 ![[Pasted image 20220902223750.png]]
 ## setup 语法糖
+ defineProps
+ defineEmits
+ defineExpose
 ![[Pasted image 20220902224109.png]]
