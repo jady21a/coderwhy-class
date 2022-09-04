@@ -27,21 +27,21 @@ Single Source of Truth
 
 ## state
 数据的状态
+![[Pasted image 20220905001657.png]]
 ![[Pasted image 20220904230724.png]]
 ### mapstate
 #### option api 中
 obj
-
+![[Pasted image 20220905001056.png]]
 arr
 
-展开运算符
-
 #### setup 中
-
+![[Pasted image 20220905001247.png]]
 
 ## getters
 需要经过变化后使用的数据
 
+    // getter 中获取 getter
 
 ### mapGetters
 
