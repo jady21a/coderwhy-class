@@ -89,7 +89,7 @@ export default router
 ## router-link
 属性: 
 to: 可以是字符串或对象
-replace: 替换原页面
+replace: 替换原页面, (不能返回)
 active-class: 激活后的 class, 默认为 router-link-active
 exact-active-class: 精准激活时的 class, 默认是 router-link-exact-active
 
