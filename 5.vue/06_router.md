@@ -40,22 +40,51 @@ npm install vue-router
 
 
 ## 使用
-router. vue
-mian. js
+### 1. 创建路由对象 (router-->index.js)
+```js
+const router = createRouter({
+  history: createWebHashHistory(),//hash
+  // history: createWebHistory(),//history
+  routes: [
+    { path: "/", redirect: "/aa" },
+    { path: "/aa", component: aa },
+    {
+      path: '/bb',
+      component: () => import('../view/bb.vue'),//分包
+    },
+    {
+      name: "cc",
+      path: '/cc',
+      component: () => import('../view/cc.vue'),
+      meta: { name: "jay", age: 25 },
+      children: [
+        {
+          path: '/cc1',
+          component: () => import('../view/cc1.vue')
+        },
+        {
+          path: '/cc2',
+          component: () => import('../view/cc2.vue')
+        }
+      ]
+    }
+  ]
+})
+export default router
+```
 
-
-1. 创建路由对象
-2. app.use让路由生效
-3. router-view 占位
-4. router-link 切换
-![[Pasted image 20220903200305.png]]
-### hash
-### history
-
+### 2. app.use 让路由生效 (main. js)
+![[Pasted image 20220904134130.png]]
+### 3. router-view 占位 (App.vue)
+![[Pasted image 20220904134349.png]]
+### 4. router-link 切换 (App. vue)
+![[Pasted image 20220904134434.png]]
+### hash 和 history
+![[Pasted image 20220904133246.png]]
 
 ## 默认路径 (首页)
  根路径 " :/ " + redirect 重定向
-
+![[Pasted image 20220904134504.png]]
 
 ## router-link
 属性: 
