@@ -40,6 +40,10 @@ npm install vue-router
 
 
 ## 使用
+router. vue
+mian. js
+
+
 1. 创建路由对象
 2. app.use让路由生效
 3. router-view 占位
