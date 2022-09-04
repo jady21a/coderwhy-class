@@ -157,13 +157,13 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "5.vue/04_组件生命周期等.md",
+    "5.vue/02_语法.md",
+    "5.vue/03_组件间通讯.md",
     "5.vue/06_router.md",
+    "5.vue/04_组件生命周期等.md",
     "5.vue/05_composition组合.md",
     "案例/vue案例.md",
     "5.vue/01_vue基础.md",
-    "5.vue/03_组件间通讯.md",
-    "5.vue/02_语法.md",
     "0.备忘/03_vscode.md",
     "2.js/06.函数2.md",
     "2.js/36_防抖节流深拷贝.md"
