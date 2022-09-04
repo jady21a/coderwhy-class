@@ -58,12 +58,16 @@ const router = createRouter({
       component: () => import('../view/cc.vue'),
       meta: { name: "jay", age: 25 },
       children: [
+       {
+          path: '/cc',
+          redirect: '/cc/cc1'
+        },
         {
-          path: '/cc1',
+          path: 'cc1',///cc/cc1
           component: () => import('../view/cc1.vue')
         },
         {
-          path: '/cc2',
+          path: 'cc2',
           component: () => import('../view/cc2.vue')
         }
       ]
@@ -92,23 +96,26 @@ to: 可以是字符串或对象
 replace: 替换原页面, (不能返回)
 active-class: 激活后的 class, 默认为 router-link-active
 exact-active-class: 精准激活时的 class, 默认是 router-link-exact-active
+![[Pasted image 20220904151131.png]]
+![[Pasted image 20220904151023.png]]
+默认类名不需要在元素上再加类名
 
-
-## 路由懒加载
+## 路由懒加载 (分包)
 将不需要首屏渲染的组件进行分包处理 (分开打包), 提高首屏渲染速度
-
+分包
+![[Pasted image 20220904151359.png]]
 分包的命名
-
+![[Pasted image 20220904152216.png]]
 
 ## routes 的其他属性
 name: 路由记录唯一的名称
 meta: 自定义的数据
-
+![[Pasted image 20220904152253.png]]
 # 动态路由 (路径)
 不同的路径对应相同的组件
-
+![[Pasted image 20220904153843.png]]
 ## 获取动态路由 (路径)的值
-
+![[Pasted image 20220904155004.png]]
 # notFound
 不能匹配到的路由 (路径)
 path: '/: pathMatch (.* ) * '
@@ -116,13 +123,14 @@ path: '/: pathMatch (.* ) * '
 ![[Pasted image 20220904004852.png]]
 
 们可以通过 $route. params. pathMatch 获取到传入的参数
-
-# 路由嵌套
-
+![[Pasted image 20220904155554.png]]
+# 路由嵌套 children
+![[Pasted image 20220904155834.png]]
 
 # 代码实现页面跳转
 click
-1. 
+![[Pasted image 20220904160944.png]]
+1. 路径
 ![[Pasted image 20220904005303.png]]
 2. 对象
 ![[Pasted image 20220904005319.png]]
