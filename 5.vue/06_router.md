@@ -111,12 +111,17 @@ exact-active-class: 精准激活时的 class, 默认是 router-link-exact-active
 name: 路由记录唯一的名称
 meta: 自定义的数据
 ![[Pasted image 20220904152253.png]]
-# 动态路由 (路径)
+
+## 路由嵌套 children
+![[Pasted image 20220904155834.png]]
+
+# 动态路由 
+## 动态跳转路由(路径)
 不同的路径对应相同的组件
 ![[Pasted image 20220904153843.png]]
-## 获取动态路由 (路径)的值
+### 获取动态路由 (路径) 的值
 ![[Pasted image 20220904155004.png]]
-# notFound
+### notFound
 不能匹配到的路由 (路径)
 path: '/: pathMatch (.* ) * '
 如果加最后一个* 会将路径解析为字符串
@@ -124,10 +129,8 @@ path: '/: pathMatch (.* ) * '
 
 们可以通过 $route. params. pathMatch 获取到传入的参数
 ![[Pasted image 20220904155554.png]]
-# 路由嵌套 children
-![[Pasted image 20220904155834.png]]
 
-# 代码实现页面跳转
+### 代码实现页面跳转
 click
 ![[Pasted image 20220904160944.png]]
 1. 路径
@@ -138,8 +141,55 @@ click
 3. setup 中
  ![[Pasted image 20220904005401.png]]
 
-# query
+### query
 ![[Pasted image 20220904005448.png]]
 
+## 动态添加路由 addRoute
+根据用户不同的权限，注册不同的路由；
+![[Pasted image 20220904174924.png]]
+## 动态删除路由 (很少)
+ 方式一：添加一个 name 相同的路由； 
+ 方式二：通过 removeRoute 方法，传入路由的名称； 
+``` js
+router. removeRoute ('bb')
+```
+ 方式三：通过 addRoute 方法的返回值回调； ![[Pasted image 20220904170936.png]]
+
+## 补充
+router. hasRoute ( ) 是否包含某路由名
+router. getRoutes ( )  获取所有路由
+![[Pasted image 20220904174906.png]]
 # 导航守卫
+跳转页面前进行拦截
+https://next.router.vuejs.org/zh/guide/advanced/navigation-guards.html
+
+## 导航解析流程
+- 导航被触发
+- beforeRouteLeave
+- beforeEach
+- beforeRouteUpdate (相同组件内更新 eg:/user/111-->/user/222)
+- beforeEnter
+- 解析异步组件
+- beforeRouteEnter (没有 this, 获取不到组件实例)
+- beforeResolve (异步组件解析后, 跳转前)
+- 进行导航
+- afterEach
+- DOM  更新
+- 调用 beforeRouteEnter 中传给 next 的回调函数
 ![[Pasted image 20220904164527.png]]
+
+## beforeEach
+参数
+- to
+- from
+返回值
+- false (取消导航)
+- undefined (默认导航)
+- 路由地址 (地址导航)
+
+![[Pasted image 20220904180819.png]]
+登录
+![[Pasted image 20220904180846.png]]
+退出登录
+![[Pasted image 20220904180916.png]]
+![[Pasted image 20220904180933.png]]
