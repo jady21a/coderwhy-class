@@ -12,4 +12,10 @@ npm install vuex
 每一个 Vuex 应用的核心就是 store（仓库)
 Vuex 和单纯的全局对象有什么区别:
 1. Vuex 的状态存储是响应式的
-2. 不能直接改变 store 中的状态 (需要提交 (commit) mutation)
+2. 不能直接改变 store 中的状态 (需要提交 (commit) mutation) ![[Pasted image 20220904193841.png]]
+
+使用 store 的地方
+- template
+- options api (如 computed)
+- setup
+![[Pasted image 20220904195249.png]]
