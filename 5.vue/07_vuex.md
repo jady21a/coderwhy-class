@@ -19,3 +19,41 @@ Vuex 和单纯的全局对象有什么区别:
 - options api (如 computed)
 - setup
 ![[Pasted image 20220904195249.png]]
+
+
+## 单一数据源
+Single Source of Truth
+只有一个 store, store 里可以有 module
+
+## state
+数据的状态
+![[Pasted image 20220904230724.png]]
+### mapstate
+#### option api 中
+obj
+
+arr
+
+展开运算符
+
+#### setup 中
+
+
+## getters
+需要经过变化后使用的数据
+
+
+### mapGetters
+
+
+## mutation
+突变-->state 改变需要提交 mutation (突变)
+相当于提交日志
+mutation 中不能是异步函数, 必须是同步函数,
+
+
+### mapMutation
+
+
+actions
+
