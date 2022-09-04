@@ -141,3 +141,5 @@ click
 # query
 ![[Pasted image 20220904005448.png]]
 
+# 导航守卫
+![[Pasted image 20220904164527.png]]
