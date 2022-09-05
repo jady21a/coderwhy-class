@@ -46,3 +46,7 @@ actions-->methods
 和 getters 一样，在 action 中可以通过 this 访问整个 store 实例的所有操作
 
 ## 异步 (请求网络)
+4fetch. js
+![[Pasted image 20220905211241.png]]
+4App. vue
+![[Pasted image 20220905211325.png]]

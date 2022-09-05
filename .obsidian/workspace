@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5.vue/08_pinia.md",
+            "file": "5.vue/09_axios.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/08_pinia.md",
+                "file": "5.vue/09_axios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/08_pinia.md"
+                "file": "5.vue/09_axios.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/08_pinia.md",
+                "file": "5.vue/09_axios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,6 +157,7 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "5.vue/08_pinia.md",
     "5.vue/07_vuex.md",
     "2.js/34_异步 线程.md",
     "2.js/30_es7-es13.md",
@@ -165,7 +166,6 @@
     "2.js/07.对象3-数组.md",
     "5.vue/01_vue基础.md",
     "5.vue/03_组件间通讯.md",
-    "5.vue/04_组件生命周期等.md",
-    "5.vue/05_composition组合.md"
+    "5.vue/04_组件生命周期等.md"
   ]
 }
