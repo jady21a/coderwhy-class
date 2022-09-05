@@ -21,7 +21,7 @@ Vuex 和单纯的全局对象有什么区别:
 ![[Pasted image 20220904195249.png]]
 
 
-## 单一数据源
+### 单一数据源
 Single Source of Truth
 只有一个 store, store 里可以有 module
 
@@ -42,7 +42,12 @@ arr
 需要经过变化后使用的数据
 ![[Pasted image 20220905010134.png]]
 
-### mapGetters
+### mapGetters (辅助函数)
+在 option api 好用, setup 中不好用
+辅助函数一般: 
+vue2--option api-- vuex--辅助函数
+vue3-- setup-- pinia
+
 option api
 ![[Pasted image 20220905010021.png]]
 
@@ -57,7 +62,7 @@ setup
 ![[Pasted image 20220905012610.png]]
 ![[Pasted image 20220905012722.png]]
 
-异步函数不要放于组件中, 应该放于 vux 的 store 中
+异步函数不要放于组件中, 应该放于 vuex store 的action中
 ![[Pasted image 20220905010614.png]]
 
 ### mapMutation
@@ -67,5 +72,36 @@ option api
 setup
 ![[Pasted image 20220905103723.png]]
 
-actions
+## actions
+actions 不可以直接改变数据状态, 需要提交 mutations 来改变
+异步操作可以放在 actions
 
+contex : contex 是拥有 store 中方法和属性的对象
+contex. state
+contex. commit ("aa")
+contex. getters
+![[Pasted image 20220905135707.png]]
+### actions 使用
+action 提交--mutation 修改--app 派发--template 显示
+![[Pasted image 20220905141348.png]]
+### mapActions 辅助函数
+![[Pasted image 20220905142512.png]]
+### 异步操作
+  actions
+![[Pasted image 20220905144357.png]]
+mutations
+![[Pasted image 20220905151702.png]]
+![[Pasted image 20220905151717.png]]
+## module
+单一数据源的 store 如果只有一个文件会显得繁杂难以维护, 可以将其分割为小的模块
+每个模块拥有自己的 state、mutation、action、getter、甚至是嵌套子模块 (module)；
+
+
+### module 命名空间
+默认 action , mutation 和 getter 内的数据是在全局注册的 (多个模块能够对同一个 action 或 mutation 作出响应), 
+让模块内数据有自己的作用域 :
+namespaced: true
+
+
+### module 修改或派发根组件
+![[Pasted image 20220905135315.png]]

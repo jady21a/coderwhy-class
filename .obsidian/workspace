@@ -32,7 +32,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/draw_9.excalidraw.md"
+                "file": "Excalidraw/draw_10.excalidraw.md"
               }
             }
           },
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reduce",
+                "query": "asy",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,17 +155,17 @@
     "direction": "horizontal",
     "width": 185.5
   },
-  "active": "4d7856fe618900a4",
+  "active": "db1d79e4277a1c16",
   "lastOpenFiles": [
-    "2.js/07.对象3-数组.md",
+    "2.js/34_异步 线程.md",
+    "2.js/30_es7-es13.md",
+    "2.js/22_浏览器渲染原理.md",
+    "2.js/02.基本语法.md",
     "5.vue/07_vuex.md",
+    "2.js/07.对象3-数组.md",
     "5.vue/01_vue基础.md",
     "5.vue/03_组件间通讯.md",
     "5.vue/04_组件生命周期等.md",
-    "5.vue/05_composition组合.md",
-    "5.vue/06_router.md",
-    "2.js/28_ES6 继承.md",
-    "2.js/29_es6新特性.md",
-    "5.vue/02_语法.md"
+    "5.vue/05_composition组合.md"
   ]
 }
