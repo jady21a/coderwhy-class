@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5.vue/09_axios.md",
+            "file": "案例/j-trip项目.md",
             "mode": "source",
             "source": false
           }
@@ -42,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "asy",
+                "query": "all",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/09_axios.md",
+                "file": "案例/j-trip项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/09_axios.md"
+                "file": "案例/j-trip项目.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/09_axios.md",
+                "file": "案例/j-trip项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,19 +153,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 185.5
+    "width": 186.5
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "5.vue/08_pinia.md",
+    "案例/vue案例.md",
     "5.vue/09_axios.md",
+    "2.js/32_promise.md",
+    "2.js/37_网络传输.md",
+    "5.vue/08_pinia.md",
     "5.vue/07_vuex.md",
     "2.js/34_异步 线程.md",
     "2.js/30_es7-es13.md",
     "2.js/22_浏览器渲染原理.md",
-    "2.js/02.基本语法.md",
-    "2.js/07.对象3-数组.md",
-    "5.vue/01_vue基础.md",
-    "5.vue/03_组件间通讯.md"
+    "2.js/02.基本语法.md"
   ]
 }
