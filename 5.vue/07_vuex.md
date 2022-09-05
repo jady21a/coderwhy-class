@@ -61,7 +61,11 @@ mutation 中不能是异步函数, 必须是同步函数,
 ![[Pasted image 20220905010614.png]]
 
 ### mapMutation
+option api
+![[Pasted image 20220905104211.png]]
 
+setup
+![[Pasted image 20220905103723.png]]
 
 actions
 
