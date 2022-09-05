@@ -34,7 +34,7 @@ Store 在它被使用之前是不会创建的，我们可以通过调用 use 函
 ![[Pasted image 20220905183314.png]]
 # state
 state-->data
-
+![[Pasted image 20220905185839.png]]
 # getters
 getters-->computed
 
