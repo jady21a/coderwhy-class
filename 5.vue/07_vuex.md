@@ -57,7 +57,7 @@ setup
 ![[Pasted image 20220905012610.png]]
 ![[Pasted image 20220905012722.png]]
 
-mutation 中不能是异步函数, 必须是同步函数,
+异步函数不要放于组件中, 应该放于 vux 的 store 中
 ![[Pasted image 20220905010614.png]]
 
 ### mapMutation
