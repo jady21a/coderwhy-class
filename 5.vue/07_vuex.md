@@ -40,17 +40,25 @@ arr
 
 ## getters
 需要经过变化后使用的数据
-
-    // getter 中获取 getter
+![[Pasted image 20220905010134.png]]
 
 ### mapGetters
+option api
+![[Pasted image 20220905010021.png]]
 
+setup
+![[Pasted image 20220905005949.png]]
 
 ## mutation
 突变-->state 改变需要提交 mutation (突变)
 相当于提交日志
-mutation 中不能是异步函数, 必须是同步函数,
+![[Pasted image 20220905012419.png]]
+![[Pasted image 20220905012522.png]]
+![[Pasted image 20220905012610.png]]
+![[Pasted image 20220905012722.png]]
 
+mutation 中不能是异步函数, 必须是同步函数,
+![[Pasted image 20220905010614.png]]
 
 ### mapMutation
 
