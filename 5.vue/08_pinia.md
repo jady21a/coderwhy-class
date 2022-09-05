@@ -27,10 +27,11 @@ index.js 是入口文件, 其余都是 pinia 的 store
 定义 store
 
 约定返回的函数用 useX 命名
-
+1counter. js
+![[Pasted image 20220905183530.png]]
 Store 在它被使用之前是不会创建的，我们可以通过调用 use 函数来使用 Store：
-
-
+1.vue
+![[Pasted image 20220905183314.png]]
 # state
 state-->data
 
