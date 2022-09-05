@@ -95,7 +95,7 @@ mutations
 ## module
 单一数据源的 store 如果只有一个文件会显得繁杂难以维护, 可以将其分割为小的模块
 每个模块拥有自己的 state、mutation、action、getter、甚至是嵌套子模块 (module)；
-
+![[Pasted image 20220905160452.png]]
 
 ### module 命名空间
 默认 action , mutation 和 getter 内的数据是在全局注册的 (多个模块能够对同一个 action 或 mutation 作出响应), 

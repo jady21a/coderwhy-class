@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5.vue/07_vuex.md",
+            "file": "5.vue/08_pinia.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/07_vuex.md",
+                "file": "5.vue/08_pinia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/07_vuex.md"
+                "file": "5.vue/08_pinia.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/07_vuex.md",
+                "file": "5.vue/08_pinia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,13 +155,13 @@
     "direction": "horizontal",
     "width": 185.5
   },
-  "active": "db1d79e4277a1c16",
+  "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "5.vue/07_vuex.md",
     "2.js/34_异步 线程.md",
     "2.js/30_es7-es13.md",
     "2.js/22_浏览器渲染原理.md",
     "2.js/02.基本语法.md",
-    "5.vue/07_vuex.md",
     "2.js/07.对象3-数组.md",
     "5.vue/01_vue基础.md",
     "5.vue/03_组件间通讯.md",
