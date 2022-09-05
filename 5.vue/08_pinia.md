@@ -37,7 +37,9 @@ state-->data
 ![[Pasted image 20220905185839.png]]
 # getters
 getters-->computed
-
+![[Pasted image 20220905192222.png]]
+![[Pasted image 20220905192242.png]]
+![[Pasted image 20220905192256.png]]
 
 # actions
 actions-->methods
