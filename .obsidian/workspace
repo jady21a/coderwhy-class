@@ -157,15 +157,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "案例/vue案例.md",
+    "案例/vue domo.md",
+    "案例/A-vue项目搭建.md",
+    "案例/j-trip项目.md",
+    "Excalidraw/draw_10.excalidraw.md",
     "5.vue/09_axios.md",
     "2.js/32_promise.md",
     "2.js/37_网络传输.md",
     "5.vue/08_pinia.md",
     "5.vue/07_vuex.md",
-    "2.js/34_异步 线程.md",
-    "2.js/30_es7-es13.md",
-    "2.js/22_浏览器渲染原理.md",
-    "2.js/02.基本语法.md"
+    "2.js/34_异步 线程.md"
   ]
 }
