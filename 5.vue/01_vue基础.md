@@ -31,6 +31,9 @@ MVVM 是 Model-View-ViewModel 的简称
 ![[Pasted image 20220826142420.png]]
 ![[Pasted image 20220826142649.png]]
 
+占位
+![[Pasted image 20220906123104.png]]
+
 # 虚拟 DOM
 VNode (Virtual Node) 的本质是一个 JavaScript 的对象；
 ![[Pasted image 20220827221235.png]]

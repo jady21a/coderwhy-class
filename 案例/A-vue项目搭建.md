@@ -21,13 +21,48 @@
 - store (vuex)/stores (pinia): 状态管理
 - utils: 工具函数
 - views/pages: 路由跳转的大页面
-![[Pasted image 20220906113916.png]]
+
+![[Pasted image 20220906131154.png]]
 ### css
 npm i normalize. css
 reset. css
 common. css
 ![[Pasted image 20220906114938.png]]
 ### router
+router-->index.js
+![[Pasted image 20220906122248.png]]
+main. js
+![[Pasted image 20220906122055.png]]
+### 状态管理 pinia/vuex
+pinia
+store-->index. js
+```js
+import { createPinia } from "pinia";
 
-### 状态管理
-pinia/vuex
+const pinia = createPinia()
+  
+export default pinia
+```
+store-->modules-->aa. js
+```js
+import { defineStore } from "pinia";
+
+const useAa = defineStore("aa", {
+  state: () => ({
+
+  }),
+  actions: {
+
+  }
+})
+export default useAa
+```
+
+main. js
+```js
+import { createPinia } from 'pinia'
+
+app.use(createPinia())
+```
+
+
