@@ -1,7 +1,7 @@
 项目搭建
 ## 创建
-1. vue create j-trip
-2. npm init vue@latest
+1. vue create j-trip  (webpack)
+2. npm init vue@latest   (vite)
 
 ## 配置
 ### 图标+标题+jsconfig.json
