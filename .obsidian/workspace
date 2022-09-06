@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "案例/j-trip项目.md",
+            "file": "0.备忘/05_ui库.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "案例/j-trip项目.md",
+                "file": "0.备忘/05_ui库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "案例/j-trip项目.md"
+                "file": "0.备忘/05_ui库.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "案例/j-trip项目.md",
+                "file": "0.备忘/05_ui库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,15 +157,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "0.备忘/04_vscode.md",
+    "0.备忘/03_git.md",
+    "0.备忘/05_ui库.md",
+    "案例/j-trip项目.md",
     "案例/A-vue项目搭建.md",
     "4.前端工程化/04_webpack2_打包不同文件.md",
     "5.vue/01_vue基础.md",
     "4.前端工程化/05_git.md",
     "4.前端工程化/04_webpack3_插件+本地服务器.md",
-    "4.前端工程化/04_webpack1_基础.md",
-    "4.前端工程化/03_包管理工具.md",
-    "4.前端工程化/02_js模块化开发.md",
-    "4.前端工程化/01_Node.js.md",
-    "案例/j-trip项目.md"
+    "4.前端工程化/04_webpack1_基础.md"
   ]
 }
