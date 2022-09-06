@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "47ec10d5a0eb3af8",
-        "type": "split",
-        "children": [
-          {
-            "id": "4d7856fe618900a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "案例/A-vue项目搭建.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa42210ce5aab378",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "4d7856fe618900a4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "案例/j-trip项目.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -47,7 +32,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/draw_10.excalidraw.md"
+                "file": "Excalidraw/draw_11.excalidraw.md"
               }
             }
           },
@@ -57,7 +42,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "all",
+                "query": "别名",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "案例/A-vue项目搭建.md",
+                "file": "案例/j-trip项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "案例/A-vue项目搭建.md"
+                "file": "案例/j-trip项目.md"
               }
             }
           },
@@ -157,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "案例/A-vue项目搭建.md",
+                "file": "案例/j-trip项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,15 +157,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "案例/j-trip项目.md",
-    "question/02.js.md",
-    "question/技巧.md",
-    "5.vue/09_axios.md",
-    "5.vue/08_pinia.md",
-    "5.vue/07_vuex.md",
-    "5.vue/06_router.md",
-    "5.vue/05_composition组合.md",
-    "5.vue/02_语法.md",
-    "template/question模板.md"
+    "案例/A-vue项目搭建.md",
+    "4.前端工程化/04_webpack2_打包不同文件.md",
+    "5.vue/01_vue基础.md",
+    "4.前端工程化/05_git.md",
+    "4.前端工程化/04_webpack3_插件+本地服务器.md",
+    "4.前端工程化/04_webpack1_基础.md",
+    "4.前端工程化/03_包管理工具.md",
+    "4.前端工程化/02_js模块化开发.md",
+    "4.前端工程化/01_Node.js.md",
+    "案例/j-trip项目.md"
   ]
 }

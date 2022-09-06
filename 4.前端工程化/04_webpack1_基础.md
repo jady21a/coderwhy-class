@@ -64,7 +64,7 @@ npm webpack webpack-cli -D
 ## webpack 配置
 1. npx webpack --entry ./src/main. js --output-path ./build
 2. 配置文件 npm run build
-配置出入口文件名
+### 配置出入口文件名
 ![[Pasted image 20220823003829.png]]
 配置 npx 运行 webpack 的脚本
 ![[Pasted image 20220823003912.png]]
