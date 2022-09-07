@@ -41,7 +41,7 @@ vue
   </template>
 ```
 
-stores--axios
+stores--axiosity
 ![[Pasted image 20220907181725.png]]
 
 
