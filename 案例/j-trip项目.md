@@ -1,4 +1,6 @@
 # 要点
+## 隐藏页面
+
 ## 跳转页面
 1. router-link
 ![[Pasted image 20220907130703.png]]
