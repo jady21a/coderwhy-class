@@ -41,10 +41,11 @@ vue
   </template>
 ```
 
-stores--axiosity
+stores-->axiosCity
 ![[Pasted image 20220907181725.png]]
 
-
+service-->j
+![[Pasted image 20220907181826.png]]
 
 view-->.vue 组件显示页面 (拿数据)
 stores 发送网络请求
