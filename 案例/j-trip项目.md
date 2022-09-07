@@ -1,5 +1,22 @@
 # 要点
 ## 隐藏页面
+1. v-if
+router-->index. js
+![[Pasted image 20220907193235.png]]
+App. vue
+![[Pasted image 20220907193446.png]]
+
+2. css
+```css
+  .city{
+    position: relative;
+    z-index: 9;
+    height: 100vh;
+    background-color: #fff;
+    overflow: auto;
+  }
+
+```
 
 ## 跳转页面
 1. router-link
