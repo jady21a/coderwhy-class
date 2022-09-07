@@ -1,5 +1,6 @@
-# 要点
-## home
+# home
+## 要点
+
 ### 隐藏页面
 1. v-if
 router-->index. js
@@ -71,6 +72,12 @@ stores-->axiosCity
 
 service-->jCity
 ![[Pasted image 20220907181826.png]]
+
+
+
+## 难点 
+### 获取页面数据并展示 
+![[Pasted image 20220908003523.png]]
 
 
 
