@@ -41,15 +41,29 @@ vue
   </template>
 ```
 
+总结
+view-->.vue 组件显示页面 (拿数据)
+stores 发送网络请求
+service 具体请求的操作 (管理 url)
+
 stores-->axiosCity
 ![[Pasted image 20220907181725.png]]
 
-service-->j
+service-->jCity
 ![[Pasted image 20220907181826.png]]
 
-view-->.vue 组件显示页面 (拿数据)
-stores 发送网络请求
-service 具体请求的操作 (管理url)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
