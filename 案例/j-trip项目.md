@@ -1,6 +1,6 @@
 # 要点
-# home
-## 隐藏页面
+## home
+### 隐藏页面
 1. v-if
 router-->index. js
 ![[Pasted image 20220907193235.png]]
@@ -19,17 +19,17 @@ App. vue
 
 ```
 
-## 跳转页面
+### 跳转页面
 1. router-link
 ![[Pasted image 20220907130703.png]]
 2. router.push
 ![[Pasted image 20220907130616.png]]
 
-## 返回页面
+### 返回页面
 ![[Pasted image 20220907132108.png]]
 
 
-## 网络请求
+### 网络请求
 1. seachCity. vue+sevice (jcity/jRequest) 直接获取
 vue
 ![[Pasted image 20220907180949.png]]
@@ -99,3 +99,4 @@ service-->jCity
 
 ## 能否三端都较好适应
 
+ 
