@@ -1,4 +1,5 @@
 # 要点
+# home
 ## 隐藏页面
 1. v-if
 router-->index. js
