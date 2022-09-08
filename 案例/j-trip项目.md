@@ -29,6 +29,8 @@ App. vue
 ### 返回页面
 ![[Pasted image 20220907132108.png]]
 
+### 固定部分页面滚动
+![[Pasted image 20220908163850.png]]
 
 ### 网络请求
 1. seachCity. vue+sevice (jcity/jRequest) 直接获取
