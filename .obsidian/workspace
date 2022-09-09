@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "案例/j-trip项目.md",
+                "file": "5.vue/09_axios.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +47,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/draw_11.excalidraw.md"
+                "file": "Excalidraw/draw_13.excalidraw.md"
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "案例/j-trip项目.md",
+                "file": "5.vue/09_axios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "案例/j-trip项目.md"
+                "file": "5.vue/09_axios.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "案例/j-trip项目.md",
+                "file": "5.vue/09_axios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,15 +172,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "0.备忘/todo.md",
+    "2.js/37_网络传输.md",
+    "2.js/36_防抖节流深拷贝.md",
+    "2.js/35_报错 & storage &正则.md",
+    "2.js/34_异步 线程.md",
+    "5.vue/09_axios.md",
     "案例/j-trip项目.md",
+    "0.备忘/todo.md",
     "5.vue/07_vuex.md",
     "5.vue/08_pinia.md",
-    "5.vue/09_axios.md",
-    "案例/snap/Pasted image 20220907180949.png",
-    "5.vue/02_语法.md",
-    "案例/vue domo.md",
-    "0.备忘/05_ui库.md",
-    "0.备忘/04_vscode.md"
+    "案例/snap/Pasted image 20220907180949.png"
   ]
 }

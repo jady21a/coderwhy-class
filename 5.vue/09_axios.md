@@ -18,8 +18,8 @@ vue create 创建的项目自带 axios, 不需要自己安装
 ## 请求方式
 - axios (config)
 - axios. request (config)
-- axios. get (url [,config] )
-- axios. post (url [, config] )
+- axios. get (url [,config] )     *config-->params*
+- axios. post (url [, config] )   *config-->data*
 - axios. delete (url [, config] )
 - axios. head (url [, config] )
 - axios. put (url [, config] )
