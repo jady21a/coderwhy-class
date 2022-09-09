@@ -4,16 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "4d7856fe618900a4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "案例/j-trip项目.md",
-            "mode": "source",
-            "source": false
+        "id": "d83e51e721405a65",
+        "type": "split",
+        "children": [
+          {
+            "id": "4d7856fe618900a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "案例/j-trip项目.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d66ad0e58184f6d",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -153,19 +168,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 160.5
+    "width": 163.5
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "案例/snap/Pasted image 20220907180949.png",
+    "0.备忘/todo.md",
     "案例/j-trip项目.md",
-    "5.vue/02_语法.md",
     "5.vue/07_vuex.md",
+    "5.vue/08_pinia.md",
+    "5.vue/09_axios.md",
+    "案例/snap/Pasted image 20220907180949.png",
+    "5.vue/02_语法.md",
     "案例/vue domo.md",
     "0.备忘/05_ui库.md",
-    "0.备忘/04_vscode.md",
-    "0.备忘/03_git.md",
-    "0.备忘/02_快捷键.md",
-    "0.备忘/01_网盘.md"
+    "0.备忘/04_vscode.md"
   ]
 }
