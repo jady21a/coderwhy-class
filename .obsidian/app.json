@@ -10,5 +10,6 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "tabSize": 2
+  "tabSize": 2,
+  "communityPluginSortOrder": "release"
 }
