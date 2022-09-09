@@ -127,5 +127,21 @@
       ],
       "key": "."
     }
+  ],
+  "obsidian-title-serial-number-plugin:clear-title-serial-number-editor-command": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian-title-serial-number-plugin:set-title-serial-number-editor-command": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }
