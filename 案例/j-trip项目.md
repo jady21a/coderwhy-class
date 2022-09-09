@@ -77,24 +77,34 @@ service-->jCity
 
 
 
+
 ## 难点 
-### 获取页面数据并展示 
+### 展示数据在不同的tab
 ![[Pasted image 20220908003523.png]]
+3searchCity.vue
+![[Pasted image 20220909112620.png]]
+setup
+![[Pasted image 20220909113105.png]]
+4searchCityGroup.vue
+![[Pasted image 20220909112941.png]]
+![[Pasted image 20220909113036.png]]
 
+### 动态索引 
+不展示没有的索引), 并添加#索引 (list. unshift ("#")
+4searchCityGroup.vue
+![[Pasted image 20220909115138.png]]
 
+![[Pasted image 20220909115155.png]]
+### 监听城市点击后跳转
+4searchCityGroup.vue
+![[Pasted image 20220909115630.png]]
+axiosCity. js
+![[Pasted image 20220909120759.png]]
 
-
-
-
-
-
-
-
-
-
-
-
-
+数据衔接 (显示点击的城市)
+hom-search. vue
+![[Pasted image 20220909121238.png]]
+![[Pasted image 20220909121252.png]]
 
 
 

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "59c01274cd2b75d4",
+        "id": "5c7fbec50fe538ee",
         "type": "split",
         "children": [
           {
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "677bdb6b264e3017",
+            "id": "e47b543d3cd02556",
             "type": "leaf",
             "state": {
               "type": "mindmap",
@@ -168,9 +168,9 @@
       }
     ],
     "direction": "horizontal",
-    "width": 186.5
+    "width": 158.5
   },
-  "active": "db1d79e4277a1c16",
+  "active": "4d7856fe618900a4",
   "lastOpenFiles": [
     "5.vue/02_语法.md",
     "案例/j-trip项目.md",
