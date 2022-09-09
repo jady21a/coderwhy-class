@@ -3,6 +3,22 @@
 
 # home
 ## 要点
+### 修改 ui 组件库的样式
+1. 插槽 (插入自己的元素, 然后在自己的作用域中直接修改这个元素)
+	```css
+	.tab-bar {
+    img {
+      height: 30px;
+    }
+  }
+	```
+
+2. 找到对应的类名/变量名
+	全局修改 ![[Pasted image 20220909210652.png]]
+	局部修改 ![[Pasted image 20220909210800.png]]
+
+3. : deep 找子组件的类 (加: deep 或去掉 scoped) ![[Pasted image 20220909210913.png]]
+
 
 ### 隐藏页面
 1. v-if
@@ -67,7 +83,7 @@ vue
   </template>
 ```
 
-总结
+
 view-->.vue 组件显示页面 (拿数据)
 stores 发送网络请求
 service 具体请求的操作 (管理 url)
@@ -79,8 +95,19 @@ service-->jCity
 ![[Pasted image 20220907181826.png]]
 
 
+### 网络请求总结
+store-->modules-->axiosHome
+![[Pasted image 20220909201154.png]]
+service-->modules-->jHome
+![[Pasted image 20220909201042.png]]
+2homeSearch. vue
+![[Pasted image 20220909201431.png]]
+![[Pasted image 20220909201250.png]]
 
-
+#### 检查数据是否获取成功
+1. console. log (hotSuggest) ![[Pasted image 20220909202715.png]]
+2. vue 插件
+![[Pasted image 20220909202814.png]]
 ## 难点 
 ### 展示数据在不同的tab
 ![[Pasted image 20220908003523.png]]
