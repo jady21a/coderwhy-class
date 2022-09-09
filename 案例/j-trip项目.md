@@ -3,6 +3,7 @@
 
 # home
 ## 要点
+
 ### 修改 ui 组件库的样式
 1. 插槽 (插入自己的元素, 然后在自己的作用域中直接修改这个元素)
 	```css
@@ -39,15 +40,20 @@ App. vue
 
 ```
 
+### 返回页面
+![[Pasted image 20220907132108.png]]
+
 ### 跳转页面
 1. router-link
 ![[Pasted image 20220907130703.png]]
 2. router.push
 ![[Pasted image 20220907130616.png]]
 
-### 返回页面
-![[Pasted image 20220907132108.png]]
-
+#### 跳转页面并传递数据
+2homeSearch.vue
+![[Pasted image 20220909224222.png]]
+5homeSearchBtn.vue
+![[Pasted image 20220909224116.png]]
 ### 固定部分页面滚动
 ![[Pasted image 20220908163850.png]]
 
