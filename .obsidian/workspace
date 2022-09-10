@@ -10,6 +10,7 @@
           {
             "id": "4d7856fe618900a4",
             "type": "leaf",
+            "dimension": 62.829736211031175,
             "state": {
               "type": "markdown",
               "state": {
@@ -22,6 +23,7 @@
           {
             "id": "8d66ad0e58184f6d",
             "type": "leaf",
+            "dimension": 37.170263788968825,
             "state": {
               "type": "mindmap",
               "state": {}
@@ -172,13 +174,13 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "2.js/37_网络传输.md",
+    "案例/j-trip项目.md",
     "案例/A-vue项目搭建.md",
     "5.vue/09_axios.md",
-    "2.js/37_网络传输.md",
     "2.js/36_防抖节流深拷贝.md",
     "2.js/35_报错 & storage &正则.md",
     "2.js/34_异步 线程.md",
-    "案例/j-trip项目.md",
     "0.备忘/todo.md",
     "5.vue/07_vuex.md",
     "5.vue/08_pinia.md"
