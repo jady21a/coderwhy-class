@@ -128,7 +128,7 @@ service-->modules-->jHome
 
 2. 元素滚动
 
-
+### watch 和 computed
 
 ## 难点 
 ### 展示数据在不同的tab
