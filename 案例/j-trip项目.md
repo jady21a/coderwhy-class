@@ -117,6 +117,17 @@ service-->modules-->jHome
 2. vue 插件
 ![[Pasted image 20220909202814.png]]
 #### 如果有的数据拿不到
+1. ?.
+![[Pasted image 20220910162912.png]]
+2. v-if
+![[Pasted image 20220910163541.png]]
+
+### 页面加载
+1. window 窗口滚动
+
+
+2. 元素滚动
+
 
 
 ## 难点 
