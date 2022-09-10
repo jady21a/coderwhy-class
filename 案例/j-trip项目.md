@@ -1,6 +1,6 @@
 # 项目预览
 ![[Pasted image 20220909135508.png]]
-
+![[Pasted image 20220910120031.png]]
 # home
 ## 要点
 
@@ -114,6 +114,9 @@ service-->modules-->jHome
 1. console. log (hotSuggest) ![[Pasted image 20220909202715.png]]
 2. vue 插件
 ![[Pasted image 20220909202814.png]]
+#### 如果有的数据拿不到
+
+
 ## 难点 
 ### 展示数据在不同的tab
 ![[Pasted image 20220908003523.png]]
@@ -158,7 +161,7 @@ hom-search. vue
 
 
 
-## 服务器返回很多数据
+## 服务器返回很多数据 #面试题
 当服务器返回很多数据时 (如: 几十万条数据), 前端的处理办法
 1. 多线程
 2. 虚拟列表

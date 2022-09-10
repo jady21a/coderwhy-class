@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5.vue/09_axios.md",
+                "file": "案例/j-trip项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/09_axios.md",
+                "file": "案例/j-trip项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/09_axios.md"
+                "file": "案例/j-trip项目.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/09_axios.md",
+                "file": "案例/j-trip项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,15 +172,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "案例/A-vue项目搭建.md",
+    "5.vue/09_axios.md",
     "2.js/37_网络传输.md",
     "2.js/36_防抖节流深拷贝.md",
     "2.js/35_报错 & storage &正则.md",
     "2.js/34_异步 线程.md",
-    "5.vue/09_axios.md",
     "案例/j-trip项目.md",
     "0.备忘/todo.md",
     "5.vue/07_vuex.md",
-    "5.vue/08_pinia.md",
-    "案例/snap/Pasted image 20220907180949.png"
+    "5.vue/08_pinia.md"
   ]
 }
