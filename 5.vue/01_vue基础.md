@@ -62,6 +62,10 @@ methods 中的函数不能使用匿名函数, 因为匿名函数 this 指向 win
 computed 和 methods
 computed 有缓存, 如果数据没有变化, computed 不需要重新计算, 而 methods 每次都需要重新计算
 
+### watch 和 computed
+- 监听并执行代码操作用 watch
+- 定义一个依赖另一个响应式数据的响应式数据用 computed
+
 computed 的get 和 set
 ![[Pasted image 20220828104343.png]]
 ## watch 

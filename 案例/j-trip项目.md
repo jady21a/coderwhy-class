@@ -122,13 +122,15 @@ service-->modules-->jHome
 2. v-if
 ![[Pasted image 20220910163541.png]]
 
-### 页面加载
+### 滚动页面加载
 1. window 窗口滚动
 
 
 2. 元素滚动
 
 ### watch 和 computed
+- 监听并执行代码操作用 watch
+- 定义一个依赖另一个响应式数据的响应式数据用 computed
 
 ## 难点 
 ### 展示数据在不同的tab
