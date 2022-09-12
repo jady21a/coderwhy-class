@@ -1,12 +1,12 @@
-# 1 项目预览
+# 项目预览
 
 
 ![[Pasted image 20220909135508.png]]
 ![[Pasted image 20220910120031.png]]
-# 2 home
+# home
 ## 2.1 要点
 
-### 2.1.1 修改 ui 组件库的样式
+### 修改 ui 组件库的样式
 1. 插槽 (插入自己的元素, 然后在自己的作用域中直接修改这个元素)
 	```css
 	.tab-bar {
@@ -23,7 +23,7 @@
 3. : deep 找子组件的类 (加: deep 或去掉 scoped) ![[Pasted image 20220909210913.png]]
 
 
-### 2.1.2 隐藏页面
+### 隐藏页面
 1. v-if
 router-->index. js
 ![[Pasted image 20220907193235.png]]
@@ -42,24 +42,24 @@ App. vue
 
 ```
 
-### 2.1.3 返回页面
+### 返回页面
 ![[Pasted image 20220907132108.png]]
 
-### 2.1.4 跳转页面
+### 跳转页面
 1. router-link
 ![[Pasted image 20220907130703.png]]
 2. router.push
 ![[Pasted image 20220907130616.png]]
 
-#### 2.1.4.1 跳转页面并传递数据
+#### 跳转页面并传递数据
 2homeSearch.vue
 ![[Pasted image 20220909224222.png]]
 5homeSearchBtn.vue
 ![[Pasted image 20220909224116.png]]
-### 2.1.5 固定部分页面滚动
+### 固定部分页面滚动
 ![[Pasted image 20220908163850.png]]
 
-### 2.1.6 网络请求
+### 网络请求
 1. seachCity. vue+sevice (jcity/jRequest) 直接获取
 vue
 ![[Pasted image 20220907180949.png]]
@@ -103,7 +103,7 @@ service-->jCity
 ![[Pasted image 20220907181826.png]]
 
 
-### 2.1.7 网络请求总结
+### 网络请求总结
 store-->modules-->axiosHome
 ![[Pasted image 20220909201154.png]]
 service-->modules-->jHome
@@ -112,17 +112,17 @@ service-->modules-->jHome
 ![[Pasted image 20220909201431.png]]
 ![[Pasted image 20220909201250.png]]
 
-#### 2.1.7.1 检查数据是否获取成功
+#### 检查数据是否获取成功
 1. console. log (hotSuggest) ![[Pasted image 20220909202715.png]]
 2. vue 插件
 ![[Pasted image 20220909202814.png]]
-#### 2.1.7.2 如果有的数据拿不到
+#### 如果有的数据拿不到
 1. ?.
 ![[Pasted image 20220910162912.png]]
 2. v-if
 ![[Pasted image 20220910163541.png]]
 
-### 2.1.8 滚动页面加载
+### 滚动页面加载
 1. window 窗口滚动
 view-->home.vue
 ![[Pasted image 20220912124020.png]]
@@ -164,11 +164,11 @@ onUnmounted(() => {
 
 2. 元素滚动
 
-### 2.1.9 watch 和 computed
+### watch 和 computed
 - 监听并执行代码操作用 watch
 - 定义一个依赖另一个响应式数据的响应式数据用 computed
 
-### 2.1.10 日期数据共享
+### 日期数据共享
 utils-->dayjs.js
 ![[Pasted image 20220912131849.png]]
 将日期放在 store 状态管理里面
@@ -211,7 +211,7 @@ const countDay = computed(() =>
 </style>
 ```
 
-### 2.1.11 loading
+### loading
 App. vue
 ```js
 <template>
@@ -234,16 +234,17 @@ components-->loading
 service-->request-->j
 ![[Pasted image 20220912154820.png]]
 
-### 2.1.12  在父组件绑定 click 子组件用   [[03_组件间通讯]]
+### 在父组件绑定 click 子组件用   [[03_组件间通讯]]
 
 view-->home-->7homeList.vue
 ![[Pasted image 20220912191406.png]]
 ![[Pasted image 20220912191448.png]]
 如果子组件只有一个根元素, 那么在父组件绑定的 class/click 等会默认加在根元素上; 如果子组件有多个元素则需要指明加在那个跟元素是哪个$atrr
 router-->index. js
+动态路由
 ![[Pasted image 20220912191804.png]]
 
-## 2.2 难点 
+## 难点 
 ### 2.2.1 展示数据在不同的tab
 ![[Pasted image 20220908003523.png]]
 3searchCity.vue
@@ -254,13 +255,13 @@ setup
 ![[Pasted image 20220909112941.png]]
 ![[Pasted image 20220909113036.png]]
 
-### 2.2.2 动态索引 
+### 动态索引 
 不展示没有的索引), 并添加#索引 (list. unshift ("#")
 4searchCityGroup.vue
 ![[Pasted image 20220909115138.png]]
 
 ![[Pasted image 20220909115155.png]]
-### 2.2.3 监听城市点击后跳转
+### 监听城市点击后跳转
 4searchCityGroup.vue
 ![[Pasted image 20220909115630.png]]
 axiosCity. js
@@ -272,22 +273,51 @@ hom-search. vue
 ![[Pasted image 20220909121252.png]]
 
 
+# 总结
+## import导入
+```js
+import { useRouter } from 'vue-router';
+
+```
+## 获取 id
+![[Pasted image 20220912195210.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ----
 
-# 3 问题:
 
-## 3.1 请求数据拿到空数组怎么办 
+
+# 问题:
+
+## 请求数据拿到空数组怎么办 
 - [ ]  Q:
 ![[Pasted image 20220909234401.png]]
 
 - [ ]  A:
+### 拿到undefined:
+1. ?.![[Pasted image 20220912200751.png]]
+2. v-if
+![[Pasted image 20220912200650.png]]
 
 
-
-## 3.2 服务器返回很多数据 #面试题
+## 服务器返回很多数据 #面试题
 当服务器返回很多数据时 (如: 几十万条数据), 前端的处理办法
 1. 多线程
 2. 虚拟列表
@@ -301,6 +331,6 @@ hom-search. vue
 ![[Pasted image 20220910002115.png]]
 
 
-## 3.3 能否三端都较好适应
+## 能否三端都较好适应
 
  
