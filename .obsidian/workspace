@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "4.前端工程化/05_git.md",
+            "file": "案例/j-trip项目.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4.前端工程化/05_git.md",
+                "file": "案例/j-trip项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4.前端工程化/05_git.md"
+                "file": "案例/j-trip项目.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4.前端工程化/05_git.md",
+                "file": "案例/j-trip项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,19 +153,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 163.5
+    "width": 162.5
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "案例/vue domo.md",
     "案例/j-trip项目.md",
+    "4.前端工程化/05_git.md",
     "Excalidraw/draw_13.excalidraw.md",
     "5.vue/03_组件间通讯.md",
-    "4.前端工程化/05_git.md",
     "0.备忘/03_git.md",
     "0.备忘/04_vscode.md",
     "5.vue/02_语法.md",
     "0.备忘/02_快捷键.md",
-    "template/question模板.md",
-    "5.vue/01_vue基础.md"
+    "template/question模板.md"
   ]
 }

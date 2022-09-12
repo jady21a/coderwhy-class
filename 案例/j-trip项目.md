@@ -234,9 +234,14 @@ components-->loading
 service-->request-->j
 ![[Pasted image 20220912154820.png]]
 
-### 2.1.12   [[03_组件间通讯]]
-如果子组件只有一个根元素, 那么在父组件绑定的 class/click 等会默认加在根元素上; 如果子组件有多个元素则需要指明加在那个跟元素是哪个$atrr
+### 2.1.12  在父组件绑定 click 子组件用   [[03_组件间通讯]]
 
+view-->home-->7homeList.vue
+![[Pasted image 20220912191406.png]]
+![[Pasted image 20220912191448.png]]
+如果子组件只有一个根元素, 那么在父组件绑定的 class/click 等会默认加在根元素上; 如果子组件有多个元素则需要指明加在那个跟元素是哪个$atrr
+router-->index. js
+![[Pasted image 20220912191804.png]]
 
 ## 2.2 难点 
 ### 2.2.1 展示数据在不同的tab
