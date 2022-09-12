@@ -124,7 +124,43 @@ service-->modules-->jHome
 
 ### 滚动页面加载
 1. window 窗口滚动
+view-->home.vue
+![[Pasted image 20220912124020.png]]
+hooks-->useScroll
+```js
+import { throttle } from 'underscore'
+import { onMounted,onUnmounted,ref } from 'vue'
+//throttle 节流  debounce 防抖
 
+export default function useScroll() {
+  const isReachBottom = ref(false)
+
+  const clientHeight = ref(0)
+  const scrollTop = ref(0)
+  const scrollHeight = ref(0)
+
+  const scrollListenerHandler = throttle(() => {
+    clientHeight.value = document.documentElement.clientHeight
+    scrollTop.value = document.documentElement.scrollTop
+    scrollHeight.value = document.documentElement.scrollHeight
+
+    console.log(isReachBottom.value, clientHeight.value, scrollTop.value, scrollHeight.value )
+
+    if (clientHeight.value + scrollTop.value >= scrollHeight.value) {
+      console.log("bottom")
+      isReachBottom.value = true
+    }
+  },100)
+onMounted(() => {
+  window.addEventListener("scroll",scrollListenerHandler)
+})
+onUnmounted(() => {
+  window.addEventListener("scroll",scrollListenerHandler)
+})
+
+  return {isReachBottom,clientHeight,scrollTop,scrollHeight}
+}
+```
 
 2. 元素滚动
 
