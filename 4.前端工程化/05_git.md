@@ -110,6 +110,7 @@ git remote –v    ( v 是 verbose 的缩写 (冗长的))
 添加远程地址 ?
 git remote add \<name> xxxxx (地址)
 如: git remote add test git@github. com: jady21a/test-git. git
+git remote add origin git@github. com: jady21a/j-trip. git
 
 重命名远程地址:  git remote rename test test2
 移除远程地址: git remote remove test2
