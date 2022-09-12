@@ -168,6 +168,49 @@ onUnmounted(() => {
 - 监听并执行代码操作用 watch
 - 定义一个依赖另一个响应式数据的响应式数据用 computed
 
+### 日期共享
+utils-->dayjs.js
+![[Pasted image 20220912131849.png]]
+将日期放在 store 状态管理里面
+store-->module-->mianStore
+![[Pasted image 20220912131746.png]]
+使用
+components-->topFix.vue
+```js
+<template>
+  <div class="profile">
+    <h3>profile</h3>
+    <div>{{startDateStr}}</div>
+    <div>{{endDateStr}}</div>
+    <div>{{countDay}}</div>
+  </div>
+</template>
+
+<script setup>
+import useMainStore from '@/stores/modules/mainStore';
+import { getDay, getDiffDays } from '@/utils/dayjs'
+import { storeToRefs } from 'pinia';
+import { computed } from '@vue/reactivity';
+
+const mainStore = useMainStore()
+const { startDate, endDate } = storeToRefs(mainStore)
+const startDateStr = computed(() =>
+  getDay(startDate.value)
+)
+const endDateStr = computed(() =>
+  getDay(endDate.value)
+)
+const countDay = computed(() =>
+  getDiffDays(startDate.value,endDate.value)
+)
+
+</script>
+
+<style lang="less"  scoped>
+
+</style>
+```
+
 ## 难点 
 ### 展示数据在不同的tab
 ![[Pasted image 20220908003523.png]]

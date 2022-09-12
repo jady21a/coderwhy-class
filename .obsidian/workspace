@@ -4,33 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d83e51e721405a65",
-        "type": "split",
-        "children": [
-          {
-            "id": "4d7856fe618900a4",
-            "type": "leaf",
-            "dimension": 62.829736211031175,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "案例/j-trip项目.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d66ad0e58184f6d",
-            "type": "leaf",
-            "dimension": 37.170263788968825,
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "4d7856fe618900a4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "案例/j-trip项目.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
