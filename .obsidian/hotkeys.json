@@ -133,7 +133,7 @@
       "modifiers": [
         "Shift"
       ],
-      "key": "T"
+      "key": "R"
     }
   ],
   "obsidian-title-serial-number-plugin:set-title-serial-number-editor-command": [
@@ -141,7 +141,7 @@
       "modifiers": [
         "Shift"
       ],
-      "key": "R"
+      "key": "T"
     }
   ]
 }

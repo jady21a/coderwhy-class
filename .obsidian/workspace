@@ -157,15 +157,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "5.vue/01_vue基础.md",
-    "案例/j-trip项目.md",
     "5.vue/02_语法.md",
+    "案例/j-trip项目.md",
+    "0.备忘/02_快捷键.md",
+    "template/question模板.md",
+    "5.vue/01_vue基础.md",
     "案例/A-vue项目搭建.md",
     "5.vue/03_组件间通讯.md",
     "5.vue/06_router.md",
     "5.vue/07_vuex.md",
-    "2.js/37_网络传输.md",
-    "5.vue/09_axios.md",
-    "2.js/36_防抖节流深拷贝.md"
+    "2.js/37_网络传输.md"
   ]
 }
