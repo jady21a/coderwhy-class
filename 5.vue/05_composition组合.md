@@ -121,10 +121,13 @@ watchEffect 传入的函数会被立即执行一次，并且在执行的过程�
 # 代码对比
 ## 原 vue2 对象编写模式
 ![[Pasted image 20220902224527.png]]
+可以用 this
 
 ## setup 编写
+不能用this
 ![[Pasted image 20220902224038.png]]
 ![[Pasted image 20220902223750.png]]
+![[Pasted image 20220913193506.png]]
 ## setup 语法糖
  defineProps
  defineEmits
