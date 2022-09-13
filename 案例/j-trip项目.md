@@ -164,6 +164,9 @@ onUnmounted(() => {
 
 2. 元素滚动 todo#
 
+
+#### 点击滚动到指定位置  140-2.14
+
 ### watch 和 computed
 - 监听并执行代码操作用 watch
 - 定义一个依赖另一个响应式数据的响应式数据用 computed
