@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5.vue/03_组件间通讯.md",
+            "file": "案例/j-trip项目.md",
             "mode": "source",
             "source": false
           }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/03_组件间通讯.md",
+                "file": "案例/j-trip项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/03_组件间通讯.md"
+                "file": "案例/j-trip项目.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/03_组件间通讯.md",
+                "file": "案例/j-trip项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,15 +157,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "0.备忘/00_todo.md",
+    "0.备忘/todo.md",
+    "0.备忘/01_网盘.md",
+    "案例/j-trip项目.md",
+    "5.vue/03_组件间通讯.md",
     "5.vue/05_composition组合.md",
     "5.vue/04_组件生命周期等.md",
-    "5.vue/03_组件间通讯.md",
     "5.vue/02_语法.md",
     "5.vue/01_vue基础.md",
-    "5.vue/06_router.md",
-    "5.vue/07_vuex.md",
-    "5.vue/09_axios.md",
-    "案例/j-trip项目.md",
-    "案例/A-vue项目搭建.md"
+    "5.vue/06_router.md"
   ]
 }
