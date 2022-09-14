@@ -90,6 +90,9 @@ createApp (App).use (directive).mount ("#app")
 ### 属性
 - to: 移动到目标元素
 - disabled: 是否禁用 teleport
+![[Pasted image 20220914183500.png]]
+![[Pasted image 20220914183421.png]]
+在. vue 的文件中写的 teleport 不会被渲染到真实 dom, 但是teleport 内要显示的内容会渲染到 to 的真实 dom 位置
 
 ### 多个 teleport
 如果将多个 teleport 应用到同一个目标上（to 的值相同），那么这些目标会进行合并
