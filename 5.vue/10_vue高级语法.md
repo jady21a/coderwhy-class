@@ -19,8 +19,17 @@ export default function useInput() {
 ![[Pasted image 20220914152914.png]]
 ![[Pasted image 20220914152839.png]]
 3. v-focus 全局指令
-	新建一个 directives (指令) 文件夹
-	
+	1. 直接在 main. 写
+	![[Pasted image 20220914160118.png]]
+	. vue 使用
+	![[Pasted image 20220914160503.png]]
+	2. 新建一个 directives (指令) 文件夹
+	directive ![[Pasted image 20220914160316.png]]
+	![[Pasted image 20220914160334.png]]
+	main.js
+	![[Pasted image 20220914160430.png]]
+	. vue
+	![[Pasted image 20220914160509.png]]
 ## 指令的生命周期
 created, beforeMount, mounted, beforeUpdate, updated, beforeUmount, unmounted
 没有 beforeCreate
