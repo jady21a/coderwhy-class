@@ -104,7 +104,26 @@ createApp (App).use (directive).mount ("#app")
 是 vue 的内置全局组件
 - default  默认显示
 - fallback (退路, 备用) 默认无法显示时显示
+```js
+<template>
+  <div class="suspense">
+    <h3>suspense</h3>
+    <suspense>
+      <template #default>
+        <bb></bb>
+      </template>
+      <template #fallback>
+        <h3>loading...</h3>
+      </template>
+    </suspense>
+  </div>
+</template>
+<script setup>
+import { defineAsyncComponent } from 'vue';
 
+const bb = defineAsyncComponent(() => import('./bb.vue'))
+</script>
+```
 
 
 # vue 插件
