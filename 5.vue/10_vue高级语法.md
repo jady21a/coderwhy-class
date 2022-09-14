@@ -98,7 +98,8 @@ createApp (App).use (directive).mount ("#app")
 如果将多个 teleport 应用到同一个目标上（to 的值相同），那么这些目标会进行合并
 
 
-## suspense 异步组件用
+## suspense (悬念) 异步组件用
+结果如何是未知的悬念
 还属于试验特性
 是 vue 的内置全局组件
 - default  默认显示
