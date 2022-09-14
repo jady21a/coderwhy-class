@@ -295,6 +295,31 @@ onMounted(() => {
 ```
 
 
+### 禁止屏幕缩放
+index.html
+```js
+    <!-- 使不能缩放屏幕 -->
+    <!-- 1.max-min -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <!-- 2.user-scalable -->
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+```
+
+#### 插件一键转换px-->vw
+npm i  postcss-px-to-viewport
+根目录下新建一个postcss.config.js文件
+```js
+module.exports = {
+  plugins: {
+    'postcss-px-to-viewport': {
+      viewportWidth: 375,
+      //挑出的名字不转换
+      selectorBlackList: ["favor"]
+    }
+  }
+};
+```
+
 ## 难点 
 ### 展示数据在不同的tab
 ![[Pasted image 20220908003523.png]]

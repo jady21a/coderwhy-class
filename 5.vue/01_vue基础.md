@@ -138,16 +138,18 @@ npm update @vue/cli -g
 ![[Pasted image 20220829121520.png]]
 ## 创建项目:
 ![[Pasted image 20220829120540.png]]
-### 1. Vue create 项目的名称
+### 1. webpack
 基于 webpack 打包
-本地开发一般为 npm run serve
+Vue create +项目的名称
+本地开发运行一般为 npm run serve
 ![[Pasted image 20220828233131.png]]
 ![[Pasted image 20220828233505.png]]
 
 ![[Pasted image 20220828233820.png]]
 ![[Pasted image 20220829122247.png]]
-### 2. npm init vue@latest 
-基于 vite 打包
+### 2. vite 
+基于 vite 进行打包
+npm init vue@latest 
 ![[Pasted image 20220829131021.png]]
 npm i (安装 vite 相关依赖包)
 npm run dev    (本地开发)
