@@ -157,15 +157,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "5.vue/04_组件生命周期等.md",
+    "5.vue/10_vue高级语法.md",
     "5.vue/09_axios.md",
+    "5.vue/06_router.md",
     "5.vue/01_vue基础.md",
     "4.前端工程化/04_webpack1_基础.md",
     "4.前端工程化/03_包管理工具.md",
     "4.前端工程化/05_git.md",
     "5.vue/05_composition组合.md",
-    "5.vue/04_组件生命周期等.md",
-    "5.vue/06_router.md",
-    "5.vue/08_pinia.md",
-    "5.vue/02_语法.md"
+    "5.vue/08_pinia.md"
   ]
 }
