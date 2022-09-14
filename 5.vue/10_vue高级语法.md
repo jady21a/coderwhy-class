@@ -26,8 +26,11 @@ export default function useInput() {
 	2. 新建一个 directives (指令) 文件夹
 	directive ![[Pasted image 20220914160316.png]]
 	![[Pasted image 20220914160334.png]]
+	
 	main.js
 	![[Pasted image 20220914160430.png]]
+	也可以像插件一样使用
+![[Pasted image 20220914173315.png]]
 	. vue
 	![[Pasted image 20220914160509.png]]
 ## 指令的生命周期
@@ -35,20 +38,64 @@ created, beforeMount, mounted, beforeUpdate, updated, beforeUmount, unmounted
 没有 beforeCreate
 ## 指令的参数及修饰符
 ![[Pasted image 20220914132701.png]]
+![[Pasted image 20220914171027.png]]
+![[Pasted image 20220914171155.png]]
+
+## 自定义时间格式化的指令
+```js
+// directive-->b_time.js
+import dayjs from 'dayjs'
+
+export default function directiveTime(app) {
+  app.directive("time", {
+    mounted(el, bindings) {
+    let timestamp=el.textContent
+      if (timestamp.length === 10) {
+        timestamp=timestamp*1000
+      }
+      timestamp = Number(timestamp)
+      let value = bindings.value
+      if (!value) {
+        value="YYYY-MM-DD hh:mm:ss"
+      }
+      const time = dayjs (timestamp).format (value)
+      el.textContent=time
+    }
+  })
+}
+```
+ directive-->index.js
+ ```js
+ // directive-->index
+import directiveFocus from "./a_focus";
+import directiveTime from "./b_time";
+
+export default function directive(app) {
+  directiveFocus(app)
+  directiveTime(app)
+}
+```
+main.js
+```js
+import directive  from './01_自定义指令/directive/index.js'
+
+createApp (App).use (directive).mount ("#app")
+```
 
 
-# teleport 远距离传送
+# 内置组件
+## teleport 远距离传送
 类似 react 的 Portals
 是 vue 的内置组件
-## 属性
+### 属性
 - to: 移动到目标元素
 - disabled: 是否禁用 teleport
 
-## 多个 teleport
+### 多个 teleport
 如果将多个 teleport 应用到同一个目标上（to 的值相同），那么这些目标会进行合并
 
 
-# suspense 异步组件用
+## suspense 异步组件用
 还属于试验特性
 是 vue 的内置全局组件
 - default  默认显示

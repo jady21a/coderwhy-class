@@ -153,13 +153,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 160.5
+    "width": 159.5
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "5.vue/04_组件生命周期等.md",
-    "5.vue/10_vue高级语法.md",
     "5.vue/09_axios.md",
+    "5.vue/10_vue高级语法.md",
+    "5.vue/04_组件生命周期等.md",
     "5.vue/06_router.md",
     "5.vue/01_vue基础.md",
     "4.前端工程化/04_webpack1_基础.md",
