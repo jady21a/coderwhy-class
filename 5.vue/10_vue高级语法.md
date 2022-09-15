@@ -82,6 +82,26 @@ import directive  from './01_自定义指令/directive/index.js'
 createApp (App).use (directive).mount ("#app")
 ```
 
+## 自定义指令添加币种符号
+```js
+// directive-->c_currency.js
+export default function directiveCurrency(app) {
+  app.directive("currency", {
+    mounted(el, bindings) {
+      const defaultText = el.textContent
+      let currency = bindings.value
+      if (!currency) {
+        currency="¥"
+      }
+      el.textContent=currency+defaultText
+    }
+  })
+}
+
+```
+![[Pasted image 20220915162543.png]]
+. vue
+![[Pasted image 20220915162638.png]]
 
 # 内置组件
 ## teleport 远距离传送
