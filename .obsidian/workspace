@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5.vue/10_vue高级语法.md",
+            "file": "5.vue/11_vue过渡动画.md",
             "mode": "source",
             "source": false
           }
@@ -30,10 +30,8 @@
             "id": "f6023627720ed2b9",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/draw_13.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -88,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/10_vue高级语法.md",
+                "file": "5.vue/11_vue过渡动画.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/10_vue高级语法.md"
+                "file": "5.vue/11_vue过渡动画.md"
               }
             }
           },
@@ -142,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/10_vue高级语法.md",
+                "file": "5.vue/11_vue过渡动画.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,15 +155,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "5.vue/09_axios.md",
     "5.vue/10_vue高级语法.md",
-    "5.vue/04_组件生命周期等.md",
-    "5.vue/06_router.md",
-    "5.vue/01_vue基础.md",
-    "4.前端工程化/04_webpack1_基础.md",
-    "4.前端工程化/03_包管理工具.md",
-    "4.前端工程化/05_git.md",
-    "5.vue/05_composition组合.md",
-    "5.vue/08_pinia.md"
+    "5.vue/11_vue过渡动画.md",
+    "Excalidraw/draw.excalidraw.md",
+    "Excalidraw/draw_0.excalidraw.md",
+    "Excalidraw/draw_5.excalidraw.md",
+    "Excalidraw/draw_2.excalidraw.md",
+    "Excalidraw/draw_9.excalidraw.md",
+    "Excalidraw/draw_11.excalidraw.md",
+    "Excalidraw/draw_12.excalidraw.md",
+    "Excalidraw/draw_13.excalidraw.md"
   ]
 }

@@ -160,4 +160,28 @@ vue 插件可以编写为
 - 函数
 
 
-# 渲染函数 h ( )
+
+# 用 js 写 template
+## 渲染函数 h ( )
+![[Pasted image 20220915175605.png]]
+render 和 h ()
+render 函数内写 h (), h ( ) 就是 createVNode () 的简写, 作用是创建虚拟 node
+
+### vue2 写法
+![[Pasted image 20220915175814.png]]
+
+### vue3 script 写法
+![[Pasted image 20220915180126.png]]
+
+### vue3 script setup 写法
+![[Pasted image 20220915180257.png]]
+
+## jsx
+![[Pasted image 20220915181254.png]]
+### vue2 写法
+![[Pasted image 20220915181354.png]]
+
+### vue3 script 写法
+![[Pasted image 20220915181419.png]]
+### vue3 script setup 写法
+![[Pasted image 20220915181450.png]]
