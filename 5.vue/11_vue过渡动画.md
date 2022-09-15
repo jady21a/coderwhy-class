@@ -3,8 +3,7 @@ vue 则是内置了动画api
 
 # Transition 
 具体实现需要自己编写, transition 只是自动加了类名 
-
-`` `js
+```js 
 <template>
   <div class="app">
     <div>
@@ -47,11 +46,7 @@ h2 {
 }
 
 </style>
-
-
 ```
 
 
-
-
-
+143.-->1h19min

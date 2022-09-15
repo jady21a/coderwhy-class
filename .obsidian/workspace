@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5.vue/11_vue过渡动画.md",
+            "file": "5.vue/13_项目打包和自动化部署.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5.vue/11_vue过渡动画.md",
+                "file": "5.vue/13_项目打包和自动化部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5.vue/11_vue过渡动画.md"
+                "file": "5.vue/13_项目打包和自动化部署.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5.vue/11_vue过渡动画.md",
+                "file": "5.vue/13_项目打包和自动化部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,15 +155,15 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
-    "5.vue/10_vue高级语法.md",
+    "5.vue/12_响应式原理.md",
     "5.vue/11_vue过渡动画.md",
+    "5.vue/10_vue高级语法.md",
     "Excalidraw/draw.excalidraw.md",
     "Excalidraw/draw_0.excalidraw.md",
     "Excalidraw/draw_5.excalidraw.md",
     "Excalidraw/draw_2.excalidraw.md",
     "Excalidraw/draw_9.excalidraw.md",
     "Excalidraw/draw_11.excalidraw.md",
-    "Excalidraw/draw_12.excalidraw.md",
-    "Excalidraw/draw_13.excalidraw.md"
+    "Excalidraw/draw_12.excalidraw.md"
   ]
 }
