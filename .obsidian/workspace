@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4d7856fe618900a4",
+        "id": "78b7de189feae805",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -153,17 +153,17 @@
     "direction": "horizontal",
     "width": 159.5
   },
-  "active": "4d7856fe618900a4",
+  "active": "78b7de189feae805",
   "lastOpenFiles": [
+    "Excalidraw/draw10_es6词法环境.excalidraw.md",
+    "Excalidraw/draw.excalidraw.md",
+    "06_小程序/01_小程序(mini apps)基础.md",
     "01_html+css/4.3 BFC.md",
     "01_html+css/3.5 盒子模型.md",
-    "06_小程序/01_小程序(mini apps)基础.md",
     "05_vue/13_项目部署.md",
     "05_vue/09_axios.md",
     "05_vue/08_pinia.md",
     "05_vue/10_vue高级语法.md",
-    "05_vue/11_vue过渡动画.md",
-    "05_vue/12_响应式原理.md",
-    "Excalidraw/draw.excalidraw.md"
+    "05_vue/11_vue过渡动画.md"
   ]
 }
