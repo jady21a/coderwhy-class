@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "05_vue/13_项目部署.md",
+            "file": "06_小程序/01_小程序基础.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05_vue/13_项目部署.md",
+                "file": "06_小程序/01_小程序基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05_vue/13_项目部署.md"
+                "file": "06_小程序/01_小程序基础.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05_vue/13_项目部署.md",
+                "file": "06_小程序/01_小程序基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,12 +155,12 @@
   },
   "active": "4d7856fe618900a4",
   "lastOpenFiles": [
+    "05_vue/13_项目部署.md",
     "05_vue/09_axios.md",
     "05_vue/08_pinia.md",
     "05_vue/10_vue高级语法.md",
     "05_vue/11_vue过渡动画.md",
     "05_vue/12_响应式原理.md",
-    "05_vue/13_项目部署.md",
     "Excalidraw/draw.excalidraw.md",
     "Excalidraw/draw_0.excalidraw.md",
     "Excalidraw/draw_5.excalidraw.md",
