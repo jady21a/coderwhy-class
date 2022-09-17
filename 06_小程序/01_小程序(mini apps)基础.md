@@ -17,6 +17,7 @@ uni-app 和 taro 开发的网页, 无论是适配原生小程序还是原生 App
 # 开发 id
 https://mp.weixin.qq.com/cgi-bin/wx
 开发--> 开发管理--> 开发设置
+wxaaea0ccf99aede93
 ![[Pasted image 20220917122452.png]]
 ## 开发工具
 - vscode ![[Pasted image 20220917120909.png]]
@@ -28,3 +29,21 @@ https://mp.weixin.qq.com/cgi-bin/wx
 ![[Pasted image 20220917122700.png]]
 
 
+# MVVM
+vue
+![[Pasted image 20220917125543.png]]
+
+mini apps
+![[Pasted image 20220917125653.png]]
+
+都是为 html 和 js 之间建立了联系
+- DOM Listeners : 监听事件绑定到 js
+- Data Bindings: 将改变的数据由 js 绑定到 html
+
+# 体验
+新建文件夹 -->右键-->新建 page   (自动生成四个个文件 . js . json . wxml,wxss, 且在 app. json 里面添加路径)
+![[Pasted image 20220917132142.png]]
+![[Pasted image 20220917132500.png]]
+
+排序第一的为首页
+![[Pasted image 20220917132228.png]]
