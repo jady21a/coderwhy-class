@@ -406,7 +406,5 @@ import { useRouter } from 'vue-router';
  2. size (每次请求数据的个数)/ offsset (迁移量, 从取过的数据后面开始取)
 ![[Pasted image 20220910002115.png]]
 
-
-## 能否三端都较好适应
-
- 
+## vue3 中怎么写this
+## 没有挂载怎么
