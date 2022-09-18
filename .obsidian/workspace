@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "question/git q.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "获取",
+                "query": "具名",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "question/git q.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "question/git q.md"
+                "file": "README.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "question/git q.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,15 +155,15 @@
   },
   "active": "78b7de189feae805",
   "lastOpenFiles": [
-    "README.md",
-    "01_html+css/4.2 文本超出显示....md",
-    "01_html+css/4.0 居中.md",
-    "01_html+css/3.11 flex布局.md",
-    "01_html+css/2.1 meta.md",
-    "template/question模板.md",
-    "question/02.js.md",
-    "question/01.html+css.md",
-    "00_备忘/01_网盘.md",
-    "00_备忘/02_快捷键.md"
+    "05_vue/03_组件间通讯.md",
+    "05_vue/04_组件生命周期等.md",
+    "05_vue/07_vuex.md",
+    "05_vue/05_composition组合.md",
+    "05_vue/08_pinia.md",
+    "05_vue/10_vue高级语法.md",
+    "03_常用js库/03_常用js库.md",
+    "05_vue/13_项目部署.md",
+    "05_vue/12_响应式原理.md",
+    "05_vue/11_vue过渡动画.md"
   ]
 }
