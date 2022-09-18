@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "question/git q.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "question/git q.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "question/git q.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "question/git q.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,15 +155,15 @@
   },
   "active": "78b7de189feae805",
   "lastOpenFiles": [
+    "README.md",
+    "01_html+css/4.2 文本超出显示....md",
+    "01_html+css/4.0 居中.md",
+    "01_html+css/3.11 flex布局.md",
+    "01_html+css/2.1 meta.md",
+    "template/question模板.md",
+    "question/02.js.md",
+    "question/01.html+css.md",
     "00_备忘/01_网盘.md",
-    "00_备忘/05_ui库.md",
-    "00_备忘/04_vscode.md",
-    "00_备忘/03_git.md",
-    "00_备忘/02_快捷键.md",
-    "00_备忘/00_todo.md",
-    "05_vue/05_composition组合.md",
-    "06_小程序/02_配置文件.md",
-    "案例/j-trip项目.md",
-    "06_小程序/01_小程序(mini apps)基础.md"
+    "00_备忘/02_快捷键.md"
   ]
 }
