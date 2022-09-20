@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "reduce",
+                "query": "slice",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,17 +153,17 @@
     "direction": "horizontal",
     "width": 159.5
   },
-  "active": "580df30f41183428",
+  "active": "db1d79e4277a1c16",
   "lastOpenFiles": [
+    "05_vue/02_语法.md",
     "06_小程序/04_wxss.md",
+    "02_js/07.对象3-数组.md",
     "06_小程序/03_内置组件.md",
     "06_小程序/02_小程序架构及配置文件.md",
     "06_小程序/01_小程序(mini apps)基础.md",
     "README.md",
     "03_常用js库/02_bootstrap.md",
     "04_前端工程化/03_包管理工具.md",
-    "05_vue/06_router.md",
-    "案例/0A-vue项目搭建.md",
-    "案例/02_j-trip.md"
+    "05_vue/06_router.md"
   ]
 }
