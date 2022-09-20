@@ -86,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "06_小程序/02_小程序架构及配置文件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "06_小程序/02_小程序架构及配置文件.md"
+              }
             }
           },
           {
@@ -137,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "06_小程序/02_小程序架构及配置文件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,8 +153,9 @@
     "direction": "horizontal",
     "width": 159.5
   },
-  "active": "4170c7db0d47cef5",
+  "active": "78b7de189feae805",
   "lastOpenFiles": [
+    "README.md",
     "06_小程序/02_小程序架构及配置文件.md",
     "03_常用js库/02_bootstrap.md",
     "04_前端工程化/03_包管理工具.md",
@@ -159,7 +164,6 @@
     "案例/02_j-trip.md",
     "01_html+css/3.15 px, less, sass(scss).md",
     "01_html+css/3.16 移动端适配mobile.md",
-    "案例/01_vue domo.md",
-    "06_小程序/01_小程序(mini apps)基础.md"
+    "案例/01_vue domo.md"
   ]
 }
