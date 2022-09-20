@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "02_js/07.对象3-数组.md",
+            "file": "06_小程序/01_小程序(mini apps)基础.md",
             "mode": "source",
             "source": false
           }
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_js/07.对象3-数组.md",
+                "file": "06_小程序/01_小程序(mini apps)基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_js/07.对象3-数组.md"
+                "file": "06_小程序/01_小程序(mini apps)基础.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_js/07.对象3-数组.md",
+                "file": "06_小程序/01_小程序(mini apps)基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,14 +153,14 @@
     "direction": "horizontal",
     "width": 159.5
   },
-  "active": "db1d79e4277a1c16",
+  "active": "78b7de189feae805",
   "lastOpenFiles": [
-    "05_vue/02_语法.md",
-    "06_小程序/04_wxss.md",
-    "02_js/07.对象3-数组.md",
-    "06_小程序/03_内置组件.md",
     "06_小程序/02_小程序架构及配置文件.md",
     "06_小程序/01_小程序(mini apps)基础.md",
+    "06_小程序/03_内置组件.md",
+    "06_小程序/04_wxss.md",
+    "05_vue/02_语法.md",
+    "02_js/07.对象3-数组.md",
     "README.md",
     "03_常用js库/02_bootstrap.md",
     "04_前端工程化/03_包管理工具.md",
