@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b56687de370577e4",
-        "type": "split",
-        "children": [
-          {
-            "id": "db8ec9d8b8d7809d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06_小程序/06_小程序组件化.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6efae8b95447eae5",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
+        "id": "db8ec9d8b8d7809d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "06_小程序/06_小程序组件化.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -170,15 +155,15 @@
   },
   "active": "db8ec9d8b8d7809d",
   "lastOpenFiles": [
+    "06_小程序/07_小程序api.md",
+    "06_小程序/06_小程序组件化.md",
     "06_小程序/04_基本语法.md",
     "06_小程序/03_内置组件.md",
     "06_小程序/02_小程序架构及配置文件.md",
     "06_小程序/01_小程序(mini apps)基础.md",
-    "06_小程序/06_小程序组件化.md",
     "06_小程序/05_小程序事件.md",
     "05_vue/03_组件间通讯.md",
     "01_html+css/3.3 选择器.md",
-    "README.md",
-    "question/04_小程序.md"
+    "README.md"
   ]
 }
