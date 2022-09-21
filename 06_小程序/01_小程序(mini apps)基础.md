@@ -22,6 +22,7 @@ wxaaea0ccf99aede93
 ![[Pasted image 20220917122452.png]]
 ## 开发工具
 - vscode ![[Pasted image 20220917120909.png]]
+- easy wxless
 - 微信开发者工具
 [稳定版 Stable Build | 微信开放文档 (qq.com)](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 
