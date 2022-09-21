@@ -156,14 +156,14 @@
   "active": "db8ec9d8b8d7809d",
   "lastOpenFiles": [
     "06_小程序/04_基本语法.md",
+    "06_小程序/03_内置组件.md",
+    "06_小程序/02_小程序架构及配置文件.md",
+    "06_小程序/01_小程序(mini apps)基础.md",
     "06_小程序/05_小程序事件.md",
     "question/04_小程序.md",
-    "06_小程序/02_小程序架构及配置文件.md",
-    "06_小程序/03_内置组件.md",
     "question/技巧.md",
     "question/03_vue.md",
     "question/02.js.md",
-    "Excalidraw/draw.excalidraw.md",
-    "01_html+css/3.9 css元素定位.md"
+    "Excalidraw/draw.excalidraw.md"
   ]
 }
