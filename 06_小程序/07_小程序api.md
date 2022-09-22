@@ -8,6 +8,45 @@ wx. request (Object object)
 ➢ fail: 失败时的回调
 
 ## 基本使用
+```js
+// pages/hh/hh.js
+Page({
+  data: {
+    allCities:{},
+    houseList:[],
+    currentPage:1
+  },
+  onLoad(options) {
+    // 基本使用
+    wx.request({
+      url: 'http://codercba.com:1888/api/city/all',
+      success:(res)=>{
+        const data=res.data.data
+        this.setData({allCities:data})
+      }
+    })
+    wx.request({
+      url: 'http://codercba.com:1888/api/home/houselist',
+      data:{ page:1 },
+      success:(res)=>{
+        const data=res.data.data
+        this.setData({houseList:data})
+      }
+    })
+  },
+})
+```
+
+```html
+<!--pages/hh/hh.wxml-->
+<text>pages/hh/hh.wxml</text>
+<block wx:for="{{houseList}}" wx:key="id">
+  <view>
+    <!-- <image src="{{}}"></image> -->
+    <view>{{item.data.houseName}}</view>
+  </view>
+</block>
+```
 
 ## 封装
 
