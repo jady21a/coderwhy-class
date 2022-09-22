@@ -49,9 +49,121 @@ Page({
 ```
 
 ## 封装
+### 封装成函数 
+```js 
+// service-->index.js
+// 1.封装成函数
+export function jRequest(options) {
+  return new Promise((resolve, reject) => {
+    wx.request({
+      ...options,
+      success: (res) => {
+        resolve(res.data)
+      },
+      fail:reject
+    })
+  })
+}
+```
+#### 使用
+##### 1. 直接使用
+```js
+// pages/hh/hh.js
+Page({
+  data: {
+    allCities:{},
+    houseList:[],
+    currentPage:1
+  },
+	onload(){
+    jRequest({
+      url: 'http://codercba.com:1888/api/city/all'}).then(res=>{
+        this.setData({allCities:res.data})
+      })
+    jRequest({
+      url: 'http://codercba.com:1888/api/home/houselist',
+      data:{ page:1 }
+    }).then(res=>{
+      this.setData({houseList:res.data})
+    })
+  },
+})
+```
+##### 2. async/await(推荐)
+```js
+// pages/hh/hh.js
+Page({
+  data: {
+    allCities:{},
+    houseList:[],
+    currentPage:1
+  },
+  async onload(){
+    // 3.async/await(异步await会等前一个请求有结果后再请求下一个)
+    // const cityRes=await jRequest({
+    //   url:'http://codercba.com:1888/api/city/all'
+    // })
+    // this.setData({allCities:cityRes.data})
 
+    // const houseRes=await jRequest({
+    //   url: 'http://codercba.com:1888/api/home/houselist',
+    //   data:{ page:1 }
+    // })
+    //   this.setData({houseList:houseRes.data})
 
+    // 4.将await/async封装到单独的函数然后在onload调用(推荐)
+    this.getCity()
+    this.getHouse()
+  },
+    async getCity(){
+    const cityRes=await jRequest({
+      url:'http://codercba.com:1888/api/city/all'
+    })
+    this.setData({allCities:cityRes.data})
+  },
+  async getHouse(){
+    const houseRes=await jRequest({
+      url: 'http://codercba.com:1888/api/home/houselist',
+      data:{ page:1 }
+    })
+      this.setData({houseList:houseRes.data})
+  }
+})
+```
 
+### 封装成类 (扩展性更强, 可以传 baseUrl)
+```js
+// service-->index.js
+// 封装成类(扩展性更强,可以传baseUrl)
+class JRequest{
+  constructor(baseURL) {
+    this.baseURL=baseURL
+  }
+  request(options) {
+    const { url } = options
+    return new Promise((resolve, reject) => {
+      wx.request({
+        ...options,
+        url: this.baseURL + url,
+        success: (res) => {
+          resolve(res.data)
+        },
+        fail: (err) => {
+          console.log("err",err)
+        }
+      })
+    })
+  }
+  get(options) {
+    return this.request({ ...options,method:"get"})
+  }
+  post(options) {
+    return this.request({ ...options,method:"post"})
+  }
+}
+
+export const request1 = new JRequest (' http://codercba.com:1888/api ')
+```
 
 ## 网络请求的域名配置
 小程序只可以跟指定的域名进行网络通信, 因此需要预先设置通讯域名

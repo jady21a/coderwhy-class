@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "属性选择器",
+                "query": "async",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,15 +155,15 @@
   },
   "active": "db8ec9d8b8d7809d",
   "lastOpenFiles": [
-    "06_小程序/04_基本语法.md",
+    "02_js/34_异步 线程.md",
+    "02_js/30_es7-es13.md",
+    "02_js/22_浏览器渲染原理.md",
+    "02_js/02.基本语法.md",
+    "02_js/37_网络传输.md",
+    "01_html+css/2.2 html高级(补充).md",
     "06_小程序/07_小程序api.md",
+    "06_小程序/04_基本语法.md",
     "06_小程序/00_注意.md",
-    "06_小程序/03_内置组件.md",
-    "06_小程序/02_小程序架构及配置文件.md",
-    "06_小程序/01_小程序(mini apps)基础.md",
-    "question/04_小程序.md",
-    "question/技巧.md",
-    "template/question模板.md",
-    "README.md"
+    "06_小程序/03_内置组件.md"
   ]
 }
