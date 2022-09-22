@@ -66,7 +66,7 @@ export function jRequest(options) {
 }
 ```
 #### 使用
-##### 1. 直接使用
+##### 1. 直接使用封装函数
 ```js
 // pages/hh/hh.js
 Page({
@@ -163,6 +163,24 @@ class JRequest{
 }
 
 export const request1 = new JRequest (' http://codercba.com:1888/api ')
+```
+#### 使用
+```js
+// pages/hh/hh.js
+Page({
+  data: {
+    allCities:{},
+    houseList:[],
+    currentPage:1
+  },
+	onload(){
+    request1.get({ 
+      url: '/city/all'
+    }).then(res => {
+      console.log("res",res)
+    })
+  },
+})
 ```
 
 ## 网络请求的域名配置
