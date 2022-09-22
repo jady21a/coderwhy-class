@@ -75,7 +75,7 @@ Page({
     houseList:[],
     currentPage:1
   },
-	onload(){
+	onLoad(){
     jRequest({
       url: 'http://codercba.com:1888/api/city/all'}).then(res=>{
         this.setData({allCities:res.data})
@@ -98,7 +98,7 @@ Page({
     houseList:[],
     currentPage:1
   },
-  async onload(){
+  async onLoad(){
     // 3.async/await(异步await会等前一个请求有结果后再请求下一个)
     // const cityRes=await jRequest({
     //   url:'http://codercba.com:1888/api/city/all'
@@ -173,7 +173,7 @@ Page({
     houseList:[],
     currentPage:1
   },
-	onload(){
+	onLoad(){
     request1.get({ 
       url: '/city/all'
     }).then(res => {
@@ -246,3 +246,39 @@ wx. getLocation (Object object)
  换取 authToken
 
 
+
+
+----
+
+# 案例
+## 上拉加载更多  [[00_注意]]
+
+```js
+// pages/ii/ii.js
+import { jRequest , request1} from "../../service/index"
+
+Page({
+  data:{
+    houseList:[],
+    currentPage:1
+  },
+  async onLoad(){
+    this.getHouse()
+  },
+  
+  async getHouse(){
+    const houseRes=await jRequest({
+      url: 'http://codercba.com:1888/api/home/houselist',
+      data:{ page:this.data.currentPage }
+    })
+    const finalList =[...this.data.houseList, ...houseRes.data]
+    this.setData({ houseList: finalList })
+    // 此处++不需要使用setData,因为setData是在改变数据的时候需要刷新页面才使用
+    this.data.currentPage++
+  },
+  onReachBottom() {
+    console.log("reachBottom!")
+    this.getHouse()
+  }
+})
+```
