@@ -25,5 +25,17 @@ npm i @vant/weapp -S --production
 构建
 工具-->构建 ![[Pasted image 20220923223411.png]]
  把 node_modules 的文件复制到 miniprogram_npm
+### 注册
+在使用 vant 的文件. json 中注册使用到的 vant 组件名
+这里以 button 和 rate 为例
+```json 
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-rate": "@vant/weapp/rate/index"
+  }
+}
+```
+
 
 # video
