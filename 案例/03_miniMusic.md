@@ -37,5 +37,10 @@ npm i @vant/weapp -S --production
 }
 ```
 
+如果小程序编译有问题可以尝试清空缓存后重新编译
+
+
+
 
 # video
+

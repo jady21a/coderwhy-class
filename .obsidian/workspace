@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "案例/03_miniMusic.md",
+            "file": "06_小程序/01_小程序(mini apps)基础.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "案例/03_miniMusic.md",
+                "file": "06_小程序/01_小程序(mini apps)基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "案例/03_miniMusic.md"
+                "file": "06_小程序/01_小程序(mini apps)基础.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "案例/03_miniMusic.md",
+                "file": "06_小程序/01_小程序(mini apps)基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,15 +155,15 @@
   },
   "active": "db8ec9d8b8d7809d",
   "lastOpenFiles": [
+    "06_小程序/00_注意.md",
+    "06_小程序/01_小程序(mini apps)基础.md",
+    "06_小程序/03_内置组件.md",
+    "06_小程序/02_小程序架构及配置文件.md",
+    "案例/03_miniMusic.md",
     "案例/02_j-trip.md",
     "案例/0B-小程序项目搭建.md",
     "案例/0A-vue项目搭建.md",
-    "案例/03_miniMusic.md",
     "案例/01_vue domo.md",
-    "06_小程序/07_小程序api.md",
-    "06_小程序/06_小程序组件化.md",
-    "06_小程序/00_注意.md",
-    "02_js/34_异步 线程.md",
-    "02_js/30_es7-es13.md"
+    "06_小程序/07_小程序api.md"
   ]
 }
