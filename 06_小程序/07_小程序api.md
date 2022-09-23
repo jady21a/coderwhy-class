@@ -1,4 +1,4 @@
-S# 网络请求
+# 1 网络请求
 wx. request (Object object)
 属性
 ➢ url: 必传 
@@ -7,7 +7,7 @@ wx. request (Object object)
 ➢ success: 成功时的回调 
 ➢ fail: 失败时的回调
 
-## 基本使用
+## 1.1 基本使用
 ```js
 // pages/hh/hh.js
 Page({
@@ -48,8 +48,8 @@ Page({
 </block>
 ```
 
-## 封装
-### 封装成函数 
+## 1.2 封装
+### 1.2.1 封装成函数 
 ```js 
 // service-->index.js
 // 1.封装成函数
@@ -65,8 +65,8 @@ export function jRequest(options) {
   })
 }
 ```
-#### 使用
-##### i.直接使用封装函数
+#### 1.2.1.1 使用
+##### 1.2.1.1.1 i.直接使用封装函数
 ```js
 // pages/hh/hh.js
 Page({
@@ -89,7 +89,7 @@ Page({
   },
 })
 ```
-##### ii. async/await (推荐)
+##### 1.2.1.1.2 ii. async/await (推荐)
 ```js
 // pages/hh/hh.js
 Page({
@@ -131,7 +131,7 @@ Page({
 })
 ```
 
-### 封装成类 (扩展性更强, 可以传 baseUrl)
+### 1.2.2 封装成类 (扩展性更强, 可以传 baseUrl)
 ```js
 // service-->index.js
 // 封装成类(扩展性更强,可以传baseUrl)
@@ -164,7 +164,7 @@ class JRequest{
 
 export const request1 = new JRequest (' http://codercba.com:1888/api ')
 ```
-#### 使用
+#### 1.2.2.1 使用
 ```js
 // pages/hh/hh.js
 Page({
@@ -183,7 +183,7 @@ Page({
 })
 ```
 
-## 网络请求的域名配置
+## 1.3 网络请求的域名配置
 小程序只可以跟指定的域名进行网络通信, 因此需要预先设置通讯域名
 
 小程序登录后台 – 开发管理 – 开发设置 – 服务器域名
@@ -192,7 +192,7 @@ Page({
 - 可以配置端口, 但只能固定一个端口; 如果不配端口, 那么请求的 url 就带端口
 - 不支持配置父域名来使用子域名
 
-# 小程序简单 api
+# 2 小程序简单 api
 ```html
 <!--pages/jj/jj.wxml-->
 <text>pages/jj/jj.wxml</text>
@@ -210,9 +210,9 @@ Page({
 <!-- 4.本地存储 -->
 <button bindtap="onLocalStorage">本地存储</button>
 ```
-## 弹窗
+## 2.1 弹窗
 showToast、showModal、showLoading、showActionSheet
-### showToast
+### 2.1.1 showToast
 ```js
 // pages/jj/jj.js
 Page({
@@ -239,7 +239,7 @@ Page({
 ```
 ![[Pasted image 20220923111100.png]]
 ![[Pasted image 20220923110943.png]]
-### showModal (Modal/ˈmoʊd(ə)l /-->模态的)
+### 2.1.2 showModal (Modal/ˈmoʊd(ə)l /-->模态的)
 ```js
 // pages/jj/jj.js
 Page({
@@ -262,7 +262,7 @@ Page({
 ```
 ![[Pasted image 20220923111400.png]]
 
-### showActionSheet
+### 2.1.3 showActionSheet
 ```js
   // pages/jj/jj.js
 Page({
@@ -283,7 +283,7 @@ Page({
 
 
 
-## 分享功能
+## 2.2 分享功能
 分享方式
 - 右上角菜单
 - 点击某一个按钮, 直接转发
@@ -302,7 +302,7 @@ Page({
   },
 })
 ```
-## 获取设备信息
+## 2.3 获取设备信息
 wx. getSystemInfo (Object object)
 ```js
 // pages/jj/jj.js
@@ -342,20 +342,20 @@ wx. getLocation (Object object)
 ![[Pasted image 20220923113110.png]]
 
 
-## storage
-### 同步存储数据
+## 2.4 storage
+### 2.4.1 同步存储数据
  wx. setStorageSync (string key, any data) 
  any wx. getStorageSync (string key) 
  wx. removeStorageSync (string key) 
  wx. clearStorageSync ()
 
-### 异步存储数据
+### 2.4.2 异步存储数据
  wx. setStorage (Object object) 
  wx. getStorage (Object object) 
  wx. removeStorage (Object object) 
  wx. clearStorage (Object object)
 
-# 小程序页面跳转
+# 3 小程序页面跳转
 ```html
 <!--pages/kk/kk.wxml-->
 <text>pages/kk/kk.wxml</text>
@@ -397,9 +397,9 @@ Page({
   }
 })
 ```
-### 跳转时传递数据
+### 3.0.1 跳转时传递数据
 ![[Pasted image 20220923120238.png]]
-### 跳转后返回数据
+### 3.0.2 跳转后返回数据
 ```html
 <!--pages/kk2/kk2.wxml-->
 <text>pages/kk2/kk2.wxml</text>
@@ -457,21 +457,125 @@ Page({
 })
 ```
 
-# 小程序登录
-
-## 识别用户身份
+# 4 小程序登录
+ 识别用户身份
  认识小程序登录流程 
  openid 和 unionid 
  获取 code 
  换取 authToken
 
+## 4.1 登录代码
+### 4.1.1 整体流程
+```js
+// pages/ll/ll.js
+import {login1} from '../../service/index'
+import {getCode} from '../../service/getCode'
+Page({
+  async onLoad() {
+    // 1.获取token, 判断token是否有值
+    const token = wx.getStorageSync('token') || ""
+    // 2.判断token是否过期
+    const res = await login1.post({
+      url:'/auth',
+      header:{ token:token}
+    })
+    console.log(res);
+    // 2.如果token有值
+    if (token && res.message === "已登录") {
+      console.log("请求其他的数据");
+    } else {
+      this.handleLogin()
+    }
+  },
 
+    
+  async handleLogin(){
+    const code = await getCode()
+    // 2.使用code换取token
+    const res = await login1.post({
+      url: "/login",
+      data: { code }
+    })
+      // 保存token
+    wx.setStorageSync('token', res.token)
+  }
 
+  // handleLogin() {
+  //   // 1.获取code
+  //   wx.login({
+  //     success: (res) => {
+  //       const code = res.code
+
+  //       // 2.将这个code发送自己的服务器(后端)
+  //       wx.request({
+  //         url: "http://123.207.32.32:3000/login",
+  //         data: {
+  //           code
+  //         },
+  //         method: "post",
+  //         success: (res) => {
+  //           const token = res.data.token
+  //           wx.setStorageSync('token', token)
+  //         }
+  //       })
+  //     }
+  //   })
+  // }
+})
+```
+### 4.1.2 网络请求函数 JRequest
+```js
+// service-->index.js
+// 封装成类(扩展性更强,可以传baseUrl)
+class JRequest{
+  constructor(baseURL) {
+    this.baseURL = baseURL
+  }
+  request(options) {
+    const { url } = options
+    return new Promise((resolve, reject) => {
+      wx.request({
+        ...options,
+        url: this.baseURL + url,
+        success: (res) => {
+          resolve(res.data)
+        },
+        fail: (err) => {
+          console.log("err:", err);
+        }
+      })
+    })
+  }
+  get(options) {
+    return this.request({ ...options, method: "get" })
+  }
+  post(options) {
+    return this.request({ ...options, method: "post" })
+  }
+}
+
+export const request1 = new JRequest('http://codercba.com:1888/api')
+export const login1 = new JRequest('http://123.207.32.32:3000')
+```
+### 4.1.3 获取 token 函数  (getCode)
+```js
+//  service-->getCode.js 
+ export function getCode(){
+   return new Promise((resolve,reject)=>{
+    wx.login({
+      timeout: 2000,
+      success:(res)=>{
+        resolve(res.code)
+      }
+    })
+   })
+ }
+```
 
 ----
 
-# 案例
-## 上拉加载更多  [[00_注意]]
+# 5 案例
+## 5.1 上拉加载更多  [[00_注意]]
 
 ```js
 // pages/ii/ii.js
