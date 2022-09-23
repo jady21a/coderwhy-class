@@ -1,0 +1,29 @@
+# tabbar
+app.json
+```json
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/a-music/a-music",
+      "text": "音乐",
+      "iconPath": "/assets/img/tabbar/music_normal.png",
+      "selectedIconPath": "/assets/img/tabbar/music_active.png"
+    },
+    {
+      "pagePath": "pages/b-video/b-video",
+      "text": "视频",
+      "iconPath": "/assets/img/tabbar/video_normal.png",
+      "selectedIconPath": "/assets/img/tabbar/video_active.png"
+    }
+  ]
+  },
+```
+
+# music
+## vant
+### 安装
+npm i @vant/weapp -S --production
+构建
+工具-->构建 ![[Pasted image 20220923223411.png]]
+ 把 node_modules 的文件复制到 miniprogram_npm
+
+# video
