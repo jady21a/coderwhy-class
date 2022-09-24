@@ -56,3 +56,45 @@ npm i @vant/weapp -S --production
 构建 npm
 
 #### 使用
+store-->songStore
+```js
+import { HYEventStore } from "hy-event-store"
+import { getPlaylistDetail } from "../services/music"
+
+const songStore=new HYEventStore({
+  state:{
+    recommendSongs:[],
+  },
+  actions:{
+    fetchRecommendSongAction(ctx){
+      getPlaylistDetail(3778678).then(res=>{
+        console.log(res)
+ ctx.recommendSongs=res.playlist.tracks
+
+      })
+    }
+  }
+})
+export default songStore
+```
+
+a-music. js
+```js
+import songStore  from '../../store/songStore'
+
+Page({
+  data: {
+    recommendSongs:[]
+  },
+  onLoad(options) {
+      // 把请求到的数据赋值给recommendSongs
+      songStore.onState("recommendSongs",(value)=>{
+      this.setData({recommendSongs:value})
+    })
+        songStore.dispatch("fetchRecommendSongAction")
+   }
+ )}
+
+```
+
+优化:
