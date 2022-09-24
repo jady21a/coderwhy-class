@@ -49,5 +49,10 @@ npm i @vant/weapp -S --production
 # video
 # 要点
 ## 数据共享
-1. app. globalData (app.js)
-2. HYEventStore
+### app. globalData (app.js)
+### HYEventStore
+#### 安装
+ npm i hy-event-store
+构建 npm
+
+#### 使用
