@@ -45,6 +45,9 @@ npm i @vant/weapp -S --production
 
 
 
+## id 传递
+![[Pasted image 20220925001118.png]]
+![[Pasted image 20220925001251.png]]
 
 # video
 # 要点
