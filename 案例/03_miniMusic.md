@@ -50,6 +50,39 @@ npm i @vant/weapp -S --production
 # 要点
 ## 数据共享
 ### app. globalData (app.js)
+```js
+// app.js
+App({
+  globalData: {
+    screenWidth: 375,
+    screenHeight: 667,
+  },
+  onLaunch() {
+    // 1.获取设备的信息
+    wx.getSystemInfo({
+      success: (res) => {
+        this.globalData.screenWidth = res.screenWidth
+        this.globalData.screenHeight = res.screenHeight
+
+      },
+    })
+  }
+})
+```
+
+使用
+```js
+// pages/main-music/main-music.js
+const app = getApp()
+Page({
+  data: {
+    screenWidth: 375,
+  },
+  onLoad() {
+    this.setData({ screenWidth: app.globalData.screenWidth })
+  }
+```
+
 ### HYEventStore
 #### 安装
  npm i hy-event-store
@@ -69,8 +102,7 @@ const songStore=new HYEventStore({
     fetchRecommendSongAction(ctx){
       getPlaylistDetail(3778678).then(res=>{
         console.log(res)
- ctx.recommendSongs=res.playlist.tracks
-
+				ctx.recommendSongs=res.playlist.tracks
       })
     }
   }
@@ -91,10 +123,44 @@ Page({
       songStore.onState("recommendSongs",(value)=>{
       this.setData({recommendSongs:value})
     })
-        songStore.dispatch("fetchRecommendSongAction")
+      songStore.dispatch("fetchRecommendSongAction")
    }
  )}
 
 ```
 
-优化:
+其他页面使用 store 中共享的数据
+```js
+// pages/a-music2-songDetail/a-music2-songDetail.js
+import songStore from "../../store/songStore"
+
+Page({
+  data: {
+    songs:[]
+  },
+  onLoad(){
+    // 将请求到的数据放到songs
+    // songStore.onState("recommendSongs",(value)=>{
+    //   this.setData({songs:value})
+    // })
+    // 优化
+    songStore.onState("recommendSongs",this.handleRecommendSongs)
+  },
+  handleRecommendSongs(value){
+      this.setData({songs:value})
+  },
+  onUnload(){
+    songStore.offState("recommendSongs",this.handleRecommendSongs)
+  }
+})
+```
+
+```html
+<!--pages/a-music2-songDetail/a-music2-songDetail.wxml-->
+<view>
+  <block wx:for="{{songs}}" wx:key="id">
+    <view>{{item.name}}</view>
+  </block>
+</view>
+
+```
