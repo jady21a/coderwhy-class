@@ -44,6 +44,9 @@ mini apps
 
 # 体验
 新建文件夹 -->右键-->新建 page   (自动生成四个个文件 . js . json . wxml,wxss, 且在 app. json 里面添加路径)
+
+也可在 app. json 里面添加路径自动生成文件夹和文件
+
 ![[Pasted image 20220917132142.png]]
 ![[Pasted image 20220917132500.png]]
 
