@@ -49,6 +49,32 @@ npm i @vant/weapp -S --production
 ![[Pasted image 20220925001118.png]]
 ![[Pasted image 20220925001251.png]]
 
+## 毛玻璃效果
+```html
+// app.js
+App({
+  globalData: {
+    screenWidth: 375,
+    screenHeight: 667,
+  },
+  onLaunch() {
+    // 1.获取设备的信息
+    wx.getSystemInfo({
+      success: (res) => {
+        this.globalData.screenWidth = res.screenWidth
+        this.globalData.screenHeight = res.screenHeight
+
+      },
+    })
+  }
+})
+```
+
+
+
+
+
+
 # video
 # 要点
 ## 数据共享
