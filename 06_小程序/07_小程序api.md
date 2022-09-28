@@ -397,9 +397,9 @@ Page({
   }
 })
 ```
-### 3.0.1 跳转时传递数据
+跳转时传递数据
 ![[Pasted image 20220923120238.png]]
-### 3.0.2 跳转后返回数据
+跳转后返回数据
 ```html
 <!--pages/kk2/kk2.wxml-->
 <text>pages/kk2/kk2.wxml</text>
@@ -456,7 +456,66 @@ Page({
   }
 })
 ```
+## 3.1 页面跳转传参
+### 3.1.1 page 间跳转
+```html
+<!--pages/mm/mm.wxml-->
+<navigator url="/pages/nn/nn?name=jay&age=25">page跳转</navigator>
+```
 
+```js
+// pages/nn/nn.js
+Page({
+  data: {
+    name:"",
+    age: 0
+  },
+  onLoad(options) {
+    console.log(options);
+    const name = options.name
+    const age = options.age
+    this.setData({ name, age })
+  },
+})
+```
+
+### 3.1.2 page 跳 component
+```html
+<!--pages/mm/mm.wxml-->
+<!-- page跳component -->
+<g-navgator info=" {{info}} "></g-navgator>
+```
+
+```js
+// pages/mm/mm.js
+Page({
+
+  data: {
+    info:{
+      name:"jay",
+      age:22
+    }
+  },
+})
+```
+
+```js
+// components/g-navgator/g-navgator.js
+Component({
+  properties: {
+    info:{
+      type:Object,
+      value:{}
+    }
+  },
+})
+```
+
+```html
+<!--components/g-navgator/g-navgator.wxml-->
+<view>{{info.name}}</view>
+<view> {{info.age}} </view>
+```
 # 4 小程序登录
  识别用户身份
  认识小程序登录流程 
