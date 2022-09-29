@@ -74,6 +74,43 @@ npm i @vant/weapp -S --production
 }
 ```
 
+## 自定义导航 custom-bar
+```json
+// pages/a-music5-player/a-music5-player.json
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+
+  "usingComponents": {
+    "music7-custom-bar":"/components/music7-custom-bar/music7-custom-bar"
+  }
+}
+```
+
+```js
+// app.js
+App({
+  globalData: {
+    statusBarHeight:20,
+    contentHeight:200
+  },
+  onLaunch() {
+  wx.getSystemInfo({
+    success:(res)=>{
+      // console.log(res);
+      this.globalData.statusHeight = res.statusBarHeight
+      this.globalData.contentHeight = res.screenHeight-res.screenHeight - 44
+    }
+  })
+  }
+})
+```
+
+
+
+
+
+
 
 
 
