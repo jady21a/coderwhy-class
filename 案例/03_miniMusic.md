@@ -50,26 +50,29 @@ npm i @vant/weapp -S --production
 ![[Pasted image 20220925001251.png]]
 
 ## 毛玻璃效果
-```html
-// app.js
-App({
-  globalData: {
-    screenWidth: 375,
-    screenHeight: 667,
-  },
-  onLaunch() {
-    // 1.获取设备的信息
-    wx.getSystemInfo({
-      success: (res) => {
-        this.globalData.screenWidth = res.screenWidth
-        this.globalData.screenHeight = res.screenHeight
-
-      },
-    })
-  }
-})
+```html 
+<!--pages/a-music5-player/a-music5-player.wxml-->
+<!-- background -->
+<image class="bg-image" src="{{currentSong.al.picUrl}}" mode="aspectFill"></image>
+<view class="bg-cover"></view>
 ```
 
+```css 
+/* pages/a-music5-player/a-music5-player.wxss */
+.bg-image, .bg-cover {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bg-cover {
+  background-color: rgba(0,0,0,.2);
+  backdrop-filter: blur(20px);
+}
+```
 
 
 
