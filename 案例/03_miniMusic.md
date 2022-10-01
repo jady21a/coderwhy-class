@@ -99,16 +99,70 @@ App({
     success:(res)=>{
       // console.log(res);
       this.globalData.statusHeight = res.statusBarHeight
-      this.globalData.contentHeight = res.screenHeight-res.screenHeight - 44
+      this.globalData.contentHeight = res.screenHeight-res. statusBarHeight - 44
     }
   })
   }
 })
 ```
 
+```html
+<!--pages/a-music5-player/a-music5-player.wxml-->
+<!-- 2.自定义导航栏 -->
+<music7-custom-bar>
+  <view class="tabs" slot="center">
+    <block wx:for="{{pageTitles}}" wx:key="*this">
+      <view 
+        class="item {{currentPage === index ? 'active': ''}}" 
+        bindtap="onNavTabItemTap" data-index="{{index}}"
+      >
+        {{item}}
+      </view>
+      <view class="divider" wx:if="{{index !== pageTitles.length - 1}}">|</view>
+    </block>
+  </view>
+</music7-custom-bar>
 
+<!-- content -->
+<swiper  
+  class="content"
+  bindchange="onSwiperChange"
+  style="height: {{contentHeight}}px;"
+  current="{{currentPage}}"
+  >
+  <swiper-item>music</swiper-item>
+  <swiper-item>lyric</swiper-item>
+</swiper>
+```
 
+```js
+// pages/a-music5-player/a-music5-player.js
+const app = getApp()
 
+Page({
+
+  data: {
+    pageTitles: ["歌曲", "歌词"],
+    currentPage: 0,
+    contentHeight: 0,
+  },
+
+  onLoad(options) {
+    this.setData({
+      contentHeight: app.globalData.contentHeight
+
+    })
+  }, 
+
+  onSwiperChange(event) {
+    this.setData({ currentPage: event.detail.current })
+  },
+  onNavTabItemTap(event) {
+    const index = event.currentTarget.dataset.index
+    this.setData({ currentPage: index })
+  },
+})
+```
 
 
 
