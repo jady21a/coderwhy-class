@@ -169,9 +169,47 @@ Page({
 ![[Pasted image 20221002120055.png]]
 ![[Pasted image 20221002120118.png]]
 
+# 优化
+## 分包
+新建文件夹-->配置文件
+![[Pasted image 20221004115424.png]]
+app.json
+```json
+  "subPackages": [
+    {
+      "root": "packageVideo",
+      "name": "video",
+      "pages": [
+        "pages/detail-video/detail-video"
+      ]
+    },
+    {
+      "root": "packagePlayer",
+      "name": "player",
+      "pages": [
+        "pages/music-player/music-player"
+      ]
+    }
+  ],
+  "preloadRule": {
+    "pages/main-music/main-music": {
+      "network": "all",
+      "packages": [
+        "packagePlayer",
+        "video"
+      ]
+    }
+  },
+```
 
-
-# video
+## 删除库不用的内容 
+不能删的: common /minxin/wxs
+1. 确定使用到的内容 search icon
+2. 在.json查看使用内容的依赖
+	search-->field-->cell/icon-->icon
+	icon-->info
+3. 其余进行删除
+![[Pasted image 20221004120900.png]]
 # 要点
 ## 数据共享
 ### app. globalData (app.js)
