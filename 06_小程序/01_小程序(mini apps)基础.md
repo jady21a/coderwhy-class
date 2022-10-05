@@ -19,6 +19,7 @@ https://mp.weixin.qq.com/cgi-bin/wx
 开发--> 开发管理--> 开发设置
   
 wx51ffac3b6e0ad283
+wx50328c2bed897d07
 
 ![[Pasted image 20220917122452.png]]
 ## 开发工具
