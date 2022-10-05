@@ -17,9 +17,13 @@ uni-app 和 taro 开发的网页, 无论是适配原生小程序还是原生 App
 # 开发 id
 https://mp.weixin.qq.com/cgi-bin/wx
 开发--> 开发管理--> 开发设置
-  
+
+184@qq. com
 wx51ffac3b6e0ad283
+266@qq. com
 wx50328c2bed897d07
+jady21@126. com
+wx2170e2b73369b6a7
 
 ![[Pasted image 20220917122452.png]]
 ## 开发工具
