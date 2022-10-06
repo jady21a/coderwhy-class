@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "案例/03_miniMusic.md",
+            "file": "question/04_小程序.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "案例/03_miniMusic.md",
+                "file": "question/04_小程序.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "案例/03_miniMusic.md"
+                "file": "question/04_小程序.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "案例/03_miniMusic.md",
+                "file": "question/04_小程序.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,17 +153,17 @@
     "direction": "horizontal",
     "width": 161.5
   },
-  "active": "4170c7db0d47cef5",
+  "active": "db8ec9d8b8d7809d",
   "lastOpenFiles": [
-    "06_小程序/01_小程序(mini apps)基础.md",
+    "question/02.js.md",
+    "question/03_vue.md",
+    "question/04_小程序.md",
     "案例/03_miniMusic.md",
+    "06_小程序/01_小程序(mini apps)基础.md",
     "06_小程序/00_注意.md",
     "06_小程序/08_云开发.md",
     "06_小程序/07_小程序api.md",
     "06_小程序/06_小程序组件化.md",
-    "06_小程序/snap/Pasted image 20220917132142.png",
-    "06_小程序/snap/Pasted image 20220917132228.png",
-    "06_小程序/snap/Pasted image 20220917125653.png",
-    "06_小程序/snap/Pasted image 20220917122700.png"
+    "06_小程序/snap/Pasted image 20220917132142.png"
   ]
 }
