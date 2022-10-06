@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "question/04_小程序.md",
+            "file": "06_小程序/08_云开发.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "question/04_小程序.md",
+                "file": "06_小程序/08_云开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "question/04_小程序.md"
+                "file": "06_小程序/08_云开发.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "question/04_小程序.md",
+                "file": "06_小程序/08_云开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +155,9 @@
   },
   "active": "db8ec9d8b8d7809d",
   "lastOpenFiles": [
+    "question/04_小程序.md",
     "question/02.js.md",
     "question/03_vue.md",
-    "question/04_小程序.md",
     "案例/03_miniMusic.md",
     "06_小程序/01_小程序(mini apps)基础.md",
     "06_小程序/00_注意.md",
