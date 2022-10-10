@@ -28,3 +28,52 @@ ReactVR --> 虚拟现实 Web
 2. 下载后本地引入
 3. npm
 
+
+# demo 代码片段
+[snippet generator (snippet-generator.app)](https://snippet-generator.app/)
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+  <script type="text/babel">
+    class App extends React.Component{
+      constructor(){
+        super()
+        this.state={
+          aa:"hello world"
+        }
+        this.btnClick=this.btnClick.bind(this)
+      }
+      btnClick(){
+          this.setState({
+            aa:"hi react"
+          })
+        }
+      render(){
+        const { aa } = this.state
+        return(
+          <div>
+            <h3>{aa}</h3>
+          </div>
+        )
+      }
+    }
+    const root = ReactDOM.createRoot(document.querySelector("#root"))
+    root.render(<App/>)
+  </script>
+
+</body>
+</html>
+```
