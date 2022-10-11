@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "07_react/702_jsx语法.md",
+            "file": "04_前端工程化/03_包管理工具.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/702_jsx语法.md",
+                "file": "04_前端工程化/03_包管理工具.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/702_jsx语法.md"
+                "file": "04_前端工程化/03_包管理工具.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/702_jsx语法.md",
+                "file": "04_前端工程化/03_包管理工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,15 +155,15 @@
   },
   "active": "d0fa68d850d52e3a",
   "lastOpenFiles": [
-    "Excalidraw/draw.excalidraw.md",
+    "04_前端工程化/04_webpack1_基础.md",
+    "07_react/703_react脚手架.md",
     "07_react/702_jsx语法.md",
+    "Excalidraw/draw.excalidraw.md",
     "07_react/701_邂逅react.md",
     "02_js/28_ES6 继承.md",
     "02_js/08.DOM2-特性及插入.md",
     "02_js/07.对象2-构造函数.md",
     "02_js/06.函数2.md",
-    "02_js/06.函数1.md",
-    "05_vue/02_语法.md",
-    "02_js/27_ES5原型 继承.md"
+    "02_js/06.函数1.md"
   ]
 }
