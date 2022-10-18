@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "07_react/704_.md",
+            "file": "07_react/704_react组件化.md",
             "mode": "source",
             "source": false
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/704_.md",
+                "file": "07_react/704_react组件化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/704_.md"
+                "file": "07_react/704_react组件化.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/704_.md",
+                "file": "07_react/704_react组件化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
   "lastOpenFiles": [
     "07_react/703_react脚手架.md",
     "07_react/702_jsx语法.md",
-    "07_react/704_.md",
+    "07_react/704_react组件化.md",
     "02_js/07.对象3-数组.md",
     "07_react/701_邂逅react.md",
     "04_前端工程化/03_包管理工具.md",
