@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "07_react/01_邂逅react.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "07_react/01_邂逅react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/04_react组件化.md"
+                "file": "07_react/01_邂逅react.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "07_react/01_邂逅react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,10 +164,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4170c7db0d47cef5",
+  "active": "d0fa68d850d52e3a",
   "lastOpenFiles": [
-    "question/技巧.md",
     "07_react/04_react组件化.md",
+    "question/技巧.md",
     "07_react/03_react脚手架.md",
     "07_react/02_jsx语法.md",
     "07_react/01_邂逅react.md",
