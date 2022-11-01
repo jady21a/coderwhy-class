@@ -5,7 +5,7 @@ npm i create-react-app -g
 创建项目
 create-react-app 项目名
 
-注意: 项目名不能包含大写字母
+注意: 项目名不能包含大写字母, 且不能为中文
 
 ## 目录结构
 ![[Pasted image 20221011223235.png]]
