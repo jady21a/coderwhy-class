@@ -3,7 +3,7 @@ https://zh-hans.reactjs.org/
 # react 特点
 ## 声明式编程
 当状态改变时，React 可以根据最新的状态去渲染我们的 UI 界面；
-![[Pasted image 20221010172948.png]]
+![[Pasted image 20221010172948.png|600]]
 
 ## 组件化
 将复杂的界面拆分成一个个小的组件
