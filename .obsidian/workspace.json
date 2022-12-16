@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/01_邂逅react.md",
+                "file": "00_备忘/02_快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/01_邂逅react.md",
+                "file": "00_备忘/02_快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/01_邂逅react.md"
+                "file": "00_备忘/02_快捷键.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/01_邂逅react.md",
+                "file": "00_备忘/02_快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,17 +174,17 @@
     "direction": "horizontal",
     "width": 160.5
   },
-  "active": "c8c4d070f78213e5",
+  "active": "4170c7db0d47cef5",
   "lastOpenFiles": [
+    "00_备忘/00_todo.md",
+    "00_备忘/01_网盘.md",
+    "07_react/01_邂逅react.md",
     "07_react/03_react脚手架.md",
     "07_react/04_react组件化.md",
     "template/question模板.md",
     "README.md",
     "question/技巧.md",
     "07_react/02_jsx语法.md",
-    "07_react/01_邂逅react.md",
-    "04_前端工程化/01_Node.js.md",
-    "案例/02_j-trip.md",
-    "question/git q.md"
+    "04_前端工程化/01_Node.js.md"
   ]
 }
