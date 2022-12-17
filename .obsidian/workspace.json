@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_备忘/02_快捷键.md",
+                "file": "07_react/01_邂逅react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_备忘/02_快捷键.md"
+                "file": "07_react/01_邂逅react.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_备忘/02_快捷键.md",
+                "file": "07_react/01_邂逅react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
