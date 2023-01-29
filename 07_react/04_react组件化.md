@@ -67,6 +67,6 @@ render 被调用时，它会检查 this.props 和 this.state 的变化并返回�
 -  getSnapshotBeforeUpdate：在 React 更新 DOM 之前回调的一个函数，可以获取 DOM 更新前的一些信息（比如说滚动位置）； 
 -  shouldComponentUpdate：该生命周期函数很常用，见性能优化；
 
-# 组件间通讯
+# 组件间通讯  172
 父传子: 通过属性=值的形式来传递数据给子组件
 子传父: 通过 props 参数获取父组件传递过来的数据
