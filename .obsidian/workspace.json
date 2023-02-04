@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/03_react脚手架.md",
+                "file": "07_react/04_react组件化.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "技巧",
+                "query": "super",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/03_react脚手架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,9 +137,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "07_react/03_react脚手架.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,7 +157,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/03_react脚手架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,17 +183,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "d0fa68d850d52e3a",
+  "active": "4170c7db0d47cef5",
   "lastOpenFiles": [
-    "07_react/02_jsx语法.md",
-    "07_react/03_react脚手架.md",
-    "07_react/01_邂逅react.md",
-    "04_前端工程化/05_git.md",
     "07_react/04_react组件化.md",
+    "07_react/02_jsx语法.md",
+    "07_react/01_邂逅react.md",
+    "02_js/28_ES6 继承.md",
+    "07_react/03_react脚手架.md",
+    "04_前端工程化/05_git.md",
     "案例/03_miniMusic.md",
     "案例/02_j-trip.md",
     "案例/01_vue domo.md",
-    "案例/0B-小程序项目搭建.md",
-    "案例/0A-vue项目搭建.md"
+    "案例/0B-小程序项目搭建.md"
   ]
 }
