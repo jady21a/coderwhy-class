@@ -2,14 +2,17 @@
 ## 安装
 npm i create-react-app -g
 
+检查 react 版本
+create-react-app --version
+
 创建项目
 create-react-app 项目名
 
 注意: 项目名不能包含大写字母, 且不能为中文
 
 项目展示
-npm run start
-
+cd 进入项目
+npm run start / yarn start
 ## 目录结构
 ![[Pasted image 20221011223235.png]]
 
