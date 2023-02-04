@@ -7,6 +7,9 @@ create-react-app 项目名
 
 注意: 项目名不能包含大写字母, 且不能为中文
 
+项目展示
+npm run start
+
 ## 目录结构
 ![[Pasted image 20221011223235.png]]
 

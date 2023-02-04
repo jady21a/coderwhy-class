@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "案例/03_miniMusic.md",
+                "file": "07_react/04_react组件化.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "案例/03_miniMusic.md",
+                "file": "07_react/04_react组件化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "案例/03_miniMusic.md"
+                "file": "07_react/04_react组件化.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "案例/03_miniMusic.md",
+                "file": "07_react/04_react组件化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,15 +189,15 @@
   },
   "active": "d0fa68d850d52e3a",
   "lastOpenFiles": [
+    "07_react/03_react脚手架.md",
+    "07_react/04_react组件化.md",
+    "07_react/02_jsx语法.md",
+    "07_react/01_邂逅react.md",
+    "案例/03_miniMusic.md",
     "案例/02_j-trip.md",
     "案例/01_vue domo.md",
     "案例/0B-小程序项目搭建.md",
     "案例/0A-vue项目搭建.md",
-    "07_react/04_react组件化.md",
-    "07_react/03_react脚手架.md",
-    "07_react/02_jsx语法.md",
-    "07_react/01_邂逅react.md",
-    "00_备忘/00_todo.md",
-    "00_备忘/01_网盘.md"
+    "00_备忘/00_todo.md"
   ]
 }
