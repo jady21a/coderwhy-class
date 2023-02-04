@@ -70,6 +70,60 @@ render 被调用时，它会检查 this.props 和 this.state 的变化并返回�
 # 组件间通讯  172
 父传子: 
 父通过属性=值的形式来传递数据给子组件
+```js
+import React from "react"
+import Son from "./Son"
+import Son2 from "./Son2"
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      titles: ["aa", "bb", "cc"],
+      number:["11","22","33"]
+    }
+  }
+  render() {
+    const { titles,number }=this.state
+    return (
+      <div>
+        <Son titles={titles}></Son>
+        <Son2 number={number}></Son2>
+      </div>
+    )
+  }
+}
+export default App
+```
+
 子通过 props 参数获取父组件传递过来的数据
+```js
+import React, { Component } from 'react'
+
+export class Son extends Component {
+  constructor(props) {
+    super(props)
+  }
+  // 此处constructor里的操作有自动完成,可以省略
+  render() {
+    console.log(this.props)
+    const {titles}=this.props
+    return (
+      <div>
+        <h3>son1</h3>
+        <ul>
+          {titles.map(item => {
+            return <li key={item}>{item}</li>
+          })}
+        </ul>
+      </div>
+    )
+  }
+}
+export default Son
+```
+
+proptypes 类型检查
+
 
 子传父: 

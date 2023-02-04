@@ -31,3 +31,7 @@ npm run eject (不推荐)
 craco (create-react-app config ) 是更好的配置方法
 
 ![[Pasted image 20221011224549.png]]
+
+显示不同的组件
+在 src--> index. js 更改需要显示的文件
+![[Pasted image 20230205004014.png]]

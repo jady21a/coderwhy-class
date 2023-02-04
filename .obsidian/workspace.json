@@ -106,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "07_react/04_react组件化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "07_react/04_react组件化.md"
+              }
             }
           },
           {
@@ -157,6 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "07_react/04_react组件化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,13 +187,13 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "4170c7db0d47cef5",
+  "active": "d0fa68d850d52e3a",
   "lastOpenFiles": [
+    "07_react/03_react脚手架.md",
     "07_react/04_react组件化.md",
     "07_react/02_jsx语法.md",
     "07_react/01_邂逅react.md",
     "02_js/28_ES6 继承.md",
-    "07_react/03_react脚手架.md",
     "04_前端工程化/05_git.md",
     "案例/03_miniMusic.md",
     "案例/02_j-trip.md",
