@@ -1,0 +1,15 @@
+{
+  "showCLICommands": false,
+  "addExtensionsToInternalLinks": "html",
+  "injectAppCSS": "light",
+  "injectThemeCSS": false,
+  "customCSSFile": null,
+  "displayYAMLFrontmatter": false,
+  "linkStrippingBehaviour": "text",
+  "highDPIDiagrams": true,
+  "pandoc": "C:\\Users\\jady\\AppData\\Roaming\\pandoc.exe",
+  "pdflatex": null,
+  "outputFolder": "D:\\obsidian",
+  "extraArguments": "",
+  "exportFrom": "html"
+}
