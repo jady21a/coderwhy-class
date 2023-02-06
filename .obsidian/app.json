@@ -11,5 +11,12 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
   "tabSize": 2,
-  "communityPluginSortOrder": "release"
+  "communityPluginSortOrder": "release",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

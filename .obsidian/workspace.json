@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "07_react/01_邂逅react.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "space",
+                "query": "文件",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "07_react/01_邂逅react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/04_react组件化.md"
+                "file": "07_react/01_邂逅react.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "07_react/01_邂逅react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,14 +191,14 @@
   "active": "18972f12522ac73d",
   "lastOpenFiles": [
     "07_react/00_demo案例.md",
-    "01_html+css/4.0 居中.md",
-    "01_html+css/4.1 代码规范.md",
-    "01_html+css/3.11 flex布局.md",
-    "06_小程序/03_内置组件.md",
+    "07_react/snap/Pasted image 20221010172948.png",
+    "01_html+css/1.0.前端.md",
+    "05_vue/03_组件间通讯.md",
+    "03_常用js库/01_jquery.md",
     "00_备忘/06_emmt快捷简写.md",
-    "00_备忘/05_ui库.md",
-    "00_备忘/00_todo.md",
-    "07_react/01_邂逅react.md",
-    "00_备忘/02_快捷键.md"
+    "00_备忘/02_快捷键.md",
+    "00_备忘/04_vscode.md",
+    "00_备忘/03_git.md",
+    "00_备忘/01_网盘.md"
   ]
 }
