@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_html+css/4.0 居中.md",
+                "file": "07_react/04_react组件化.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_html+css/4.0 居中.md",
+                "file": "07_react/04_react组件化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_html+css/4.0 居中.md"
+                "file": "07_react/04_react组件化.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_html+css/4.0 居中.md",
+                "file": "07_react/04_react组件化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,15 +190,15 @@
   },
   "active": "18972f12522ac73d",
   "lastOpenFiles": [
-    "01_html+css/4.1 代码规范.md",
+    "07_react/00_demo案例.md",
     "01_html+css/4.0 居中.md",
+    "01_html+css/4.1 代码规范.md",
     "01_html+css/3.11 flex布局.md",
     "06_小程序/03_内置组件.md",
     "00_备忘/06_emmt快捷简写.md",
     "00_备忘/05_ui库.md",
     "00_备忘/00_todo.md",
     "07_react/01_邂逅react.md",
-    "07_react/00_demo案例.md",
     "00_备忘/02_快捷键.md"
   ]
 }
