@@ -7,7 +7,7 @@
   "displayYAMLFrontmatter": false,
   "linkStrippingBehaviour": "text",
   "highDPIDiagrams": true,
-  "pandoc": "C:\\Users\\jady\\AppData\\Roaming\\pandoc.exe",
+  "pandoc": "C:\\Users\\jady\\AppData\\Local\\Pandoc\\pandoc.exe",
   "pdflatex": null,
   "outputFolder": "D:\\obsidian",
   "extraArguments": "",
