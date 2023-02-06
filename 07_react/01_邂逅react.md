@@ -31,7 +31,7 @@ ReactVR --> 虚拟现实 Web
 
 # demo 代码片段
 [snippet generator (snippet-generator.app)](https://snippet-generator.app/)
-```js
+```jsx
 <!DOCTYPE html>
 <html lang="en">
 <head>
