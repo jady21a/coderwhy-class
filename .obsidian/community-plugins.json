@@ -13,5 +13,6 @@
   "oz-clear-unused-images",
   "obsidian-git",
   "obsidian-title-serial-number-plugin",
-  "cmenu-plugin"
+  "cmenu-plugin",
+  "obsidian-pandoc"
 ]
