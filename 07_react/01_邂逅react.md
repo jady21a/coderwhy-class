@@ -82,5 +82,10 @@ ReactVR --> 虚拟现实 Web
 ## 插件快捷键 (es7 + React/Redux/React-Native)
 [vscode-react-javascript-snippets/Snippets.md at 185bb91a0b692c54136663464e8225872c434637 · chillios-ts/vscode-react-javascript-snippets (github.com)](https://github.com/chillios-ts/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md)
 
-### rec
+### rce
+react class export components
 ![[Pasted image 20221101125424.png]]
+
+### 解构对象简写 dob
+destructionObject
+![[Pasted image 20230206002720.png]]

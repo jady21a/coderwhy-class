@@ -68,9 +68,10 @@ render 被调用时，它会检查 this.props 和 this.state 的变化并返回�
 -  shouldComponentUpdate：该生命周期函数很常用，见性能优化；
 
 # 组件间通讯  172
-父传子: 
-父通过属性=值的形式来传递数据给子组件
-```js
+## 父传子: 
+### 父
+通过属性=值的形式来传递数据给子组件
+```jsx
 import React from "react"
 import Son from "./Son"
 import Son2 from "./Son2"
@@ -96,8 +97,9 @@ class App extends React.Component {
 export default App
 ```
 
-子通过 props 参数获取父组件传递过来的数据
-```js
+### 子
+通过 props 参数获取父组件传递过来的数据
+```jsx
 import React, { Component } from 'react'
 
 export class Son extends Component {
@@ -123,7 +125,93 @@ export class Son extends Component {
 export default Son
 ```
 
-proptypes 类型检查
+### props 的类型检查 proptypes 
+```jsx
+import React, { Component } from 'react'
+import { PropTypes } from 'prop-types'
+
+export class Son2 extends Component {
+  // 2022年出的静态默认值
+  // static defaultProps = {
+  //   number:"21"
+  // }
+  render() {
+    const { number }=this.props
+    return (
+      <div>Son2
+        <ul>
+          {number.map(item => {
+            return <li key={item}>{item}</li>
+          })}
+        </ul>
+      </div>
+    )
+  }
+}
+// 类型验证propTypes
+Son2.propTypes = { number: PropTypes.number }
+//默认值defaultProps
+Son2.defaultProps={ number: 21}
+
+export default Son2
+
+```
+
+### props 的默认值 defaultProps
+static defaultProps 2022
 
 
-子传父: 
+### 解构对象简写 dob
+destructionObject
+![[Pasted image 20230206002720.png]]
+## 子传父: 
+### 子
+监听点击, 执行函数
+```jsx
+import React, { Component } from 'react'
+
+export class Add extends Component {
+  add(count) {
+    // const click = this.props.addClick
+    // click(count)
+    // count为传入的参数
+    this.props.addClick(count)
+  }
+  render() {
+    return (
+      <div>
+        <button onClick={e=>this.add(1)}>+1</button>
+      </div>
+    )
+  }
+}
+export default Add
+```
+### 父
+改变数据
+```jsx
+import React from "react"
+import Add from "./Add"
+import Sub from "./Sub"
+
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state={counter:0}
+  }
+  changeCount(count) {
+    this.setState({counter:this.state.counter+count})
+  }
+  render() {
+    const {counter} = this.state
+    return (
+      <div>
+        <h3>counter:{counter}</h3>
+        <Add addClick={(count)=>this.changeCount(count)}></Add>
+        <Sub subClick={(count)=>this.changeCount(count)}></Sub>
+      </div>
+    )
+  }
+}
+export default App
+```

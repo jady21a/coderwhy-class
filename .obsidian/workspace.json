@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f124e14f2acc21e6",
+        "id": "c7004377dee3dddc",
         "type": "tabs",
         "children": [
           {
-            "id": "d0fa68d850d52e3a",
+            "id": "4f34c0a0cf6734aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/04_react组件化.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8c4d070f78213e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_备忘/02_快捷键.md",
+                "file": "07_react/00_demo案例.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "07_react/00_demo案例.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/04_react组件化.md"
+                "file": "07_react/00_demo案例.md"
               }
             }
           },
@@ -160,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "07_react/00_demo案例.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,17 +175,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "d0fa68d850d52e3a",
+  "active": "4f34c0a0cf6734aa",
   "lastOpenFiles": [
-    "07_react/03_react脚手架.md",
     "07_react/04_react组件化.md",
-    "07_react/02_jsx语法.md",
+    "question/05_react.md",
+    "00_备忘/02_快捷键.md",
     "07_react/01_邂逅react.md",
-    "02_js/28_ES6 继承.md",
-    "04_前端工程化/05_git.md",
-    "案例/03_miniMusic.md",
-    "案例/02_j-trip.md",
-    "案例/01_vue domo.md",
-    "案例/0B-小程序项目搭建.md"
+    "question/04_小程序.md",
+    "question/技巧.md",
+    "template/question模板.md",
+    "question/03_vue.md",
+    "question/02.js.md",
+    "question/git q.md"
   ]
 }
