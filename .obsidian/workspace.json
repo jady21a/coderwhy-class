@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/00_demo案例.md",
+                "file": "question/05_react.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/00_demo案例.md",
+                "file": "question/05_react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/00_demo案例.md"
+                "file": "question/05_react.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/00_demo案例.md",
+                "file": "question/05_react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,15 +177,15 @@
   },
   "active": "4f34c0a0cf6734aa",
   "lastOpenFiles": [
+    "07_react/03_react脚手架.md",
+    "07_react/02_jsx语法.md",
+    "07_react/01_邂逅react.md",
+    "07_react/00_demo案例.md",
     "07_react/04_react组件化.md",
     "question/05_react.md",
     "00_备忘/02_快捷键.md",
-    "07_react/01_邂逅react.md",
     "question/04_小程序.md",
     "question/技巧.md",
-    "template/question模板.md",
-    "question/03_vue.md",
-    "question/02.js.md",
-    "question/git q.md"
+    "template/question模板.md"
   ]
 }
