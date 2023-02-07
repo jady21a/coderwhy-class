@@ -35,8 +35,12 @@
             "id": "a596a8142b48cca1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "07_react/04_react组件化.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -115,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "07_react/04_react组件化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "07_react/04_react组件化.md"
+              }
             }
           },
           {
@@ -166,6 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "07_react/04_react组件化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
