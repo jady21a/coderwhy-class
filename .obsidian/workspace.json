@@ -25,14 +25,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/01_邂逅react.md",
+                "file": "07_react/04_react组件化.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "a596a8142b48cca1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/01_邂逅react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "07_react/01_邂逅react.md"
-              }
+              "state": {}
             }
           },
           {
@@ -161,7 +166,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/01_邂逅react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,17 +192,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "18972f12522ac73d",
+  "active": "a596a8142b48cca1",
   "lastOpenFiles": [
+    "07_react/test.md",
+    "07_react/04_react组件化.md",
+    "07_react/01_邂逅react.md",
     "07_react/snap/Pasted image 20221010172948.png",
     "规范化.md",
-    "07_react/04_react组件化.md",
     "07_react/02_jsx语法.md",
-    "07_react/01_邂逅react.md",
     "07_react/snap/Pasted image 20221010210653.png",
     "07_react/00_demo案例.md",
     "README.md",
-    "01_html+css/1.0.前端.md",
-    "05_vue/03_组件间通讯.md"
+    "01_html+css/1.0.前端.md"
   ]
 }

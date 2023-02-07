@@ -43,7 +43,14 @@
       "name": "OPML"
     }
   ],
-  "defaultExportDirectoryMode": "Auto",
+  "defaultExportDirectoryMode": "Custom",
   "openExportedFile": true,
-  "version": "1.1.8"
+  "version": "1.1.8",
+  "customDefaultExportDirectory": {
+    "win32": "D:\\obsidian\\导出"
+  },
+  "lastExportDirectory": {
+    "win32": "D:\\obsidian\\导出"
+  },
+  "lastExportType": "Word (.docx)"
 }
