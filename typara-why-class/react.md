@@ -446,7 +446,7 @@ export default Son2
 #### props 的默认值 defaultProps
 
 static defaultProps 2022
-
+见上 (类型类型检查)
 #### 子
 
 监听点击, 执行函数
@@ -500,7 +500,11 @@ class App extends React.Component {
 export default App
 ```
 
-# a
+### slot
+react 不需要插槽, 可以用一下方案实现插槽功能
+1. children
+2. props 属性传递
+
 
 
 
