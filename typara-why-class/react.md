@@ -503,8 +503,7 @@ export default App
 # a
 
 
-f 烦恼即可
-你开房间
+
 
 
 
