@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_备忘/05_ui库.md",
+                "file": "typara-why-class/reactDemo.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "00_备忘/02_快捷键.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "typara-why-class/reactDemo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/04_react组件化.md"
+                "file": "typara-why-class/reactDemo.md"
               }
             }
           },
@@ -173,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/04_react组件化.md",
+                "file": "typara-why-class/reactDemo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,17 +199,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "a596a8142b48cca1",
+  "active": "4f34c0a0cf6734aa",
   "lastOpenFiles": [
-    "07_react/test.md",
+    "00_备忘/05_ui库.md",
+    "00_备忘/02_快捷键.md",
     "07_react/04_react组件化.md",
-    "07_react/01_邂逅react.md",
-    "07_react/snap/Pasted image 20221010172948.png",
-    "规范化.md",
-    "07_react/02_jsx语法.md",
-    "07_react/snap/Pasted image 20221010210653.png",
+    "typara-why-class/react.md",
+    "00_备忘/01_杂记.md",
+    "typara-why-class/reactDemo.md",
+    "typara-why-class/typora快捷键.md",
     "07_react/00_demo案例.md",
-    "README.md",
-    "01_html+css/1.0.前端.md"
+    "07_react/03_react脚手架.md",
+    "07_react/02_jsx语法.md"
   ]
 }

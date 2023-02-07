@@ -15,5 +15,7 @@
   "obsidian-title-serial-number-plugin",
   "cmenu-plugin",
   "obsidian-pandoc",
-  "obsidian-enhancing-export"
+  "obsidian-enhancing-export",
+  "cm-typewriter-scroll-obsidian",
+  "remember-cursor-position"
 ]
