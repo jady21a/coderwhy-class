@@ -16,5 +16,7 @@
 
 
 ## 鼠标悬停提示
-首选项--设置--扩展--html--hover
+1. 设置--text edit--hover
+![](snap/Pasted%20image%2020230208001132.png)
+2. 首选项--设置--扩展--html--hover
 Documentation 和 reference
