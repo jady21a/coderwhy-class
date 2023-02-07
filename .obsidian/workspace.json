@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_react/02_jsx语法.md",
+                "file": "07_react/01_邂逅react.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "07_react/02_jsx语法.md",
+                "file": "07_react/01_邂逅react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "07_react/02_jsx语法.md"
+                "file": "07_react/01_邂逅react.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "07_react/02_jsx语法.md",
+                "file": "07_react/01_邂逅react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,15 +190,15 @@
   },
   "active": "18972f12522ac73d",
   "lastOpenFiles": [
+    "07_react/snap/Pasted image 20221010172948.png",
+    "规范化.md",
+    "07_react/04_react组件化.md",
+    "07_react/02_jsx语法.md",
     "07_react/01_邂逅react.md",
     "07_react/snap/Pasted image 20221010210653.png",
     "07_react/00_demo案例.md",
     "README.md",
-    "07_react/snap/Pasted image 20221010172948.png",
     "01_html+css/1.0.前端.md",
-    "05_vue/03_组件间通讯.md",
-    "03_常用js库/01_jquery.md",
-    "00_备忘/06_emmt快捷简写.md",
-    "00_备忘/02_快捷键.md"
+    "05_vue/03_组件间通讯.md"
   ]
 }
