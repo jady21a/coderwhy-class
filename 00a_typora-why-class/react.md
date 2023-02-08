@@ -642,4 +642,7 @@ export default Slot1
 3. 类组件设置 contextType=Context
 4. 使用 this. context
 
-O
+Context. Consumer
+- 用于函数组件
+- 多个 Context 共享数据
+

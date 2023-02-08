@@ -141,8 +141,12 @@
             "id": "b8b25fdf97e6dbe3",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "00a_typora-why-class/react.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -177,18 +181,26 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "ab3af71eb1d846ff",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 160.5
+    "width": 354.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:Create new canvas": false,
@@ -199,17 +211,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "4170c7db0d47cef5",
+  "active": "db1d79e4277a1c16",
   "lastOpenFiles": [
-    "05_vue/03_组件间通讯.md",
+    "00a_typora-why-class/typora快捷键.md",
+    "202302081053.md",
+    "02_js/36_防抖节流深拷贝.md",
+    "项目案例/0B-小程序项目搭建.md",
+    "question/03_vue.md",
+    "未命名.canvas",
     "00a_typora-why-class/react.md",
+    "05_vue/03_组件间通讯.md",
     "01_html+css/2.0.html常见元素.md",
-    "000_备忘/02_快捷键.md",
-    "07_react/04_react组件化.md",
-    "000_备忘/04_vscode.md",
-    "01_html+css/1.0.前端.md",
-    "00a_typora-why-class/reactDemo.md",
-    "000_备忘/05_ui库.md",
-    "000_备忘/01_杂记.md"
+    "000_备忘/02_快捷键.md"
   ]
 }

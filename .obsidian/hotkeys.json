@@ -7,25 +7,7 @@
       "key": "M"
     }
   ],
-  "outline:open-for-current": [],
-  "outline:open": [],
   "workspace:close-others": [],
-  "editor:focus-top": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowUp"
-    }
-  ],
-  "editor:focus-bottom": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "ArrowDown"
-    }
-  ],
   "insert-current-date": [
     {
       "modifiers": [
@@ -151,5 +133,7 @@
       ],
       "key": "T"
     }
-  ]
+  ],
+  "workspace:new-tab": [],
+  "easy-typing-obsidian:easy-typing-format-switch": []
 }
