@@ -447,8 +447,10 @@ export default Son2
 
 static defaultProps 2022
 见上 (类型类型检查)
-#### 子
 
+### 子传父
+#### 子
+通过函数和回调函数传递
 监听点击, 执行函数
 ```jsx
 import React, { Component } from 'react'
@@ -500,7 +502,7 @@ class App extends React.Component {
 export default App
 ```
 
-### slot
+### slot 效果
 react 不需要插槽, 可以用以下方案实现插槽功能
 ```jsx
 import React from "react"
@@ -568,18 +570,5 @@ export class Slot2 extends Component {
 }
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 作用域插槽
+由子组件决定插入的内容 (插入内容灵活化)

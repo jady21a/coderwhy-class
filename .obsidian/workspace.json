@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "文件",
+                "query": "作用域插槽",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,17 +199,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "4f34c0a0cf6734aa",
+  "active": "4170c7db0d47cef5",
   "lastOpenFiles": [
-    "01_html+css/2.0.html常见元素.md",
+    "05_vue/03_组件间通讯.md",
     "00a_typora-why-class/react.md",
+    "01_html+css/2.0.html常见元素.md",
     "000_备忘/02_快捷键.md",
     "07_react/04_react组件化.md",
     "000_备忘/04_vscode.md",
     "01_html+css/1.0.前端.md",
     "00a_typora-why-class/reactDemo.md",
     "000_备忘/05_ui库.md",
-    "000_备忘/01_杂记.md",
-    "00a_typora-why-class/typora快捷键.md"
+    "000_备忘/01_杂记.md"
   ]
 }
