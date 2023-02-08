@@ -570,7 +570,7 @@ export class Slot2 extends Component {
 }
 ```
 
-## 作用域插槽
+### 作用域插槽
 由子组件决定插入的内容 (插入内容灵活化)
 App
 ```jsx
@@ -635,7 +635,7 @@ export default Slot1
 
 ```
 
-## context 上下文
+### context 上下文
 用于全局数据共享, 不如 redux 好用
 1. 创建 Context
 2. Context. Provide 提供 value
