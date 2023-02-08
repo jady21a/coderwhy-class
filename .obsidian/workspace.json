@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_备忘/04_vscode.md",
+                "file": "00a_typora-why-class/react.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_备忘/02_快捷键.md",
+                "file": "00a_typora-why-class/react.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_备忘/04_vscode.md",
+                "file": "00a_typora-why-class/react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_备忘/04_vscode.md"
+                "file": "00a_typora-why-class/react.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_备忘/04_vscode.md",
+                "file": "00a_typora-why-class/react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,15 +201,15 @@
   },
   "active": "4f34c0a0cf6734aa",
   "lastOpenFiles": [
-    "00_备忘/02_快捷键.md",
-    "typara-why-class/react.md",
+    "01_html+css/2.0.html常见元素.md",
+    "00a_typora-why-class/react.md",
+    "000_备忘/02_快捷键.md",
     "07_react/04_react组件化.md",
+    "000_备忘/04_vscode.md",
     "01_html+css/1.0.前端.md",
-    "typara-why-class/reactDemo.md",
-    "00_备忘/05_ui库.md",
-    "00_备忘/01_杂记.md",
-    "typara-why-class/typora快捷键.md",
-    "07_react/00_demo案例.md",
-    "07_react/03_react脚手架.md"
+    "00a_typora-why-class/reactDemo.md",
+    "000_备忘/05_ui库.md",
+    "000_备忘/01_杂记.md",
+    "00a_typora-why-class/typora快捷键.md"
   ]
 }

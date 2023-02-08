@@ -501,9 +501,72 @@ export default App
 ```
 
 ### slot
-react 不需要插槽, 可以用一下方案实现插槽功能
-1. children
+react 不需要插槽, 可以用以下方案实现插槽功能
+```jsx
+import React from "react"
+import Slot1 from "./Slot1"
+import Slot2 from "./Slot2"
+class App extends React.Component {
+  render() {
+    return (
+      <div>App
+        {/* children slot */}
+        <Slot1>
+          <button>AA</button>
+          <h3>BB</h3>
+          <a href="#">CC</a>
+        </Slot1>
+        {/* props slot */}
+        <Slot2
+          leftSlot={<button>aa</button>}
+          centerSlot={<h3>bb</h3>}
+          rightSlot={<i>cc</i>}
+        >
+        </Slot2>
+      </div>
+    )
+  }
+}
+export default App
+```
+1. children (children 是固定的单词不能修改)
+如果 children 只有一个则为元素, 多个为数组, 作为插槽使用需传入多个值
+```jsx
+export class Slot1 extends Component {
+  render() {
+    const { children } = this.props
+    console.log(children)
+    return (
+      <div>Slot1
+        <div className='slot1'>
+          <div className="left">left{ children[0]}</div>
+          <div className="center">center{children[1]}</div>
+          <div className="right">right{children[2]}</div>
+        </div>
+      </div>
+    )
+  }
+}
+```
 2. props 属性传递
+App. jsx
+```jsx
+export class Slot2 extends Component {
+  render() {
+    const { leftSlot, centerSlot, rightSlot } = this.props
+    console.log(leftSlot)
+    return (
+      <div>Slot2
+        <div className='slot2'>
+          <div className="left">left{ leftSlot}</div>
+          <div className="center">center{ centerSlot}</div>
+          <div className="right">right{ rightSlot}</div>
+        </div>
+      </div>
+    )
+  }
+}
+```
 
 
 
