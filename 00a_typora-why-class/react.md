@@ -572,3 +572,74 @@ export class Slot2 extends Component {
 
 ## 作用域插槽
 由子组件决定插入的内容 (插入内容灵活化)
+App
+```jsx
+import React from "react"
+import Slot1 from "./Slot1"
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state={title:["aa","bb","cc"]}
+  }
+  getItem(item) {
+    if (item === "aa") {
+      return <button>AA</button>
+    } else if (item === "bb") {
+      return   <h3>BB</h3>
+    } else {
+      return <a href="#">CC</a>
+    }
+  }
+  render() {
+    const {title} = this.state
+    return (
+      <div>App
+        <Slot1 title={title}
+          // itemType={item => <button>{item}</button>}
+          itemType={item=>this.getItem(item)}
+        >
+        </Slot1>
+
+      </div>
+    )
+  }
+}
+export default App
+```
+
+slot
+```jsx
+import React, { Component } from 'react'
+import "./style.css"
+
+export class Slot1 extends Component {
+  render() {
+    const { title ,itemType} = this.props
+    console.log(itemType)
+    return (
+      <div className='slot1'>Slot1
+        {
+          title.map((item)=>{
+            return (
+              <div key={item} >
+                {itemType(item)}
+              </div>
+           )
+          })
+        }
+      </div>
+    )
+  }
+}
+export default Slot1
+
+```
+
+## context 上下文
+用于全局数据共享, 不如 redux 好用
+1. 创建 Context
+2. Context. Provide 提供 value
+3. 类组件设置 contextType=Context
+4. 使用 this. context
+
+con
