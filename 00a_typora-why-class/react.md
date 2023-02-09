@@ -636,7 +636,7 @@ export default Slot1
 ```
 
 ### context 上下文
-用于全局数据共享, 不如 redux 好用
+用于非父子组件或全局数据共享, 不如 redux 好用
 1. 创建 Context
 2. Context. Provide 提供 value
 3. 类组件设置 contextType=Context
