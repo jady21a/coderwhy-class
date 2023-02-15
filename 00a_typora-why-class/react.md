@@ -650,5 +650,9 @@ Context. Consumer
 如果直接修改 state 不会重新渲染, 在 setState 里面修改会使组件重新渲染到最新的数据
 setState 方法是从 Component 中继承过来的
 
-
-
+#### setState 异步
+异步时 setState 内修改的数据需要 render 才能显示, 同步时不需要 render, 可以马上显示
+react 18 之前的 setState 可以是异步也可以同步 (如在 setTimeout 和原生 DOM 事件中是同步的), 而之后的都是异步
+异步优势
+- 批量 render 提高效率和性能
+- 如果同步更新了 state，但是还没有执行 render 函数，那么 state 和 props 不能保持同步
