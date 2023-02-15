@@ -646,3 +646,9 @@ Context. Consumer
 - 用于函数组件
 - 多个 Context 共享数据
 
+### setState
+如果直接修改 state 不会重新渲染, 在 setState 里面修改会使组件重新渲染到最新的数据
+setState 方法是从 Component 中继承过来的
+
+
+

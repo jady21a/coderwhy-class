@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00a_typora-why-class/react.md",
+                "file": "000_备忘/02_快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6910ce0b060b331b",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00a_typora-why-class/react.md",
+                "file": "000_备忘/02_快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00a_typora-why-class/react.md"
+                "file": "000_备忘/02_快捷键.md"
               }
             }
           },
@@ -153,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00a_typora-why-class/react.md",
+                "file": "000_备忘/02_快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,15 +190,15 @@
   },
   "active": "7dc68785ea0b4a82",
   "lastOpenFiles": [
-    "未命名.canvas",
+    "00a_typora-why-class/typora快捷键.md",
+    "000_备忘/02_快捷键.md",
     "00a_typora-why-class/react.md",
+    "00a_typora-why-class/reactDemo.md",
+    "未命名.canvas",
     "000_备忘/01_杂记.md",
     "07_react/04_react组件化.md",
-    "00a_typora-why-class/typora快捷键.md",
     "202302081053.md",
     "02_js/36_防抖节流深拷贝.md",
-    "项目案例/0B-小程序项目搭建.md",
-    "question/03_vue.md",
-    "05_vue/03_组件间通讯.md"
+    "项目案例/0B-小程序项目搭建.md"
   ]
 }
