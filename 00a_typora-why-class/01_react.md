@@ -744,4 +744,5 @@ export default class aa extends PureComponent {
     this.setState({ books: books })
   }
 ```
-第一种方法直接修改原有的数据在 pureComponent 不会 render, 因为 react 是通过先对比对象的地址是否相同, 不同才更新, 即使对象内数组有变化, 但对象的地址是一样的因此不会 render, 
+第一种方法直接修改原有的数据在 pureComponent 不会 render, 因为 react 是通过先对比对象的地址是否相同, 不同才更新, 即使对象内数组有变化, 但对象的地址是一样的因此不会 render
+### 获取原生 DOM (ref)
