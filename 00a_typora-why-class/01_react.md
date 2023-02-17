@@ -675,6 +675,7 @@ Context. Consumer
 ### setState
 如果直接修改 state 不会重新渲染, 在 setState 里面修改会使组件重新渲染到最新的数据
 setState 方法是从 Component 中继承过来的
+#### setState 用法
 
 #### setState 异步
 异步时 setState 内修改的数据需要 render 才能显示, 同步时不需要 render, 可以马上显示
@@ -746,3 +747,120 @@ export default class aa extends PureComponent {
 ```
 第一种方法直接修改原有的数据在 pureComponent 不会 render, 因为 react 是通过先对比对象的地址是否相同, 不同才更新, 即使对象内数组有变化, 但对象的地址是一样的因此不会 render
 ### 获取原生 DOM (ref)
+通常情况下不需要、也不建议直接操作 DOM 原生，但是某些特殊的情况，确实需要获取到 DOM, 如
+- 管理焦点，文本选择或媒体播放
+- 触发强制动画
+- 集成第三方 DOM 库
+#### 获取元素
+  1. 方式一: 在 React 元素上绑定一个 ref 字符串 (不推荐) ` console.log(this.refs.why)`
+  2. 方式二: 提前创建好 ref 对象, createRef (), 将创出来的对象绑定到元素 `console.log(this.titleRef.current)`
+  3. 方式三: 传入一个回调函数, 在对应的元素被渲染之后, 回调函数被执行, 并且将元素传入 `console.log (this.titleEl)`
+```jsx
+import React, { PureComponent, createRef } from 'react'
+
+export class App extends PureComponent {
+  constructor() {
+    super()
+    this.titleRef = createRef()
+    this.titleEl = null
+  }
+
+  getNativeDOM() {
+    // 1.方式一: 在React元素上绑定一个ref字符串(不推荐)
+    console.log(this.refs.why)
+    // 2.方式二: 提前创建好ref对象, createRef(), 将创建出来的对象绑定到元素
+    console.log(this.titleRef.current)
+    // 3.方式三: 传入一个回调函数, 在对应的元素被渲染之后, 回调函数被执行, 并且将元素传入
+    console.log(this.titleEl)
+  }
+
+  render() {
+    return (
+      <div>
+        <h2 ref="why">Hello World</h2>
+        <h2 ref={this.titleRef}>你好啊,李银河</h2>
+        <h2 ref={el => { this.titleEl = el }}>你好啊, j</h2>
+        <button onClick={e => this.getNativeDOM()}>获取DOM</button>
+      </div>
+    )
+  }
+}
+
+export default App
+```
+#### 获取组件
+##### 获取类组件 createRef ()
+```jsx
+import React, { PureComponent, createRef } from 'react'
+
+
+class HelloWorld extends PureComponent {
+  test() {
+    console.log("test------")
+  }
+
+  render() {
+    return <h1>Hello World</h1>
+  }
+}
+
+export class App extends PureComponent {
+  constructor() {
+    super()
+
+    this.classRef = createRef()
+  }
+  getComponent() {
+    console.log(this.classRef.current)
+    this.classRef.current.test()
+  }
+  render() {
+    return (
+      <div>
+        <HelloWorld ref={this.classRef}/>
+        <button onClick={e => this.getComponent()}>获取组件实例</button>
+      </div>
+    )
+  }
+}
+
+export default App
+```
+
+##### 获取函数组件forwardRef()
+```jsx
+import React, { PureComponent, createRef, forwardRef } from 'react'
+
+
+const HelloWorld = forwardRef(function(props, ref) {
+  return (
+    <div>
+      <h1 ref={ref}>Hello World</h1>
+      <p>哈哈哈</p>
+    </div>
+  )
+})
+
+export class App extends PureComponent {
+  constructor() {
+    super()
+
+    this.fooRef = createRef()
+  }
+
+  getComponent() {
+    console.log(this.fooRef.current)
+  }
+
+  render() {
+    return (
+      <div>
+        <HelloWorld ref={this.fooRef}/>
+        <button onClick={e => this.getComponent()}>获取组件实例</button>
+      </div>
+    )
+  }
+}
+
+export default App
+```
