@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "作用域插槽",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6910ce0b060b331b",
@@ -189,15 +188,15 @@
   },
   "active": "7dc68785ea0b4a82",
   "lastOpenFiles": [
-    "00a_typora-why-class/02_reactDemo.md",
+    "02_js/25_函数补充.md",
     "00a_typora-why-class/01_react.md",
+    "00a_typora-why-class/02_reactDemo.md",
     "00a_typora-why-class/Untitled.md",
     "00a_typora-why-class/00_typora快捷键.md",
     "000_备忘/02_快捷键.md",
     "000_备忘/05_ui库.md",
     "000_备忘/01_杂记.md",
     "未命名.canvas",
-    "07_react/04_react组件化.md",
-    "202302081053.md"
+    "07_react/04_react组件化.md"
   ]
 }

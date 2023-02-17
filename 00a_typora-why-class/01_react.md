@@ -867,3 +867,108 @@ export default App
 ```
 
 ### 受控组件
+表单默认情况是由浏览器来维护处理数据, 缺点是提交数据有页面刷新, 因此希望把数据交由 react 来处理
+由 react 处理数据的表单就是受控组件, 反之由浏览器处理数据的就是非受控组件, 推荐使用受控组件
+
+非受控组件:
+```jsx
+<input type="text" />
+```
+受控组件: 
+```jsx
+ <input type="text" value={username} onChange={e => this.inputChange(e)}/>
+```
+
+```jsx
+import React, { PureComponent } from 'react'
+
+export class App extends PureComponent {
+  constructor() {
+    super()
+
+    this.state = {
+      username: "j"
+    }
+  }
+
+  inputChange(event) {
+    console.log("inputChange:", event.target.value)
+    this.setState({ username: event.target.value })
+  }
+
+  render() {
+    const { username } = this.state
+
+    return (
+      <div>
+        受控组件:
+        <input type="text" value={username} onChange={e => this.inputChange(e)}/>
+        <br />
+        非受控组件:
+        <input type="text" />
+        <h2>username: {username}</h2>
+
+      </div>
+    )
+  }
+}
+
+export default App
+```
+
+- checkbox , radio (单选)---> checked,
+- text , textarea , select ---> value
+![](snap/Pasted%20image%2020230217233543.png)
+
+### 非受控组件
+由浏览器处理数据原始表单
+用 ref 来获取表单 DOM 节点中的数据
+
+默认值:
+- checkbox , radio (单选)--> defaultChecked
+-  text , textarea , select--->  defaultValue
+```jsx
+import React, { createRef, PureComponent } from 'react'
+
+export class App extends PureComponent {
+
+  constructor() {
+    super()
+
+    this.state = {
+      intro: "哈哈哈"
+    }
+
+    this.introRef = createRef()
+  }
+
+  componentDidMount() {
+    // 数据监听(不推荐)
+    // this.introRef.current.addEventListener
+  }
+  handleSubmitClick(event) {
+    // 1.阻止默认的行为
+    event.preventDefault()
+    console.log("获取结果:", this.introRef.current.value)
+
+  }
+
+  render() {
+    const { intro } = this.state
+
+    return (
+      <div>
+        <form onSubmit={e => this.handleSubmitClick(e)}>
+          <input type="text" defaultValue={intro} ref={this.introRef} />
+
+          <div>
+            <button type='submit'>注册</button>
+          </div>
+        </form>
+      </div>
+    )
+  }
+}
+
+export default App
+```
