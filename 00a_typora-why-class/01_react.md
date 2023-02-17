@@ -657,4 +657,20 @@ react 18 之前的 setState 可以是异步也可以同步 (如在 setTimeout �
 - 批量 render 提高效率和性能
 - 如果同步更新了 state，但是还没有执行 render 函数，那么 state 和 props 不能保持同步
 
-### S
+###  性能优化
+#### 遍历时的 key
+在 props 或 state 发生改变时需要比较更新前后的变化
+- 在最后位置插入数据时, 有无 key 意义并不大
+- 在前面插入数据时, 如果没有 key, 所有数据都需要修改
+key 的作用: React 使用 key 来匹配原有树上的子元素以及最新树上的子元素
+
+注意:
+1. key 唯一
+2. key 不要使用随机数
+3. 使用 index 作为 key，对性能是没有优化的, 只是消除了警告
+
+#### SCU
+shouldComponentUpdate 生命周期
+nextProps：修改后最新的 props 属性
+nextState 修改后最新的 state 属性
+返回值为 true 时调用 render 
