@@ -656,3 +656,5 @@ react 18 之前的 setState 可以是异步也可以同步 (如在 setTimeout �
 异步优势
 - 批量 render 提高效率和性能
 - 如果同步更新了 state，但是还没有执行 render 函数，那么 state 和 props 不能保持同步
+
+### S
