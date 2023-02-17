@@ -674,3 +674,20 @@ shouldComponentUpdate 生命周期
 nextProps：修改后最新的 props 属性
 nextState 修改后最新的 state 属性
 返回值为 true 时调用 render 
+```jsx 
+  shouldComponentUpdate(nextProps, newState) {
+    if (this.state.message !== newState.message || this.state.counter !== newState.counter) {
+      return true
+    }
+    return false
+  }
+```
+实现有修改时再 render
+
+#### 
+PureComponent
+实现有修改时再 render, 不需要每次重复上述的 scu 代码
+```jsx
+import React, { PureComponent } from 'react'
+
+```
