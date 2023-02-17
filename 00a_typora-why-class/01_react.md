@@ -682,7 +682,7 @@ setState 方法是从 Component 中继承过来的
 react 18 之前的 setState 可以是异步也可以同步 (如在 setTimeout 和原生 DOM 事件中是同步的), 而之后的都是异步
 异步优势
 - 批量 render 提高效率和性能
-- 如果同步更新了 state，但是还没有执行 render 函数，那么 state 和 props 不能保持同步
+- 如果同步更新了 state，但是还没有执行 render 函数，那么 state 和 props 不能保持一致
 
 ###  性能优化
 #### 遍历时的 key
@@ -701,6 +701,7 @@ shouldComponentUpdate 生命周期
 nextProps：修改后最新的 props 属性
 nextState 修改后最新的 state 属性
 返回值为 true 时调用 render 
+如果没有 scu 优化, 那么每次调用 setState 都会 render 一次, 降低性能
 ```jsx 
   shouldComponentUpdate(nextProps, newState) {
     if (this.state.message !== newState.message || this.state.counter !== newState.counter) {
@@ -864,3 +865,5 @@ export class App extends PureComponent {
 
 export default App
 ```
+
+### 受控组件
