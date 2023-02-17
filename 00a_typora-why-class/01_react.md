@@ -91,7 +91,33 @@ ReactVR --> 虚拟现实 Web
 ### rce
 
 react class export components
-![1675765224765](snap/1675765224765.png)
+```jsx 
+import React, { Component } from 'react'
+
+export class aa extends Component {
+  render() {
+    return (
+      <div>aa</div>
+    )
+  }
+}
+
+export default aa
+```
+
+### rpc
+ PureComponent
+```jsx
+import React, { PureComponent } from 'react'
+
+export default class aa extends PureComponent {
+  render() {
+    return (
+      <div>aa</div>
+    )
+  }
+}
+```
 
 ### 解构对象简写 dob
 
@@ -684,10 +710,38 @@ nextState 修改后最新的 state 属性
 ```
 实现有修改时再 render
 
-#### 
-PureComponent
+##### PureComponent
 实现有修改时再 render, 不需要每次重复上述的 scu 代码
+rpc
 ```jsx
 import React, { PureComponent } from 'react'
 
+export default class aa extends PureComponent {
+  render() {
+    return (
+      <div>aa</div>
+    )
+  }
+}
+``` 
+##### memo
+针对类组件可以使用PureComponent，而函数式组件是用memo
+
+#### 不可变数据的力量
+我们希望一个原始的对象数据是不变的, 如果要修改他可以通过浅拷贝修改拷贝后的内容
+```jsx
+  addNewBook() {
+    const newBook = { name: "Angular高级设计", price: 88, count: 1 }
+
+    // 1.直接修改原有的state, 重新设置一遍
+    // 在PureComponent是不能引入重新渲染(re-render)
+    this.state.books.push(newBook)
+    this.setState({ books: this.state.books })
+
+    // 2.赋值一份books, 在新的books中修改, 设置新的books
+    const books = [...this.state.books]
+    books.push(newBook)
+    this.setState({ books: books })
+  }
 ```
+第一种方法直接修改原有的数据在 pureComponent 不会 render, 因为 react 是通过先对比对象的地址是否相同, 不同才更新, 即使对象内数组有变化, 但对象的地址是一样的因此不会 render, 

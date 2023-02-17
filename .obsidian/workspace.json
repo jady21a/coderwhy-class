@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6910ce0b060b331b",
@@ -88,6 +89,16 @@
         "id": "aea13b4afdedd0b4",
         "type": "tabs",
         "children": [
+          {
+            "id": "db1d79e4277a1c16",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00a_typora-why-class/01_react.md"
+              }
+            }
+          },
           {
             "id": "926a882dc6ed2ade",
             "type": "leaf",
@@ -126,16 +137,6 @@
             }
           },
           {
-            "id": "db1d79e4277a1c16",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "00a_typora-why-class/01_react.md"
-              }
-            }
-          },
-          {
             "id": "1ccf9810c924eac4",
             "type": "leaf",
             "state": {
@@ -166,13 +167,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
