@@ -972,3 +972,7 @@ export class App extends PureComponent {
 
 export default App
 ```
+
+### 高阶组件
+高阶函数:
+- 
