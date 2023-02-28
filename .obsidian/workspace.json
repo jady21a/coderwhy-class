@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000_备忘/02_快捷键.md",
+                "file": "000_备忘/05_ui库.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_备忘/02_快捷键.md"
+                "file": "000_备忘/05_ui库.md"
               }
             }
           },
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_备忘/02_快捷键.md",
+                "file": "000_备忘/05_ui库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_备忘/02_快捷键.md",
+                "file": "000_备忘/05_ui库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,14 +188,15 @@
   },
   "active": "7dc68785ea0b4a82",
   "lastOpenFiles": [
+    "000_备忘/04_vscode.md",
+    "000_备忘/02_快捷键.md",
+    "000_备忘/01_杂记.md",
     "00a_typora-why-class/01_react.md",
     "02_js/25_函数补充.md",
     "00a_typora-why-class/02_reactDemo.md",
     "00a_typora-why-class/Untitled.md",
     "00a_typora-why-class/00_typora快捷键.md",
-    "000_备忘/02_快捷键.md",
     "000_备忘/05_ui库.md",
-    "000_备忘/01_杂记.md",
     "未命名.canvas",
     "07_react/04_react组件化.md"
   ]
