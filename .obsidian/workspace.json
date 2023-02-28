@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d8adaa7fc09deb51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00a_typora-why-class/01_react.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000_备忘/02_快捷键.md"
+                "file": "00a_typora-why-class/01_react.md"
               }
             }
           },
@@ -104,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "000_备忘/02_快捷键.md",
+                "file": "00a_typora-why-class/01_react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "000_备忘/02_快捷键.md",
+                "file": "00a_typora-why-class/01_react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,15 +200,17 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "7dc68785ea0b4a82",
+  "active": "d8adaa7fc09deb51",
   "lastOpenFiles": [
-    "000_备忘/01_杂记.md",
+    "00a_typora-why-class/snap/Pasted image 20230228220418.png",
+    "00a_typora-why-class/snap/Pasted image 20230228220314.png",
+    "000_备忘/02_快捷键.md",
     "00a_typora-why-class/01_react.md",
+    "000_备忘/05_ui库.md",
+    "000_备忘/01_杂记.md",
     "00a_typora-why-class/02_reactDemo.md",
     "00a_typora-why-class/typora快捷键.md",
     "000_备忘/04_vscode.md",
-    "000_备忘/05_ui库.md",
-    "000_备忘/02_快捷键.md",
     "02_js/25_函数补充.md",
     "00a_typora-why-class/Untitled.md",
     "00a_typora-why-class/00_typora快捷键.md",
