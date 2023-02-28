@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00a_typora-why-class/01_react.md",
+                "file": "000_备忘/02_快捷键.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00a_typora-why-class/01_react.md"
+                "file": "000_备忘/02_快捷键.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00a_typora-why-class/01_react.md",
+                "file": "000_备忘/02_快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00a_typora-why-class/01_react.md",
+                "file": "000_备忘/02_快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,10 +202,10 @@
   },
   "active": "d8adaa7fc09deb51",
   "lastOpenFiles": [
+    "00a_typora-why-class/01_react.md",
     "00a_typora-why-class/snap/Pasted image 20230228220418.png",
     "00a_typora-why-class/snap/Pasted image 20230228220314.png",
     "000_备忘/02_快捷键.md",
-    "00a_typora-why-class/01_react.md",
     "000_备忘/05_ui库.md",
     "000_备忘/01_杂记.md",
     "00a_typora-why-class/02_reactDemo.md",
