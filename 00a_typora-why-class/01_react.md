@@ -980,5 +980,25 @@ export default App
 高阶组件本身不是一个组件，而是一个函数
 高阶组件的参数是组件，返回值也是组件
 高阶组件举例
+```jsx
+function foo(component) {
+  // 1.定义类组件
+  class newComponent1 extends PureComponent{
+    render() {
+      return <component name="name1" />
+      // 高阶组件对组件进行了拦截,给他名字可以方便操作
+    }
+  }
+  return newComponent1
 
+  // 2.定义函数组件
+    // function newComponent2(props) {
+
+  // }
+  // return newComponent2
+}
+```
 调用
+```jsx
+const helloWorldFoo = foo(helloWorld)
+```
