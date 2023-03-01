@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "provider",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -202,8 +202,11 @@
   },
   "active": "d8adaa7fc09deb51",
   "lastOpenFiles": [
-    "000_备忘/02_快捷键.md",
+    "00a_typora-why-class/Untitled.md",
+    "05_vue/05_composition组合.md",
+    "05_vue/03_组件间通讯.md",
     "00a_typora-why-class/01_react.md",
+    "000_备忘/02_快捷键.md",
     "00a_typora-why-class/snap/Pasted image 20230228220418.png",
     "00a_typora-why-class/snap/Pasted image 20230228220314.png",
     "000_备忘/05_ui库.md",
@@ -212,7 +215,6 @@
     "00a_typora-why-class/typora快捷键.md",
     "000_备忘/04_vscode.md",
     "02_js/25_函数补充.md",
-    "00a_typora-why-class/Untitled.md",
     "00a_typora-why-class/00_typora快捷键.md",
     "未命名.canvas",
     "07_react/04_react组件化.md"

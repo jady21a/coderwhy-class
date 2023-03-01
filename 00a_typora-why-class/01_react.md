@@ -663,10 +663,60 @@ export default Slot1
 
 ### context 上下文
 用于非父子组件或全局数据共享, 不如 redux 好用
-1. 创建 Context
-2. Context. Provide 提供 value
-3. 类组件设置 contextType=Context
-4. 使用 this. context
+1.创建 Context             
+```jsx
+import React from "react"
+
+// 1.创建一个Context
+const ThemeContext = React.createContext({ color: "blue", size: 10 })
+
+export default ThemeContext
+```           
+2.Context. Provide 提供 value
+```jsx
+  render() {
+    return (
+      <div>
+        <h2>App</h2>
+        {/* 第二步操作: 通过ThemeContext中Provider中value属性为后代提供数据 */}
+          <ThemeContext.Provider value={{color: "red", size: "30"}}>
+          </ThemeContext.Provider>
+        <Profile/>
+      </div>
+    )
+  }
+
+```
+3. 组件设置 contextType=Context
+```jsx
+export class HomeInfo extends Component {
+  render() {
+    // 4.第四步操作: 获取数据, 并且使用数据
+    console.log(this.context)
+
+    return (
+      <div>
+        <h2>HomeInfo: {this.context.color}</h2>
+        <UserContext.Consumer>
+          {
+            value => {
+              return <h2>Info User: {value.nickname}</h2>
+            }
+          }
+        </UserContext.Consumer>
+      </div>
+    )
+  }
+}
+
+// 3.第三步操作: 设置组件的contextType为某一个Context
+HomeInfo.contextType = ThemeContext
+
+export default HomeInfo
+```
+4.使用 this. context或provider
+见上
+
 
 Context. Consumer
 - 用于函数组件
@@ -676,7 +726,34 @@ Context. Consumer
 如果直接修改 state 不会重新渲染, 在 setState 里面修改会使组件重新渲染到最新的数据
 setState 方法是从 Component 中继承过来的
 #### setState 用法
+```jsx
+  changeText() {
+    // 1.setState更多用法
+    // 1.基本使用
+    this.setState({
+      message: "你好啊, 李银河"
+    })
 
+    // 2.setState可以传入一个回调函数
+    this.setState((state, props) => {
+      // 1.编写一些对新的state处理逻辑
+      // 2.可以获取之前的state和props值
+      console.log(this.state.message, this.props)
+
+      return {
+        message: "你好啊, 李银河"
+      }
+    })
+
+    // 3.setState在React的事件处理中是一个异步调用
+    // 如果希望在数据更新之后(数据合并), 获取到对应的结果执行一些逻辑代码
+    // 那么可以在setState中传入第二个参数: callback
+    this.setState({ message: "你好啊, 李银河" }, () => {
+      console.log("++++++:", this.state.message)
+    })
+    console.log("------:", this.state.message)
+  }
+```
 #### setState 异步
 异步时 setState 内修改的数据需要 render 才能显示, 同步时不需要 render, 可以马上显示
 react 18 之前的 setState 可以是异步也可以同步 (如在 setTimeout 和原生 DOM 事件中是同步的), 而之后的都是异步
@@ -973,7 +1050,7 @@ export class App extends PureComponent {
 export default App
 ```
 
-### 高阶组件
+### 高阶组件 (Higher-order component)
 高阶函数满足一下条件之一:
 - 输入为函数
 - 输出为函数
@@ -1005,10 +1082,255 @@ const helloWorldFoo = foo(helloWorld)
 
 #### 应用
 ##### 1. props 的增强
-不修改原有代码的情况下，添加新的 props, 利用高阶组件来共享 Context
+不修改原有代码的情况下，添加新的 props, 
+```jsx
+import { PureComponent } from 'react'
+
+// 定义组件: 给一些需要特殊数据的组件, 注入props
+function enhancedUserInfo(OriginComponent) {
+  class NewComponent extends PureComponent {
+    constructor(props) {
+      super(props)
+
+      this.state = {
+        userInfo: {
+          name: "coderwhy",
+          level: 99
+        }
+      }
+    }
+
+    render() {
+      // this.props是从父组件正常传递的数据,this.state.userInfo是特别注入的数据
+      return <OriginComponent {...this.props} {...this.state.userInfo}/>
+    }
+  }
+
+  return NewComponent
+}
+
+export default enhancedUserInfo
+```
+利用高阶组件来共享 Context, 不需要每次都写consumer
+```jsx
+import ThemeContext from "../context/theme_context"
+
+function withTheme(OriginComponent) {
+  // function NewComponent(props) {
+
+  // }
+  // return NewComponent
+  // 可以简写为第下行的箭头函数
+  return (props) => {
+    return (
+      <ThemeContext.Consumer>
+        {
+          value => {
+            // ...value注入ThemContext的数据,...props注入OriginComponent的数据
+            return <OriginComponent {...value} {...props}/>
+          }
+        }
+      </ThemeContext.Consumer>
+    )
+  }
+}
+
+export default withTheme
+```
+使用
+```jsx
+import React, { PureComponent } from 'react'
+import ThemeContext from '../context/theme_context'
+import withTheme from '../hoc/with_theme'
+
+// export class Product extends PureComponent {
+//   render() {
+//     return (
+//       <div>
+//         Product:
+//         <ThemeContext.Consumer>
+//           {
+//             value => {
+//               return <h2>theme:{value.color}-{value.size}</h2>
+//             }
+//           }
+//         </ThemeContext.Consumer>
+//       </div>
+//     )
+//   }
+// }
+
+// export default Product
+
+export class Product extends PureComponent {
+  render() {
+    const { color, size } = this.props
+
+    return (
+      <div>
+        <h2>Product: {color}-{size}</h2>
+      </div>
+    )
+  }
+}
+
+export default withTheme(Product)
+
+```
 
 ##### 2. 鉴权
 某些需要登录才能进入的页面
+```jsx
+function loginAuth(OriginComponent) {
+  return props => {
+    // 从localStorage中获取token
+    const token = localStorage.getItem("token")
 
+    if (token) {
+      return <OriginComponent {...props}/>
+    } else {
+      return <h2>请先登录, 再进行跳转到对应的页面中</h2>
+    }
+  }
+}
+
+export default loginAuth
+```
 ##### 3. 生命周期劫持
-在生命周期中完成自己的逻辑
+在生命周期中完成自己的逻辑, 如计算加载时间
+```jsx
+import { PureComponent } from "react";
+
+function logRenderTime(OriginComponent) {
+  return class extends PureComponent {
+    UNSAFE_componentWillMount() {
+      this.beginTime = new Date().getTime()
+    }
+  
+    componentDidMount() {
+      this.endTime = new Date().getTime()
+      const interval = this.endTime - this.beginTime
+      console.log(`当前${OriginComponent.name}页面花费了${interval}ms渲染完成!`)
+    }
+
+    render() {
+      return <OriginComponent {...this.props}/>
+    }
+  }
+}
+
+export default logRenderTime
+```
+
+#### 高阶组件 (hoc)的意义
+早期 react 也用 mixin, 但是基于以下原因已经弃用
+-  Mixin 可能会相互依赖，相互耦合，不利于代码维护； 
+-  不同的 Mixin 中的方法可能会相互冲突； 
+-  Mixin 非常多时，组件处理起来会比较麻烦，甚至还要为其做相关处理，这样会给代码造成滚雪球式的复杂性；
+
+高阶组件的优点:
+可以针对某些 React 代码进行很好的处理
+缺点:
+-  HOC 需要在原组件上进行包裹或者嵌套，如果大量使用 HOC，将会产生非常多的嵌套，这让调试变得非常困难； 
+-  HOC 可以劫持 props，在不遵守约定的情况下也可能造成冲突；
+
+后来出现了 hooks 来解决 hoc 的缺点
+
+### portals (入口, 大门)
+类似 vue 的 telport
+public-->index. html
+```html
+<html>
+  <body>
+    <div id="root"></div>
+    <div id="why"></div>
+    <div id="modal"></div>
+  </body>
+</html>
+```
+与 root 同级
+```jsx
+import React, { PureComponent } from 'react'
+import { createPortal } from "react-dom"
+
+export class App extends PureComponent {
+  render() {
+    return (
+      <div className='app'>
+        <h1>App H1</h1>
+        {
+          createPortal(<h2>App H2</h2>, document.querySelector("#why"))
+        }
+      </div>
+    )
+  }
+}
+
+export default App
+```
+
+modal 模态框 
+madel --->模特 (n), 模范的 (adj)
+在 bootstrap 中，modal 指的是“模态框”，是覆盖在父窗体上的子窗体；其目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。
+```html
+<html>
+	<head>
+    <style>
+      #modal {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="why"></div>
+    <div id="modal"></div>
+  </body>
+</html>
+```
+App
+```jsx
+  render() {
+    return (
+      <div className='app'>
+        {/* 2.Modal组件 */}
+        <Modal>
+          <h2>我是标题</h2>
+          <p>我是内容, 哈哈哈</p>
+        </Modal>
+      </div>
+    )
+```
+modal
+```jsx
+import React, { PureComponent } from 'react'
+import { createPortal } from "react-dom"
+
+export class Modal extends PureComponent {
+  render() {
+    return createPortal(this.props.children, document.querySelector("#modal"))
+  }
+}
+
+export default Modal
+```
+modal.jsx
+```jsx
+import React, { PureComponent } from 'react'
+import { createPortal } from "react-dom"
+
+export class Modal extends PureComponent {
+  render() {
+    // 显示固定内容
+    // return <div>modal</div>
+
+    // 显示传入的内容
+    return createPortal(this.props.children, document.querySelector("#modal"))
+  }
+}
+
+export default Modal
+```
