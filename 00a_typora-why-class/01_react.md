@@ -1334,3 +1334,49 @@ export class Modal extends PureComponent {
 
 export default Modal
 ```
+
+
+### fragment 片段
+类似 vue 的 template
+将子列表分组而不会在 DOM 添加额外节点
+语法糖 
+```jsx
+      <>
+				<h2>我是App的标题</h2>
+        <p>我是App的内容, 哈哈哈哈</p>
+			</>
+```
+
+如果需要在 Fragment 中添加 key，那么就不能使用短语法
+```jsx
+     {
+          sections.map(item => {
+            return (
+              <Fragment key={item.title}>
+                <h2>{item.title}</h2>
+                <p>{item.content}</p>
+              </Fragment>
+            )
+          })
+        }
+```
+
+### StrictMode
+能检测到的内容
+- 识别不安全的生命周期
+- 使用过时的 ref API
+- 检查意外的副作用 (严格模式会调用两次 constructor, 检查多次调用是否有影响)
+- 使用废弃的 findDOMNode 方法
+- 检测过时的 context API
+
+# 过渡动画
+
+
+
+
+
+# react 的 css
+
+
+
+
