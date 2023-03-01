@@ -1370,13 +1370,238 @@ export default Modal
 - 检测过时的 context API
 
 # 过渡动画
+多采用第三方库, 参见 [React Transition Group](https://reactcommunity.org/react-transition-group/) 、[React Motion](https://github.com/chenglou/react-motion)  以及 [React Spring](https://github.com/react-spring/react-spring)  等示例。
+## react-transition-group
+### 安装
+ npm npm install react-transition-group --save 
+ 
+ yarn yarn add react-transition-group
 
+### 主要组件
+####  CSSTransition (常用)
+##### 常见属性
+- in-->触发进入 (true) 或者退出 (false) 状态
+- unmountOnExit={true}-->组件会在执行退出动画结束后被移除掉
+- timeout-->过渡动画的时间
+- appear-->是否在初次进入添加动画（需要和 in 同时为 true）
+- onEnter, onEntering, onEntered
+其他属性
+[React Transition Group (reactcommunity.org)](http://reactcommunity.org/react-transition-group/transition)
 
+```jsx
+import React, { createRef, PureComponent } from 'react'
+import { CSSTransition } from "react-transition-group"
+import "./style.css"
 
+export class App extends PureComponent {
+  constructor(props) {
+    super(props)
 
+    this.state = {
+      isShow: true
+    }
+
+    this.sectionRef = createRef()
+  }
+
+  render() {
+    const { isShow } = this.state
+
+    return (
+      <div>
+        <button onClick={e => this.setState({isShow: !isShow})}>切换</button>
+        {/* { isShow && <h2>哈哈哈</h2> } */}
+
+        <CSSTransition 
+          // 解除警告一个过期的api
+          nodeRef={this.sectionRef}
+          in={isShow} 
+          unmountOnExit={true} 
+          classNames="why" 
+          timeout={2000}
+          appear
+          onEnter={e => console.log("开始进入动画")}
+          onEntering={e => console.log("执行进入动画")}
+          onEntered={e => console.log("执行进入结束")}
+          onExit={e => console.log("开始离开动画")}
+          onExiting={e => console.log("执行离开动画")}
+          onExited={e => console.log("执行离开结束")}
+        >
+          <div className='section' ref={this.sectionRef}>
+            <h2>哈哈哈</h2>
+            <p>我是内容, 哈哈哈</p>
+          </div>
+        </CSSTransition>
+      </div>
+    )
+  }
+}
+
+export default App
+```
+
+##### css 执行的三个状态
+开始状态: appear, enter, exit
+执行状态 : -appear-active、-enter-active、-exit-active
+执行结束: -appear-done、-enter-done、-exit-done
+```css
+.why-appear, .why-enter {
+  opacity: 0;
+}
+
+.why-appear-active, .why-enter-active {
+  opacity: 1;
+  transition: opacity 2s ease;
+}
+
+/* 离开动画 */
+.why-exit {
+  opacity: 1;
+}
+
+.why-exit-active {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+```
+####  Transition
+略 (用得少)
+####  SwitchTransition 
+两个组件显示和隐藏切换时，使用该组件
+在 vue 中被称之为 vue transition modes
+
+属性:
+- mode  out-in-->旧移新后入    in-out-->新入旧后移
+- key 判断状态 (代替 CSSTransition 的 in)
+```jsx
+import React, { PureComponent } from 'react'
+import { SwitchTransition, CSSTransition } from 'react-transition-group'
+import "./style.css"
+
+export class App extends PureComponent {
+  constructor() {
+    super() 
+
+    this.state = {
+      isLogin: true
+    }
+  }
+
+  render() {
+    const { isLogin } = this.state
+
+    return (
+      <div>
+        <SwitchTransition mode='out-in'>
+          <CSSTransition
+            key={isLogin ? "exit": "login"}
+            classNames="login"
+            timeout={1000}
+          >
+            <button onClick={e => this.setState({ isLogin: !isLogin })}>
+              { isLogin ? "退出": "登录" }
+            </button>
+          </CSSTransition>
+        </SwitchTransition>
+      </div>
+    )
+  }
+}
+
+export default App
+```
+css
+```css
+.login-enter {
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.login-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+.login-exit {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.login-exit-active {
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+```
+
+#### TransitionGroup 
+将多个动画组件包裹在其中，一般用于列表中元素的动画
+```jsx
+import React, { PureComponent } from 'react'
+import { TransitionGroup, CSSTransition } from "react-transition-group"
+import "./style.css"
+
+export class App extends PureComponent {
+  constructor() {
+    super()
+
+    this.state = {
+      books: [
+        { id: 111, name: "你不知道JS", price: 99 },
+        { id: 222, name: "JS高级程序设计", price: 88 },
+        { id: 333, name: "Vuejs高级设计", price: 77 },
+      ]
+    }
+  }
+
+  addNewBook() {
+    const books = [...this.state.books]
+    books.push({ id: new Date().getTime(), name: "React高级程序设计", price: 99 })
+    this.setState({ books })
+  }
+
+  removeBook(index) {
+    const books = [...this.state.books]
+    books.splice(index, 1)
+    this.setState({ books })
+  }
+
+  render() {
+    const { books } = this.state
+
+    return (
+      <div>
+        <h2>书籍列表:</h2>
+        <TransitionGroup component="ul">
+          {
+            books.map((item, index) => {
+              return (
+                <CSSTransition key={item.id} classNames="book" timeout={1000}>
+                  <li>
+                    <span>{item.name}-{item.price}</span>
+                    <button onClick={e => this.removeBook(index)}>删除</button>
+                  </li>
+                </CSSTransition>
+              )
+            })
+          }
+        </TransitionGroup>
+        <button onClick={e => this.addNewBook()}>添加新书籍</button>
+      </div>
+    )
+  }
+}
+
+export default App
+```
+控制出现进入和离开的时间
+```jsx
+timeout={{
+ appear: 500,
+ enter: 300,
+ exit: 0,
+}}
+```
 
 # react 的 css
-
-
-
-
