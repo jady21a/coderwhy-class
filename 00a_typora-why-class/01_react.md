@@ -1002,3 +1002,13 @@ function foo(component) {
 ```jsx
 const helloWorldFoo = foo(helloWorld)
 ```
+
+#### 应用
+##### 1. props 的增强
+不修改原有代码的情况下，添加新的 props, 利用高阶组件来共享 Context
+
+##### 2. 鉴权
+某些需要登录才能进入的页面
+
+##### 3. 生命周期劫持
+在生命周期中完成自己的逻辑
