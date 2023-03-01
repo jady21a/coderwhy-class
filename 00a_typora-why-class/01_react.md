@@ -19,6 +19,9 @@ react --> web
 ReactNative -->移动端跨平台 (目前 flutter 更好用)
 ReactVR --> 虚拟现实 Web
 
+### 常用 UI 库
+国内--> ant design
+国外--> material ui
 ## react 开发依赖
 
  react：包含 react 所必须的核心代码 
@@ -1605,11 +1608,315 @@ timeout={{
 ```
 
 # react 的 css
+## css in js
+html+css--->ui
+比较流行的 css in js 库
+- styled-components 
+-  emotion 
+-  glamorous
+### styled-components 
+#### 安装
+npm i styled-components 
+yarn add styled-components 
 
+#### 使用
+##### 基本用法
+可以像 css 预处理器 (如 less) 那样嵌套样式
+可以直接写伪类伪元素等
 
-less
-craco  create-react-app config
+插件 vscode-styled-components 
+使 js 内的 css 更容易编写
 
-react ui
-国内 ant design
-国外 material ui
+```js
+import styled from "styled-components"
+
+// 1.基本使用
+export const AppWrapper = styled.div`
+  .section{
+    color:red;
+    .title{
+      color:blue;
+      &:hover{
+        color:yellow
+      }
+    }
+  } 
+  .footer {
+    border: 1px solid orange;
+  }
+`
+```
+div \` \`  -->标签模板字符串
+```js
+// ES6: 标签模板字符串
+const name = "why"
+const age = 18
+
+// 1.模板字符串的基本使用
+// const str = `my name is ${name}, age is ${age}`
+// console.log(str)
+
+// 2.标签模板字符串的使用
+ function foo(...args) {
+   console.log(args)
+ }
+
+// foo("why", 18, 1.88)
+foo`my name is ${name}, age is ${age}`
+```
+
+##### 高级用法
+- 可以接受外部传入的 props
+```js
+  .title {
+    font-size: ${props => props.size}px;
+    
+    &:hover {
+      background-color: purple;
+    }
+  }
+```
+- 可以通过 attrs 给标签模板字符串中提供的属性
+```js
+export const SectionWrapper = styled.div.attrs(props => ({
+  tColor: props.color || "blue"
+  // 如果是未定义就默认为blue
+}))`
+  border: 1px solid red;
+
+  .title {
+    font-size: ${props => props.size}px;
+    color: ${props => props.tColor};
+
+    &:hover {
+      background-color: purple;
+    }
+  }
+`
+```
+- 从一个单独的文件中引入变量
+```js
+import styled from "styled-components"
+// import * as vars from './style/variables'
+import {
+  primaryColor,
+  largeSize
+} from "./style/variables"
+
+// 5.从一个单独的文件中引入变量
+export const SectionWrapper = styled.div`
+  .content {
+    font-size: ${largeSize}px;
+    color: ${primaryColor};
+  }
+`
+```
+- 主题变量 ThemeProvider
+src-->index. js
+```js
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <ThemeProvider theme={{ color: "purple", size: "50px" }}>
+      <App />
+    </ThemeProvider>
+  </React.StrictMode>
+);
+```
+全局都可以使用
+```js
+    .header {
+      color: ${props => props.theme.color};
+      font-size: ${props => props.theme.size};
+		}
+```
+- 样式继承
+```js
+const HYButton = styled.button`
+  border: 1px solid red;
+  border-radius: 5px;
+`
+
+export const HYButtonWrapper = styled(HYButton)`
+  background-color: #0f0;
+  color: #fff;
+`
+```
+使用
+```jsx
+render(){
+return(
+        <HYButtonWrapper>哈哈哈</HYButtonWrapper>
+)
+}
+```
+#### 动态类名
+借助第三方库 classnames
+npm i classnames
+```jsx
+import React, { PureComponent } from 'react'
+import classNames from 'classnames'
+
+export class App extends PureComponent {
+  constructor() {
+    super()
+
+    this.state = {
+      isbbb: true,
+      isccc: true
+    }
+  }
+
+  render() {
+    const { isbbb, isccc } = this.state
+    // 不用classnames时
+    // const classList = ["aaa"]
+    // if (isbbb) classList.push("bbb")
+    // if (isccc) classList.push("ccc")
+    // const classname = classList.join(" ")
+
+    return (
+      <div>
+        {/* 三元运算的方式 */}
+        <h2 className={`aaa ${isbbb ? 'bbb': ''} ${isccc ? 'ccc': ''}`}>哈哈哈</h2>
+        <h2 className={classname}>呵呵呵</h2>
+        {/* 使用classnames库 */}
+        <h2 className={classNames("aaa", { bbb:isbbb, ccc:isccc })}>嘿嘿嘿</h2>
+        <h2 className={classNames(["aaa", { bbb: isbbb, ccc: isccc }])}>嘻嘻嘻</h2>
+      </div>
+    )
+  }
+}
+
+export default App
+```
+
+## less 的方式
+craco  (create-react-app config)
+[在 create-react-app 中使用 - Ant Design](https://ant.design/docs/react/use-with-create-react-app-cn#%E9%AB%98%E7%BA%A7%E9%85%8D%E7%BD%AE)
+- 安装
+npm i  @craco/craco
+yarn add @craco/craco
+
+安装时如果版本不适配就上 github 找适配的最新版来安装
+
+-  修改 `package.json` 里的 `scripts` 属性
+```jsx
+/* package.json */
+"scripts": {
+-   "start": "react-scripts start",
+-   "build": "react-scripts build",
+-   "test": "react-scripts test",
++   "start": "craco start",
++   "build": "craco build",
++   "test": "craco test",
+}
+```
+
+- 然后在项目根目录创建一个 `craco.config.js` 用于修改默认配置。
+```js
+const CracoLessPlugin = require('craco-less');
+
+module.exports = {
+  plugins: [
+    {
+      plugin: CracoLessPlugin,
+      options: {
+        lessLoaderOptions: {
+          lessOptions: {
+            modifyVars: { '@primary-color': '#1DA57A' },
+            javascriptEnabled: true,
+          },
+        },
+      },
+    },
+  ],
+};
+
+};
+```
+## css modules
+React 的脚手架已经内置了 css modules 的配置, 可以直接使用, 但是在其他项目中需要自己配置, 如配置 webpack. config. js 中的 modules: true 等
+
+. css/. less/. scss 等样式文件都需要修改成 . module. css/. module. less/. module.scss 
+使用
+```css
+/* home.module.css */
+.section {
+  border: 1px solid skyblue;
+}
+
+.title {
+  color: purple;
+}
+```
+
+```jsx
+// home.jsx
+import React, { PureComponent } from 'react'
+// import "./Home.css"
+import homeStyle from "./Home.module.css"
+
+export class Home extends PureComponent {
+  render() {
+    return (
+      <div className={homeStyle.section}>
+        <div className={homeStyle.title}>Home的标题</div>
+      </div>
+    )
+  }
+}
+
+export default Home
+```
+缺点
+- 引用的类名，不能使用连接符 (. home-title)，在 JavaScript 中是不识别的
+- 所有的 className 都必须使用{style. className} 的形式来编写
+- 不方便动态来修改某些样式，依然需要使用内联样式的方式
+
+## 普通的 css
+单独写 css 后引入
+缺点
+所有 css 文件的样式都是全局样式, 样式之间会相互层叠相互影响
+## 内联样式
+```jsx
+import React, { PureComponent } from 'react'
+
+export class App extends PureComponent {
+  constructor() {
+    super()
+
+    this.state = {
+      titleSize: 30
+    }
+  }
+
+  addTitleSize() {
+    this.setState({ titleSize: this.state.titleSize + 2 })
+  }
+
+  render() {
+    const { titleSize } = this.state
+
+    return (
+      <div>
+        <button onClick={e => this.addTitleSize()}>增加titleSize</button>
+        <h2 style={{color: "red", fontSize: `${titleSize}px`}}>我是标题</h2>
+        <p style={{color: "blue", fontSize: "20px"}}>我是内容, 哈哈哈</p>
+      </div>
+    )
+  }
+}
+
+export default App
+```
+优点:
+-  1. 内联样式, 样式之间不会有冲突 
+-  2. 可以动态获取当前 state 中的状态
+缺点:
+-  1. 写法上都需要使用驼峰标识 
+-  2. 某些样式没有提示 
+-  3. 大量的样式, 代码混乱 
+-  4. 某些样式无法编写 (比如伪类/伪元素)
+
+# redux
