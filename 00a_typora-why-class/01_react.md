@@ -1920,3 +1920,13 @@ export default App
 -  4. 某些样式无法编写 (比如伪类/伪元素)
 
 # redux
+## 初始化
+npm init -y
+yarn init -y
+## 安装
+npm i redux
+yarn add redux
+
+
+require ---> node 环境用 commonjs 的 require 
+import --->webpack 可用 es module 的 import 

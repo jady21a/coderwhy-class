@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "伪类",
+                "query": "import",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -202,12 +202,14 @@
   },
   "active": "d8adaa7fc09deb51",
   "lastOpenFiles": [
-    "01_html+css/3.3 选择器.md",
+    "04_前端工程化/02_js模块化开发.md",
+    "00a_typora-why-class/Untitled.md",
+    "00a_typora-why-class/typora快捷键.md",
     "00a_typora-why-class/01_react.md",
     "00a_typora-why-class/02_reactDemo.md",
-    "00a_typora-why-class/typora快捷键.md",
+    "01_html+css/3.3 选择器.md",
+    "04_前端工程化/03_包管理工具.md",
     "01_html+css/3.15 px, less, sass(scss).md",
-    "00a_typora-why-class/Untitled.md",
     "05_vue/05_composition组合.md",
     "05_vue/03_组件间通讯.md",
     "000_备忘/02_快捷键.md",
