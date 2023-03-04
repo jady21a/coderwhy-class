@@ -1920,14 +1920,102 @@ export default App
 -  4. 某些样式无法编写 (比如伪类/伪元素)
 
 # redux
-## 初始化
+redux用于管理复杂, 不断变化的状态
+
+Redux 除了和 React 一起使用之外，它也可以和其他界面库一起来使用（比如 Vue）
+
+测试项目如果想要不不通过脚手架就使用 redux, 最好先初始化, 再安装 redux
+-  初始化
 npm init -y
 yarn init -y
-## 安装
+-  安装
 npm i redux
 yarn add redux
 
 脚手架创建的文件不需要初始化和安装 redux, 自己带有
+## 回顾
+### 纯函数
+-  确定的输入，一定会产生确定的输出； 
+-  函数在执行过程中，不能产生副作用；
+不能产生副作用: 不能改变函数内部或外部的变量等
+有副作容易产生 bug
 
-require ---> node 环境用 commonjs 的 require 
-import --->webpack 可用 es module 的 import 
+react 中的所有组件, reducer 都要求为纯函数
+
+### common js 和 es module
+node --> commonjs -->require, export/module.export
+webpack --> es module -->import, export/export default
+
+从 node v13.2.0 开始，node 才对 ES6 模块化提供了支持
+如果要在 node 中使用 es module
+node v13.2.0 之前:
+	- 在 package. json 中添加属性： "type": "module"；
+	- 命令行: node --experimental-modules src/index. js
+node v13.2.0 之后:
+	-在 package. json 中添加属性： "type": "module"
+
+以上使用在导入文件时需要跟上. js 的后缀
+## redux 的核心
+### Store
+追踪数据的变化
+
+### action
+action 是一个普通的 JavaScript 对象，用来描述这次更新的 type 和 content；
+所有数据的变化，必须通过派发（dispatch）action 来更新
+```js
+const nameAction = { type: "change_name", name: "kobe" }
+store.dispatch(nameAction)
+
+//可优化为
+const changeNameAction = (name) => ({
+   type: "change_name",
+   name
+})
+
+store.dispatch(changeNameAction("kobe"))
+store.dispatch(changeNameAction("lilei"))
+```
+### reducer
+将 state 和 action 联系在一起 ——将传入的 state 和 action 结合起来生成一个新的 state
+```js 
+const { ADD_NUMBER, CHANGE_NAME } = require("./constants")
+
+// 初始化的数据
+const initialState = {
+  name: "why",
+  counter: 100
+}
+
+function reducer(state = initialState, action) {
+  switch(action.type) {
+    case CHANGE_NAME:
+      return { ...state, name: action.name }
+    case ADD_NUMBER:
+      return { ...state, counter: state.counter + action.num }
+    default:
+      return state
+  }
+}
+
+module.exports = reducer
+```
+
+### redux 三大原则
+- 单一数据源——所有数据都储存于一个 store
+- State 是只读的——通过 action 在拷贝后修改
+- 使用纯函数来执行修改——通过 reducer 将旧 state 和 actions 联系在一起，并且返回一个新的 State
+
+## redux 使用
+1. 创建一个对象，作为我们要保存的状态
+2. 创建 Store 来存储这个 state
+3. 通过 action 来修改 state
+4. 修改 reducer 中的处理代码
+5. 可以在派发 action 之前，监听 store 的变化
+
+### 目录结构
+store
+	- index. js
+	- reducer. js
+	- actionCreators. js
+	- constants. js
+
