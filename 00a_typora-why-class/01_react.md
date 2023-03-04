@@ -1927,5 +1927,7 @@ yarn init -y
 npm i redux
 yarn add redux
 
+脚手架创建的文件不需要初始化和安装 redux, 自己带有
+
 require ---> node 环境用 commonjs 的 require 
 import --->webpack 可用 es module 的 import 
