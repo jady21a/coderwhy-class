@@ -1,4 +1,4 @@
-# **邂逅react**
+# **邂逅 react**
 
  https://zh-hans.reactjs.org/
 
@@ -1926,7 +1926,6 @@ yarn init -y
 ## 安装
 npm i redux
 yarn add redux
-
 
 require ---> node 环境用 commonjs 的 require 
 import --->webpack 可用 es module 的 import 
