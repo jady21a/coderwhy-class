@@ -1924,7 +1924,7 @@ redux用于管理复杂, 不断变化的状态
 
 Redux 除了和 React 一起使用之外，它也可以和其他界面库一起来使用（比如 Vue）
 
-测试项目如果想要不不通过脚手架就使用 redux, 最好先初始化, 再安装 redux
+测试项目如果想要不通过脚手架就使用 redux, 最好先初始化, 再安装 redux
 -  初始化
 npm init -y
 yarn init -y
@@ -1957,9 +1957,11 @@ node v13.2.0 之后:
 以上使用在导入文件时需要跟上. js 的后缀
 ## redux 的核心
 ### Store
-追踪数据的变化
+追踪数据的变化 --> state 
+
 
 ### action
+修改state
 action 是一个普通的 JavaScript 对象，用来描述这次更新的 type 和 content；
 所有数据的变化，必须通过派发（dispatch）action 来更新
 ```js
@@ -1975,7 +1977,7 @@ const changeNameAction = (name) => ({
 store.dispatch(changeNameAction("kobe"))
 store.dispatch(changeNameAction("lilei"))
 ```
-### reducer
+### reducer (纯函数)
 将 state 和 action 联系在一起 ——将传入的 state 和 action 结合起来生成一个新的 state
 ```js 
 const { ADD_NUMBER, CHANGE_NAME } = require("./constants")
@@ -2006,16 +2008,22 @@ module.exports = reducer
 - 使用纯函数来执行修改——通过 reducer 将旧 state 和 actions 联系在一起，并且返回一个新的 State
 
 ## redux 使用
-1. 创建一个对象，作为我们要保存的状态
-2. 创建 Store 来存储这个 state
-3. 通过 action 来修改 state
-4. 修改 reducer 中的处理代码
-5. 可以在派发 action 之前，监听 store 的变化
+### redux 使用优化
+- action 的创建放到一个函数中, 并将其放到 actionCreators. js
+- 所有字符串常量放到 contants. js
+- reducer 函数和初始化值放到 reducer. js
+- index. js 中创建 store 和导出 store
 
-### 目录结构
-store
+### 使用总结
+-   创建 redux 对应的 store 文件夹 (四个文件)
+     store
 	- index. js
 	- reducer. js
 	- actionCreators. js
 	- constants. js
+-   组件中使用
+    -   componentDidMount生命周期 store.subscribe(() => {}) => this.state => render
+-   组件中修改
+    -   store.dispatch(addNumberAction(num))
+
 
