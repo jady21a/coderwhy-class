@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00a_typora-why-class/01_react.md",
+                "file": "question/05_react.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "import",
+                "query": "provider",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00a_typora-why-class/01_react.md"
+                "file": "question/05_react.md"
               }
             }
           },
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00a_typora-why-class/01_react.md",
+                "file": "question/05_react.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00a_typora-why-class/01_react.md",
+                "file": "question/05_react.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,11 +201,15 @@
   },
   "active": "d8adaa7fc09deb51",
   "lastOpenFiles": [
-    "04_前端工程化/02_js模块化开发.md",
+    "question/snap/Pasted image 20230316160450.png",
     "00a_typora-why-class/01_react.md",
+    "00a_typora-why-class/02_reactDemo.md",
+    "02_js/07.对象3-数组.md",
+    "02_js/06.函数2.md",
+    "02_js/07.对象4-date.md",
+    "04_前端工程化/02_js模块化开发.md",
     "00a_typora-why-class/Untitled.md",
     "00a_typora-why-class/typora快捷键.md",
-    "00a_typora-why-class/02_reactDemo.md",
     "01_html+css/3.3 选择器.md",
     "04_前端工程化/03_包管理工具.md",
     "01_html+css/3.15 px, less, sass(scss).md",
