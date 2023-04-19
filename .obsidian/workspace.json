@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d8adaa7fc09deb51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "question/05_react.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "question/05_react.md"
+                "file": "000_备忘/02_快捷键.md"
               }
             }
           },
@@ -117,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "question/05_react.md",
+                "file": "000_备忘/02_快捷键.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "question/05_react.md",
+                "file": "000_备忘/02_快捷键.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,8 +186,10 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "d8adaa7fc09deb51",
+  "active": "7dc68785ea0b4a82",
   "lastOpenFiles": [
+    "00a_typora-why-class/Untitled.md",
+    "question/05_react.md",
     "question/snap/Pasted image 20230316160450.png",
     "00a_typora-why-class/01_react.md",
     "00a_typora-why-class/02_reactDemo.md",
@@ -208,7 +197,6 @@
     "02_js/06.函数2.md",
     "02_js/07.对象4-date.md",
     "04_前端工程化/02_js模块化开发.md",
-    "00a_typora-why-class/Untitled.md",
     "00a_typora-why-class/typora快捷键.md",
     "01_html+css/3.3 选择器.md",
     "04_前端工程化/03_包管理工具.md",
