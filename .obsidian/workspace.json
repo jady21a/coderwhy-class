@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f680658ae49d18b0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,6 +82,14 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "7a4ed10131236ea2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ],
@@ -186,7 +205,7 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "7dc68785ea0b4a82",
+  "active": "f680658ae49d18b0",
   "lastOpenFiles": [
     "00a_typora-why-class/Untitled.md",
     "question/05_react.md",
