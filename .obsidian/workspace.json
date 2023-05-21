@@ -28,9 +28,19 @@
                 "currentVersion": "1.2.7"
               }
             }
+          },
+          {
+            "id": "1bfe2c91b3a4f7ea",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -205,7 +215,7 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "f680658ae49d18b0",
+  "active": "1bfe2c91b3a4f7ea",
   "lastOpenFiles": [
     "00a_typora-why-class/Untitled.md",
     "question/05_react.md",
